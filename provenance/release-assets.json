@@ -1,0 +1,31 @@
+{
+  "release": "v1",
+  "url": "https://github.com/pipinstallyp/gpt_train_detour/releases/tag/v1",
+  "verification": "All uploaded GitHub asset SHA-256 digests matched local files before publication.",
+  "assets": [
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 281,
+      "digest": "sha256:18603397595a75d3bea929469b3fa5dd05c6d47628836a0daa7ebcab25c418d8",
+      "browser_download_url": "https://github.com/pipinstallyp/gpt_train_detour/releases/download/untagged-fb5067590a8d29f9ef98/SHA256SUMS.txt"
+    },
+    {
+      "name": "shakespeare-baseline-checkpoint.pt",
+      "size": 52673763,
+      "digest": "sha256:ccba2f210eb2789dd10e1356796e43e1d089cbcd5f1ff9b1ae0df888119b25db",
+      "browser_download_url": "https://github.com/pipinstallyp/gpt_train_detour/releases/download/untagged-fb5067590a8d29f9ef98/shakespeare-baseline-checkpoint.pt"
+    },
+    {
+      "name": "tinystories-one-epoch-checkpoint.pt",
+      "size": 139272429,
+      "digest": "sha256:0f31b39929031a50161ff21576783d12182e9e212a556102bf3d2ef2aba0c0a2",
+      "browser_download_url": "https://github.com/pipinstallyp/gpt_train_detour/releases/download/untagged-fb5067590a8d29f9ef98/tinystories-one-epoch-checkpoint.pt"
+    },
+    {
+      "name": "v1-data.zip",
+      "size": 17105254,
+      "digest": "sha256:b8426de0bf40192fe86d40f88c447b76ea11a14b6da00ea53db8593fc5820f92",
+      "browser_download_url": "https://github.com/pipinstallyp/gpt_train_detour/releases/download/untagged-fb5067590a8d29f9ef98/v1-data.zip"
+    }
+  ]
+}

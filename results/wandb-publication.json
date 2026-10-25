@@ -2,7 +2,7 @@
   "entity": "peepaclan",
   "project": "gpt_train_detour",
   "release": "v1",
-  "code_commit": "a0bead3ac77c00141b893ae2ea13efbabc6d615d",
+  "code_commit": "1dda9cd5b9501ff8379d73312677d9c56d337439",
   "runs": [
     {
       "name": "datasets",
