@@ -1,0 +1,18 @@
+{
+  "data/shakespeare/input.txt": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+  "data/shakespeare/manifest.json": "5104225a3a0e6ae5bf21bdeaaa5b51e1e73ed52b82cafe5c3035b2da65c5f948",
+  "data/shakespeare/README.md": "222382f6901d0df3804f951bc11f36a56c51a164a925b760efa0bdd45b64612c",
+  "data/tinystories/input.txt": "684657e655d597a273cba61457521c7dd1b2b4a827764b9172b22755da26f979",
+  "data/tinystories/input.txt.license": "db14133e77e460167879fcb3813cc2611c23a7a6ac527123f6e97993da61e656",
+  "data/tinystories/LICENSE.txt": "6419d7a7245cb8a9da6e3dd925d05d824ea0268e3527095f68dec091f84f75da",
+  "data/tinystories/manifest.json": "a1f0f87b6163801dcf76731b360b435207a8f826f0d0262b67f138c83c065325",
+  "data/tinystories/README.md": "05e7c58bad8bbb90f08023ae929577800f458569c5ebdb1598f54baf6c54d8b3",
+  "data/tinystories/train.jsonl": "d44a85ee532f96bada420a2f39cb084d0f0d8250cdc94322b94449ede3cb81fe",
+  "data/tinystories/train.jsonl.license": "db14133e77e460167879fcb3813cc2611c23a7a6ac527123f6e97993da61e656",
+  "data/tinystories/train.txt": "be38fa0499ae26e33aeacec75673060fadc37b26dc496ba9cfff9541fc3bb683",
+  "data/tinystories/train.txt.license": "db14133e77e460167879fcb3813cc2611c23a7a6ac527123f6e97993da61e656",
+  "data/tinystories/val.jsonl": "853a9ad218b9a0b75ce7c2c8df0095b40fef7be4f8df74ba5b7094f5873532ba",
+  "data/tinystories/val.jsonl.license": "db14133e77e460167879fcb3813cc2611c23a7a6ac527123f6e97993da61e656",
+  "data/tinystories/val.txt": "da3a50da0a51455db91e5d7c4325034b62b61d026f98fe6fe829603bbd9d3e81",
+  "data/tinystories/val.txt.license": "db14133e77e460167879fcb3813cc2611c23a7a6ac527123f6e97993da61e656"
+}

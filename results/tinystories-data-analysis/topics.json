@@ -1,0 +1,398 @@
+[
+  {
+    "topic": 0,
+    "keywords": [
+      "girl",
+      "friends",
+      "boy",
+      "john",
+      "big",
+      "happy",
+      "looked",
+      "started",
+      "felt",
+      "smiled",
+      "fun",
+      "decided"
+    ],
+    "train_stories": 6818,
+    "val_stories": 805,
+    "examples": [
+      {
+        "train_id": 15774,
+        "text": "Once upon a time there was a boy called John. John was three years old and he wanted to have fun. Everywhere he looked there were lots of things to play with and lots of friends to play with too. John saw a big side near the playground, it had a red top and a blue bottom. He wanted to go to the top of the slide so he could see the world. John asked his friend if he could help him go up. His friend just laughed and said no. John felt very sad and started crying. He thought it was very stupid that he couldn't get up the slide. He was annoyed because he really wanted to get to the top, and see the world from above. John's mum came over and saw him upset. She said: \"Don't worry, I'll help you up the slide\". John smiled and felt happy. Mum gave John a big hug and gave him a little push. John was so excited as he slowly slid all the way to the top. When he got there, he was so amazed by the world he could see around him. John laughed and shouted: \"I did it, I'm at the top!\"."
+      },
+      {
+        "train_id": 1587,
+        "text": "Once upon a time, two good friends were playing in the park. They were very happy as they watched the birds in the blue sky. The first friend, a girl, told the boy: \"I can do something special today.\" The boy asked: \"What do you mean?\" The girl replied, with a wink: \"It will be a surprise!\" The two of them continued to play in the park and soon they stumbled upon a beautiful flower garden. There were pretty pink roses and yellow sunflowers. The boy was amazed. The girl then said: \"Remember my surprise! You will see soon.\" The boy wondered what the surprise could be and he asked her. But the girl just smiled and wouldn't tell him anything. Eventually, the two friends went home. When the girl opened her door, she showed him the surprise: she had brought a puppy home! It was a small and cute pup, with big eyes and a wagging tail. The boy was so happy and excited! He smiled, and even winked to the girl as he said: \"This is the best surprise ever!\""
+      },
+      {
+        "train_id": 13470,
+        "text": "Once upon a time, there was a mum and a dad who had a cute little boy. Every day the family would go for a walk in the park. The sun was bright and the sky was blue. The little boy was full of energy and wanted to play all the time. The mum and dad reminded him to behave and show respect to other people in the park. Every day the family stayed in the park for a long time. The little boy ran and laughed and made lots of new friends. His mum and dad watched proudly, and the little boy felt very happy. The family visited the park on a regular basis and the little boy was always so excited to see the sun shine and play with his new friends. Whenever he got too excited, all he needed was a little reminder to behave and he would quickly settle down. The little family continued to visit the park every week, and the little boy became more and more responsible. He had lots of fun and everyone was happy. The End."
+      }
+    ]
+  },
+  {
+    "topic": 1,
+    "keywords": [
+      "timmy",
+      "named timmy",
+      "timmy timmy",
+      "timmy loved",
+      "boy named",
+      "boy",
+      "timmy mom",
+      "billy",
+      "play",
+      "timmy happy",
+      "named",
+      "toy"
+    ],
+    "train_stories": 1158,
+    "val_stories": 121,
+    "examples": [
+      {
+        "train_id": 12228,
+        "text": "Once upon a time, there was a rat named Timmy. Timmy lived in a gloomy alley behind a big building. Timmy was always looking for food to eat. One day, Timmy saw a piece of cheese in a trap. Timmy was very hungry and he went to get the cheese. Suddenly, the trap snapped shut and hurt Timmy's tail. Timmy was very sad and cried. But then, a kind girl saw Timmy and felt sorry for him. She forgave Timmy for all the times he had scared her. She took Timmy to the vet and they fixed his tail. Timmy was so happy that he didn't have to be scared anymore. He became friends with the girl and they played together in the sunshine. Timmy never went back to the gloomy alley again."
+      },
+      {
+        "train_id": 8210,
+        "text": "Once upon a time, there was a little boy named Timmy. Timmy loved to play with his toys and run around outside. One day, Timmy was playing with his toy truck when he heard his mom calling him for dinner. Timmy ran inside and sat down at the table with his family. His mom had made spaghetti, Timmy's favorite. As Timmy was eating, he accidentally spilled some sauce on his shirt. Timmy's older sister, Sarah, started to laugh and said, \"Ha ha, Timmy, you look silly with sauce on your shirt!\" Timmy felt embarrassed and didn't want to eat anymore. His mom saw that Timmy was upset and said, \"It's okay, Timmy. It's just a mild stain. We can wash it out.\" Timmy felt better and finished his dinner. After dinner, Timmy's mom sat him down and said, \"Timmy, it's not nice to laugh at someone when they make a mistake. We should always be kind to others.\" Timmy nodded his head and promised to be kind to others from now on."
+      },
+      {
+        "train_id": 5641,
+        "text": "Once there was a little boy named Timmy. Timmy loved to play with his camera and take pictures of everything. One day Timmy noticed something strange while he was taking pictures. He saw a big dog standing next to him. Timmy felt a bit scared, but the dog didn't do anything. He just stood there and watched Timmy. Timmy's mom saw the dog and knew that the dog was there to protect Timmy. She smiled and said, \"Don't be confused, Timmy. The dog is here to protect you!\" Timmy was happy to hear that he was being protected. So, every time Timmy took pictures, the dog would stay close by and keep him safe. Timmy wasn't afraid anymore because he knew that he was being protected. Timmy and the dog became best friends and Timmy felt safe whenever he had his camera with him."
+      }
+    ]
+  },
+  {
+    "topic": 2,
+    "keywords": [
+      "max",
+      "named max",
+      "max max",
+      "named",
+      "dog named",
+      "max loved",
+      "owner",
+      "max happy",
+      "play",
+      "max felt",
+      "play max",
+      "max owner"
+    ],
+    "train_stories": 522,
+    "val_stories": 56,
+    "examples": [
+      {
+        "train_id": 6713,
+        "text": "Once upon a time, there was a little baby named Max. Max loved to crawl around the house and explore everything he could find. One day, Max's mommy put him in his stroller and they went to the park. Max felt the wind on his face and it made him feel happy and comfortable. At the park, Max saw a big dog with a lot of power. The dog was running and playing with his owner. Max wanted to play too, but he was too little to run like the dog. So, Max crawled over to the dog and petted him gently. The dog licked Max's hand and Max laughed. After a while, Max's mommy picked him up and they went back home. Max was tired from all the crawling and playing, so he took a nap in his cozy crib. Max dreamed about the big dog and how much fun they had together. When he woke up, Max was ready to crawl and play again!"
+      },
+      {
+        "train_id": 3389,
+        "text": "Once upon a time, there was a little boy named Max. Max loved to play hide-and-seek with his friends. One day, Max's friends came over to his house to play. Max's mom said, \"You can play outside, but be careful not to get hurt.\" Max and his friends agreed and went outside to play. Max's friends quickly found hiding spots, but Max couldn't find them. He looked everywhere, but they were hidden too well. Max started to get upset and said, \"I can't find you guys, this isn't fun!\" One of Max's friends said, \"Don't worry, Max. We'll help you find us.\" Max felt better and they all started to play again. Max's friend found a tree to hang from and Max found him. Max was so happy that he found his friend and they all played together for the rest of the day."
+      },
+      {
+        "train_id": 5871,
+        "text": "Once upon a time, there was a friendly dog named Max. Max loved to play with his ball in the park. One day, Max met a little girl named Lily. Lily wanted to play with Max's ball. \"Can I play with your ball, Max?\" asked Lily. \"Sure!\" said Max. \"But be careful not to lose it!\" Lily played with Max's ball for a while, but then she got bored. \"Max, do you want to trade toys with me?\" asked Lily. Max thought about it for a moment. He really liked his ball, but he wanted to be friendly to Lily. \"Okay, we can trade for a little while,\" said Max. So Max and Lily traded toys. Max played with Lily's stuffed animal, and Lily played with Max's ball. But after a while, Max really missed his ball. \"Can we trade back now, Lily?\" asked Max. \"Sure, Max!\" said Lily. \"I had fun playing with your ball, but I'm glad we can trade back now.\" Max was happy to have his ball back, and Lily was happy to have her stuffed animal back. They continued to play together in the park, and they both had a lot of fun."
+      }
+    ]
+  },
+  {
+    "topic": 3,
+    "keywords": [
+      "bird",
+      "flew",
+      "tree",
+      "fly",
+      "bird flew",
+      "sky",
+      "bird bird",
+      "flew away",
+      "bird happy",
+      "nest",
+      "help",
+      "help bird"
+    ],
+    "train_stories": 938,
+    "val_stories": 88,
+    "examples": [
+      {
+        "train_id": 10195,
+        "text": "Once upon a time, there was a kind girl named Lily. She had a big heart and always wanted to help others. She lived in a small house with her mom, dad, and her dog, Spot. One day, Lily saw a little bird with a hurt wing. She wanted to help the bird. Lily picked up the bird very gently and took it home. Her mom and dad said she could keep the bird in her room. Lily took care of the bird every day. She gave it food and water. She was very kind to the bird. Soon, the bird's wing was all better. The bird wanted to fly again. Lily knew it was time to let the bird go. She took the bird outside and opened her hands. The bird flew up into the sky. Lily was sad to see the bird go, but her heart was happy because she had been kind and helped the bird get better."
+      },
+      {
+        "train_id": 12389,
+        "text": "Once upon a time, there was a little bird. The bird lived in a nest high up in a tree. One day, the bird flew down to the ground to find some food. As the bird was looking for food, it met a little girl. The girl pointed at the bird and said, \"Look, a bird!\" The bird felt happy that someone noticed it. The little girl and the bird became friends. They talked about the bird's humble nest and how it was made. The little girl said, \"I like your nest. It looks cozy.\" The bird felt proud of its nest and thanked the little girl for the compliment. From that day on, the little girl visited the bird every day. They would talk about their day and the bird would show the little girl its humble nest. They were the best of friends."
+      },
+      {
+        "train_id": 4095,
+        "text": "Once upon a time, there was a little bird who loved to fly. One day, the bird flew too high and hit a tree. The bird fell down and hurt its wing. The bird could not fly anymore. The bird's friend, a little girl, found the bird and took it home. She put the bird in a birdcage and gave it food and water. The bird was happy to have a new home, but it missed flying. The little girl had an idea. She put a stick in the birdcage and the bird balanced on the stick. The bird felt like it was flying again. The bird was no longer dead inside. It was alive again. The little girl was happy to see her friend happy."
+      }
+    ]
+  },
+  {
+    "topic": 4,
+    "keywords": [
+      "says",
+      "sara",
+      "car",
+      "sees",
+      "say",
+      "play",
+      "want",
+      "sorry",
+      "does",
+      "likes",
+      "box",
+      "asks"
+    ],
+    "train_stories": 1065,
+    "val_stories": 118,
+    "examples": [
+      {
+        "train_id": 9146,
+        "text": "Sara and Ben are twins. They like to play and have fun. But sometimes they fight and make noise. Mom does not like that. She says they need to be good and quiet. One day, Mom takes Sara and Ben to the grocery store. She says they need to fill the cart with food. Sara and Ben help Mom pick some things. But they also want to see other things. They run and touch and grab. Mom says no and stop. But they do not listen. Sara sees a big cake. It looks yummy. She wants to eat it. She tries to reach it. But it is too high. She climbs on the shelf. Ben sees her. He wants to stop her. He pulls her leg. Sara falls. The cake falls too. It makes a big mess. Mom sees it. She is very angry. She yells at Sara and Ben. She says they are bad and nosy. She says they have to pay for the cake. She says they have to go home. She says they have no more play time. Sara and Ben are sad and sorry. They cry and say they are sorry. But Mom does not forgive them. She says they have to learn their lesson. She says they have to stay in their room. She says they have to be quiet. Sara and Ben have no fun. They have a bad day. They wish they had listened to Mom."
+      },
+      {
+        "train_id": 13455,
+        "text": "Sara likes to draw with her crayons. She has many colors and she makes pretty pictures on paper. She draws a house, a flower, a sun and a cat. She is happy and proud of her work. But then her brother Tom comes. He is careless and mean. He does not like Sara's pictures. He takes her paper and tears it into pieces. He laughs and throws the pieces on the floor. He says Sara's pictures are ugly and silly. Sara is very sad and angry. She cries and cries. She wants her paper back. She wants her pictures back. She tells Tom to stop and go away. She says he is bad and rude. Mom hears Sara cry. She comes and sees what Tom did. She is not happy with Tom. She scolds him and tells him to say sorry to Sara. She tells him to pick up the pieces and help Sara make new pictures. She tells him to be nice and careful with Sara's things. Tom feels sorry and ashamed. He says sorry to Sara and helps her. He gives her a hug and a kiss. He says he likes her pictures and he will not tear them again. He says he will share his crayons with her. Sara stops crying and smiles. She forgives Tom and thanks him. She says he is a good brother and she loves him. She says they can draw together and make more pretty pictures. She says they can have fun and be happy."
+      },
+      {
+        "train_id": 16247,
+        "text": "Sara and Ben are twins. They like to play in the snow. They put on their coats, boots, hats and mittens. They go outside with their sleds. \"Let's race!\" Sara says. She runs to the top of the hill with her sled. Ben is lazy. He walks slowly behind her. \"Ready, set, go!\" Sara shouts. She slides down the hill fast. Ben tries to catch up, but he is too slow. Sara reaches the bottom first. She is happy. She jumps up and down. \"I win, I win!\" Sara says. She laughs. Ben is sad. He frowns. \"That's not fair!\" Ben says. \"You cheated! You started before me!\" \"I did not cheat!\" Sara says. \"You were too lazy! You should run faster!\" They start to argue. They yell at each other. They forget to have fun. Mom hears them. She comes outside. She sees them fighting. \"What's going on?\" Mom asks. She is not happy. She shakes her head. \"Sara cheated!\" Ben says. \"Ben was lazy!\" Sara says. Mom sighs. She hugs them both. \"Stop fighting!\" Mom says. \"It's just a game. It doesn't matter who wins or loses. What matters is that you have fun and be nice to each other. Do you understand?\" Sara and Ben nod. They feel sorry. They say sorry to each other. \"Can we play again?\" Sara asks. \"Sure, but this time, let's not race. Let's slide together!\" Ben says. They smile. They hold hands. They go back to the top of the hill with their sleds. They slide down the hill together. They have fun. They are happy. Mom watches them. She smiles. She is proud."
+      }
+    ]
+  },
+  {
+    "topic": 5,
+    "keywords": [
+      "mom",
+      "dad",
+      "did",
+      "asked",
+      "toys",
+      "asked mom",
+      "mom dad",
+      "room",
+      "cake",
+      "mom smiled",
+      "clean",
+      "girl named"
+    ],
+    "train_stories": 3041,
+    "val_stories": 319,
+    "examples": [
+      {
+        "train_id": 11571,
+        "text": "Once upon a time, there was a little girl named Sasha. She loved her mom very much and always did what she asked. One day, Sasha asked mom for a special gift. Sasha's mom replied, \"Honey, I don't have the money to buy you a gift.\" Sasha insisted. \"Please, mom. It's very important to me!\" Mom smiled. She knew that Sasha was not asking for just anything, so she decided to do something special. The next day, Sasha's mom took her to a special shop. There, Sasha saw the most amazing gift ever. \"This is for you, Sasha,\" said mom. \"I hope it will make you happy.\" Sasha was so excited. \"Thank you, mom! I love it!\" Sasha's mom was happy. She couldn't have asked for a better reaction."
+      },
+      {
+        "train_id": 12475,
+        "text": "Anna and Ben were playing with their toys in the living room. Anna had a doll and Ben had a car. They were having fun, but they had to be careful not to make too much noise. Their mom was working on her laptop in the armchair. \"Look, Anna, my car can go fast!\" Ben said, zooming his car on the floor. \"Wow, that's cool, Ben!\" Anna said, smiling. \"But be careful not to hit mom's feet. She might get angry.\" Ben nodded and steered his car away from mom's feet. He wanted to make mom happy, not angry. He loved mom very much. But then, he saw something shiny on the table. It was mom's necklace. It had a big red stone and a silver chain. Ben thought it looked like a treasure. He wanted to touch it and see how it felt. He left his car on the floor and crawled to the table. He reached for the necklace, but mom saw him. \"Ben, no!\" mom said, frowning. \"That's not a toy. That's my necklace. It's very special to me. You might break it or lose it. Please, leave it alone.\" Ben felt sad and scared. He didn't mean to make mom frown. He just wanted to see the necklace. He dropped it on the table and ran back to his car. He hugged his car and said sorry to mom. Mom sighed and put her laptop aside. She got up from the armchair and walked to Ben. She knelt down and hugged him too. \"It's okay, Ben,\" she said, smiling. \"I know you were curious. But you have to be careful with things that are not yours. They might be important to someone else. Do you understand?\" Ben nodded and said yes. He understood. He said sorry again and gave mom a kiss. Mom kissed him back and said she loved him. She said she loved Anna too and hugged her. She said they were her most special treasures. Anna and Ben smiled and said they loved mom too. They said they were sorry for making noise. They said they would be careful with mom's things. Mom said thank you and said they were good kids. She said they could play with their toys, but quietly. She said she had to finish her work, but then they could have a snack. Anna and Ben said okay and went back to their toys. They played nicely and quietly. They were happy and mom was happy too."
+      },
+      {
+        "train_id": 13271,
+        "text": "Lily was a young girl who liked to play with her dolls. She had many dolls, but her favorite was Anna. Anna had long hair, a pink dress and shiny shoes. Lily liked to brush Anna's hair and make her dance. One day, Lily and Anna went to the park with Lily's mom. Lily's mom said they could play on the swings, the slide and the sandbox. Lily was very happy and ran to the swings with Anna. She put Anna on the swing next to her and pushed her gently. \"Look, mom, Anna is swinging!\" Lily shouted. \"Very good, Lily, be careful not to drop her,\" Lily's mom said. Lily nodded and smiled. She swung higher and higher, feeling the wind in her hair. She looked at Anna and saw that she was smiling too. Lily felt very happy. But then, something bad happened. Lily swung too high and lost her grip on Anna. Anna flew out of the swing and landed on the ground. Lily gasped and stopped swinging. She jumped off the swing and ran to Anna. \"Anna, Anna, are you okay?\" Lily cried. She picked up Anna and hugged her. She saw that Anna's dress was dirty and torn, and her shoes were missing. She also saw that Anna's pants had fallen off. Lily felt very sad and scared. \"Mom, mom, help!\" Lily called. Lily's mom heard Lily and ran to her. She saw Lily holding Anna and crying. \"What happened, Lily?\" Lily's mom asked. \"I dropped Anna, mom, I dropped her and she got hurt and her pants fell off,\" Lily sobbed. Lily's mom hugged Lily and Anna and said, \"It's okay, Lily, it's okay. Anna is not hurt, she is just a doll. We can wash her dress and find her shoes and put her pants back on. She will be fine, don't worry.\" Lily looked at her mom and said, \"Really, mom? Anna will be fine?\" \"Yes, Lily, really. Anna will be fine. She is your doll and she loves you. And I love you too,\" Lily's mom said. Lily smiled and said, \"I love you too, mom. And I love Anna too. I'm sorry I dropped her.\" Lily's mom kissed Lily and Anna and said, \"It's okay, Lily, it was an accident. You didn't mean to drop her. Let's go to the bench and fix Anna up, okay?\" Lily nodded and said, \"Okay, mom. Thank you, mom.\" Lily and her mom walked to the bench and fixed Anna up. They washed her dress, found her shoes and put her pants back on. They made her look pretty again. Lily hugged Anna and said, \"I'm sorry, Anna. I won't drop you again. You are my best friend.\" Anna smiled and said, \"I'm sorry, Lily. I won't fly away again. You are my best friend too.\" Lily and Anna were happy again. They played in the park with Lily's mom until it was time to go home. They had a fun day, even though they had a little scare. They learned to be careful and to love each other. They were a young girl and a doll, but they were also friends."
+      }
+    ]
+  },
+  {
+    "topic": 6,
+    "keywords": [
+      "mommy",
+      "daddy",
+      "mommy daddy",
+      "girl",
+      "girl named",
+      "named loved",
+      "named",
+      "mommy smiled",
+      "loved",
+      "asked mommy",
+      "asked",
+      "mommy mommy"
+    ],
+    "train_stories": 1130,
+    "val_stories": 133,
+    "examples": [
+      {
+        "train_id": 11045,
+        "text": "Once upon a time, there was a little girl named Lily. She loved to check the mail with her mommy every day. One day, they found a letter that made her mommy worried. Lily asked her mommy what was wrong, but her mommy didn't want to worry her. So, Lily decided to make her mommy feel better by giving her a big hug and saying \"welcome home mommy, I love you\". Her mommy smiled and felt much better. Lily learned that sometimes people can feel worried, but a little kindness can make them feel better. From that day on, Lily loved to welcome her mommy home with a big hug every day."
+      },
+      {
+        "train_id": 1171,
+        "text": "Once upon a time, there was a little girl named Lily. She loved drinking juice, especially the fancy kind her mommy would make for her. One day, she asked her mommy for some juice but her mommy was busy on the phone. Lily waited patiently for her mommy to finish her call. Finally, her mommy hung up the phone and turned to Lily. \"What would you like, sweetie?\" her mommy asked. \"Juice please,\" Lily replied. Her mommy smiled and went to the kitchen to make her some fancy juice. Lily was so happy to have her juice and she drank it all up. \"Thank you, mommy,\" she said. Her mommy replied, \"You're welcome, my dear. Anytime you want some juice, just let me know.\" Lily smiled and hugged her mommy. She loved her mommy's fancy juice and her mommy's love even more."
+      },
+      {
+        "train_id": 11413,
+        "text": "Lily was sad. She had a big cut on her knee. It hurt a lot. She cried and cried. \"Mommy, mommy, help me!\" she shouted. Mommy came and hugged her. She took a cup of water and a cloth. She cleaned the cut gently. \"It's okay, Lily. It will heal soon. You are very brave,\" Mommy said. Lily stopped crying. She felt better. \"Thank you, Mommy. How did I get the cut?\" she asked. Mommy sighed. She looked at the broken vase on the floor. \"You were foolish, Lily. You tried to climb on the table and grab the vase. But it was too heavy and it fell. You should not do that. It is dangerous,\" Mommy said. Lily looked down. She felt sorry. \"I'm sorry, Mommy. I wanted to see the flowers. They were so pretty,\" she said. Mommy smiled. She kissed her forehead. \"I know, Lily. But you have to be careful. The flowers are not worth hurting yourself. Next time, ask me and I will show you. Okay?\" Mommy said. Lily nodded. She hugged Mommy. \"Okay, Mommy. I love you,\" she said. \"I love you too, Lily. Now, let's put a band-aid on your cut and have some cookies. How does that sound?\" Mommy said. Lily smiled. She liked cookies. She followed Mommy to the kitchen. She hoped her cut would heal fast. She did not want to be foolish again."
+      }
+    ]
+  },
+  {
+    "topic": 7,
+    "keywords": [
+      "man",
+      "old man",
+      "old",
+      "man smiled",
+      "smiled",
+      "thanked",
+      "girl",
+      "help",
+      "man happy",
+      "boat",
+      "asked",
+      "lady"
+    ],
+    "train_stories": 757,
+    "val_stories": 77,
+    "examples": [
+      {
+        "train_id": 5121,
+        "text": "Once upon a time, there lived a young boy called Jack. He had a mild heart and was always very kind to others. One day, Jack decided to take a walk in the park, as he enjoyed feeling the gentle sunshine and fresh air. On his way through the park, he saw an old man who was crying and seemed to be in pain. Jack went over and asked the man what was wrong. Through his tears, the old man told Jack that he was suffering from a broken heart. The old man went on to explain that a close friend of his had passed away recently, and he was so sad that his heart felt like it was breaking. Jack's mild heart ached for the old man and he wanted to help. Jack told the man: \"I want to help make your heart feel better. Do you like to play?\" The old man nodded, and so Jack spent the rest of the afternoon with the old man, playing games, laughing and having fun. When they were done, the old man smiled, and his heart felt a little less heavy. Jack bid the old man farewell, and they both went on their way. From that day onwards, whenever Jack passed by the park, the old man and Jack exchanged smiles, and their hearts were filled with warmth and mildness."
+      },
+      {
+        "train_id": 984,
+        "text": "Once upon a time there was a kind boy who lived in the woods. His name was Jack and he was eight years old. One day, Jack was playing in the woods when he heard a strange sound. It was the sound of a whistle, so Jack decided to follow it. He walked for a while until he came to a clearing, and there he saw an old man. The old man had an arrow and he was whistling a tune. Jack watched the old man for a while, and then the old man noticed him. The old man smiled at Jack and said, \"Do you want to learn how to whistle? It's not too hard.\" Jack nodded and the old man showed him how to make the right sound. Jack practiced until he could whistle like the old man. The old man said, \"Good job! Now, do you want to try shooting a real arrow?\" Jack was excited and said yes. So, the old man gave Jack a real arrow, and taught him how to shoot it. Jack practiced for a while and then he shot his arrow in a fair way. Jack was very proud of himself, and he thanked the old man. The old man said, \"No need to thank me, just remember what I taught you and you'll be a fair shot!\" From then on, Jack visited the old man every day, and learned more and more about arrow shooting."
+      },
+      {
+        "train_id": 6784,
+        "text": "Once upon a time, there was an old man who had a hobby of shooting his old gun. He was very proud of it and was always shooting it in the backyard. One day, a bad man came to the old man's house. He shouted, \"I want your gun!\" The old man was scared, so he ran back into his house. The bad man followed him and pointed the gun at the old man. He said, \"Give me your gun or I'll shoot you!\" The old man was very scared. He said, \"No, please don't shoot me! I'm too old to get into any more trouble.\" The bad man thought for a moment. Then he said, \"Ok, I'll leave you alone. But if I ever catch you shooting your gun again I'll come back and shoot you.\" The old man was relieved and quickly agreed to the bad man's terms. The bad man left the old man alone and the old man never shot his gun ever again."
+      }
+    ]
+  },
+  {
+    "topic": 8,
+    "keywords": [
+      "dog",
+      "ball",
+      "spot",
+      "cat",
+      "play",
+      "sue",
+      "park",
+      "tail",
+      "big dog",
+      "big",
+      "ran",
+      "dog dog"
+    ],
+    "train_stories": 1059,
+    "val_stories": 106,
+    "examples": [
+      {
+        "train_id": 5659,
+        "text": "Lily and Ben were friends. They liked to play in the park. One day, they saw a big dog. The dog had a red collar and a long tail. The dog looked friendly. \"Hello, dog!\" Lily said. \"Do you want to play with us?\" The dog wagged its tail and barked. It came closer to Lily and Ben. Ben was scared of the dog. He hid behind a tree. \"Lily, be careful!\" Ben said. \"We don't know the dog. It might bite us.\" Lily did not listen to Ben. She trusted the dog. She thought the dog was nice. She gave the dog a snack. She had a cookie in her pocket. The dog ate the cookie and licked Lily's hand. \"See, Ben? The dog is helpful. It likes us. It is our friend.\" Lily said. Ben shook his head. He did not trust the dog. He thought the dog was greedy. He wanted to go home. Lily and the dog played for a while. They ran and jumped and rolled on the grass. Ben watched them from the tree. He felt lonely and sad. Then, something bad happened. The dog saw a squirrel. The dog wanted to catch the squirrel. The dog ran after the squirrel. The dog forgot about Lily. The dog pulled Lily with its collar. Lily fell down. She hurt her knee. She cried. \"Help! Help!\" Lily shouted. \"The dog is hurting me!\" Ben heard Lily. He ran to help her. He tried to pull the dog away. But the dog was too strong. The dog bit Ben's arm. Ben cried too. A man came to the park. He saw Lily and Ben and the dog. He was angry. He was the dog's owner. He shouted at the dog. He took the dog away. He said sorry to Lily and Ben. He said they should not play with strange dogs. He said they should be careful. Lily and Ben were hurt. They were scared. They were sorry. They learned a lesson. They learned to not trust strange dogs. They learned to listen to their friends. They learned to be careful."
+      },
+      {
+        "train_id": 13600,
+        "text": "Anna and Ben are friends. They like to play with toys. Anna has a sack with many toys. She has a doll, a ball, a car, a book and a bear. Ben has a sack with only one toy. He has a train. He loves his train very much. One day, Anna and Ben go to the park. They bring their sacks with them. They find a nice spot under a tree. They open their sacks and take out their toys. Anna says, \"Look at all my toys! I have so many! Do you want to play with them?\" Ben says, \"No, thank you. I only want to play with my train. It is my favorite toy. It is fragile. I have to be careful with it.\" Anna shrugs. She plays with her toys by herself. She makes the doll talk to the bear. She throws the ball in the air. She drives the car on the grass. She reads the book. She has fun. Ben plays with his train by himself. He makes it go on the path. He makes it whistle. He has fun. But then, a big dog comes. The dog sees the toys. The dog likes toys. The dog runs to the toys. He grabs the ball with his mouth. He shakes it. He makes it squeak. Anna screams, \"No! Stop! That is my ball!\" She runs to the dog. She tries to get the ball back. The dog growls. He runs away with the ball. Anna is sad. She misses her ball. She says, \"That dog is bad. He took my ball. I want my ball back.\" Ben says, \"I'm sorry, Anna. That is not fair. Maybe we can find the dog and get your ball back.\" He looks around. He sees the dog. The dog is near the pond. He is playing with the ball. He drops the ball in the water. He jumps in the water. He swims after the ball. Ben says, \"Look, Anna. The dog is over there. He is in the pond. He has your ball. Maybe we can get it back.\" Anna says, \"Yes, let's go. Maybe the dog will give it back.\" They run to the pond. They see the dog. They call the dog. They say, \"Hey, dog. Give us the ball. It is ours. It is not yours.\" The dog hears them. He looks at them. He wags his tail. He swims to them. He brings the ball. He drops the ball at their feet. He licks their faces. He wants to be friends. Anna and Ben are surprised. They say, \"Wow, dog. You are nice. You gave us the ball. Thank you, dog.\" They pet the dog. They play with the dog. They throw the ball for the dog. The dog fetches the ball. He brings it back. He is happy. Anna and Ben are happy. They say, \"We like you, dog. You are fun. Do you want to play with us?\" The dog barks. He nods. He does want to play with them. Anna and Ben smile. They say, \"Okay, dog. You can play with us. But you have to be gentle. Some of our toys are fragile. You have to be careful with them.\" The dog nods. He understands. He is gentle. He is careful. He plays with their toys. He plays with the doll, the car, the book and the bear. He does not play with the train. He knows the train is fragile. He knows the train is Ben's favorite toy. He does not want to break it. He respects it. Anna and Ben are happy. They have a new friend. They share their toys. They have fun. They do not miss anything. They have everything they need. They have a sack, a ball, a doll, a car, a book, a bear, a train and a dog. They have each other. They are friends."
+      },
+      {
+        "train_id": 8376,
+        "text": "Anna and Ben were playing in the park. They had a ball and a kite. They liked to run and throw the ball, and to watch the kite fly in the sky. They were having fun. But then they saw a big dog. The dog was barking and running towards them. Anna and Ben were scared. They did not know the dog. They did not know if the dog was kind or mean. \"Let's go away!\" Anna said to Ben. \"The dog might bite us!\" But Ben did not want to go. He wanted to stay and play. He liked the dog. He thought the dog was kind and wanted to play too. \"No, let's stay!\" Ben said to Anna. \"The dog is nice. Look, he has a tail and ears. He is like us!\" Anna and Ben did not agree. They started to argue. They did not hear the dog coming closer. The dog reached them. He sniffed them and licked them. He wagged his tail and barked. He wanted to play with them. He took the ball in his mouth and ran away. He set the ball on the grass and waited for them to chase him. Anna and Ben stopped arguing. They saw the dog was kind. He was not mean. He was just lonely. They felt sorry for him. \"Maybe you are right, Ben,\" Anna said. \"The dog is nice. He just wants to be our friend.\" \"Let's play with him, Anna,\" Ben said. \"He looks happy. Maybe he has no other friends.\" Anna and Ben ran after the dog. They played with him and the ball and the kite. They had more fun. They forgot their fear. They made a new friend. The dog was happy too. He had new friends. He was not lonely anymore."
+      }
+    ]
+  },
+  {
+    "topic": 9,
+    "keywords": [
+      "bear",
+      "benny",
+      "teddy",
+      "rabbit",
+      "teddy bear",
+      "forest",
+      "bunny",
+      "fox",
+      "big",
+      "big bear",
+      "bear happy",
+      "cave"
+    ],
+    "train_stories": 810,
+    "val_stories": 92,
+    "examples": [
+      {
+        "train_id": 9519,
+        "text": "Once upon a time, there was a fierce chamber. Inside this chamber lived a brave bear. Every day the bear would go out and hunt for food but today he was feeling hungry. The bear was walking through the forest when he heard something. The bear stopped and saw a rabbit. \"Who are you?\" asked the bear. \"I'm a rabbit. I'm looking for food,\" said the rabbit. \"That's funny, because so am I!\" said the bear. \"Let's go find some food together.\" The bear and the rabbit explored the forest until they found a berry bush. They gobbled up the delicious berries until they were full. The bear thanked the rabbit for feeding him. The bear and the rabbit became friends. Now whenever the bear gets hungry, the rabbit will always be there to feed him. They make a great team!"
+      },
+      {
+        "train_id": 17648,
+        "text": "Once upon a time there was a girl who had a pet bear. The bear was so loud that it could be heard for miles. The girl always included the bear in her playtime. One day, the girl and the bear decided to go for a walk in the woods. As they explored, the bear stopped to wait for something. The bear was very quiet and seemed to sense something. The girl asked the bear what was wrong. The bear replied, \"I hear something loud coming.\" Suddenly, the trees started shaking and a large elephant emerged from the forest. The girl was so scared she ran back home. The bear stayed put. When the elephant came close, the bear started making loud noises. The elephant backed away and ran away. The girl was so amazed and thanked the bear for protecting her. She included the bear in everything she did, but this time the bear included her too."
+      },
+      {
+        "train_id": 6154,
+        "text": "Once upon a time, there was a little girl called Jane who was 3 years old. She was playing in the garden, when she heard a noise that sounded like a sneeze. Jane followed the noise and she saw a huge big bear hiding in the bush. The bear had sneezed and Jane was very scared. Jane said to the bear: \"Hello! Why are you hiding?\" The bear said: \"I am looking for my work. I have lost it and it is hidden, but I don't know where.\" Jane felt sad for the bear and she was brave. She said: \"I will help you. Let's look for it together.\" The bear smiled and Jane and the bear looked everywhere for the bear's work. But it was gone and they never found it. The bear was very sad and Jane went home. The end."
+      }
+    ]
+  },
+  {
+    "topic": 10,
+    "keywords": [
+      "mia",
+      "mia says",
+      "named mia",
+      "boat",
+      "mia happy",
+      "mia mia",
+      "mia mom",
+      "mia friends",
+      "says",
+      "slide",
+      "mia playing",
+      "play"
+    ],
+    "train_stories": 379,
+    "val_stories": 42,
+    "examples": [
+      {
+        "train_id": 17862,
+        "text": "Mia was having a nice dream. She was flying like she was a butterfly. Suddenly the alarm rang. Mia woke up with a start. She remembered that today was an important day. It was the day of the big race. Mia had been practising for weeks and she was excited and a little scared. Mia put on her running shoes and ran to the park. When she got there, Mia saw all of her friends and they started running together. Mia ran as fast as she could and soon she was crossing the finish line first. The crowd cheered loudly and Mia was given the trophy. She held it in her hands and it glittered and shone in the sun. Mia was so happy. \"Well done Mia,\" said Mum. \"You should be proud of yourself. You worked so hard to win this trophy\". Mia smiled and hugged her Mum tightly. She felt so brave and strong. Mia knew that nothing was too scary for her."
+      },
+      {
+        "train_id": 8492,
+        "text": "Once upon a time, in a small village, there lived a girl named Mia. Mia had a little bird friend named Tia. One sunny day, Mia and Tia were playing under a big tree. Mia had a hurt hand, but she still wanted to play with Tia. Mia said to Tia, \"My hand hurts, but I want to play with you. I will pray that my hand gets better soon.\" Tia looked at Mia's palm and saw that it was red. Tia felt sad for Mia and said, \"I hope your hand feels better soon, Mia.\" Mia and Tia played all day under the big tree. At the end of the day, Mia's hand started to feel better. Mia said, \"Thank you, Tia, for playing with me even when my hand hurt. I think my prayer worked!\" Tia smiled and said, \"I'm glad your hand feels better, Mia. Let's play again tomorrow!\" And they did."
+      },
+      {
+        "train_id": 8167,
+        "text": "Once upon a time, there was a little girl named Mia. Mia had a pet cat named Tom. Mia and Tom liked to play together. They were best friends. Mia's mom gave her a card with a picture of a cat on it. Mia thought the card was incredible. She showed the card to Tom, and Tom liked it too. One day, Mia's mom told her it was time to feed Tom. Mia took the cat food and put it in Tom's bowl. Tom ate the food very fast. Mia was happy to see Tom eat. She knew that feeding Tom was important. Mia loved to help her mom take care of Tom. After Tom ate, they played with the incredible cat card. They had lots of fun. Mia and Tom played until it was time for bed. They were very tired. Mia gave Tom a big hug and said goodnight. Tom purred and went to sleep. Mia went to her bed and fell asleep too. They both had sweet dreams."
+      }
+    ]
+  },
+  {
+    "topic": 11,
+    "keywords": [
+      "bob",
+      "sue",
+      "bob bob",
+      "named bob",
+      "friends",
+      "bob happy",
+      "bob smiled",
+      "called bob",
+      "joe",
+      "bob loved",
+      "help",
+      "named"
+    ],
+    "train_stories": 323,
+    "val_stories": 43,
+    "examples": [
+      {
+        "train_id": 11645,
+        "text": "Once upon a time, there was a little boy named Bob. Bob wanted a pet to play with, so his mommy showed him a plate with a little kitten. The kitten was so gentle and soft. Bob's mommy asked him, \"Do you like the little kitty?\" Bob couldn't help but smile and nod his head in excitement. \"Yes!\" he said. Bob's mommy smiled and said, \"Ok, then it's yours. What are you going to name it?\" Bob thought for a moment and said, \"Fluffy!\" Bob and Fluffy became best friends. Bob would show his friend all his toys and Fluffy would sleep in Bob's bed, purring softly. Every day, Bob would show Fluffy how much he loved him by stroking his fur gently. Bob and Fluffy were happy together, and Bob's mommy was happy too."
+      },
+      {
+        "train_id": 9134,
+        "text": "Once upon a time there was a monkey called Bob who lived in the jungle with his friends. He was very playful and silly. One day Bob decided he wanted to go for a swim. He asked all his friends to come swimming with him. His friends said yes and started getting ready. When they went to the river, Bob was so excited! He jumped in and started to splash around. Bob's friends laughed, it was so much fun! Bob said, \"Let's play a game! I will hide and you have to find me!\" His friends agreed, so Bob ran away and hid behind a big rock. His friends tried to find him, but they just couldn't! Bob suddenly shouted, \"I'm up here!\" His friends looked up and saw that Bob had climbed a tree! They laughed and said they'd never find him there! So Bob climbed back down and they all went swimming again. This time Bob came back with a towel. \"It's for us to dry off with when we're finished,\" he said. His friends thanked him and they all had a really good time. They laughed and splashed and played until the sun went down. It was a really wonderful day and Bob was very pleased."
+      },
+      {
+        "train_id": 17079,
+        "text": "Once there was a boy named Bob. Bob loved to hide! He would hide behind bushes and in closets, and it made him very happy. One day, Bob saw a big pile of leaves. It was pile big enough for Bob to hide in, so he jumped right in! He laughed as he covered his face with the leaves. Suddenly, he heard a voice. It was a helpful voice, and it said, \"Hello Bob! I saw you hiding and I thought I could help\". Bob was very surprised! He looked up, and there was a girl smiling down at him. Her name was Sarah, and she asked Bob if he wanted to play a game. Bob agreed and together, they played hide-and-seek. It was so much fun that Bob forgot all about hiding in leaves. Sarah was so helpful and kind. From then on, Bob and Sarah were the best of friends."
+      }
+    ]
+  }
+]

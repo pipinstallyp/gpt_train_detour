@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.credentials/
+.runpod-import/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+checkpoints/
+wandb/
+.release/
+*.pt
+*.pth

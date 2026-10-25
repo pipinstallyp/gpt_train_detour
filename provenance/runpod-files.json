@@ -1,0 +1,196 @@
+{
+  "pod_id": "rovm0pofzpp6n9",
+  "copied_on": "2026-10-25",
+  "files": [
+    {
+      "source": "/workspace/setup_epoch.py",
+      "bytes": 8891,
+      "sha256": "3ef2286a5222f68719fc9c34341d6bb6c98c6e9a3f2dc3b28c70e2c37a2da3ea"
+    },
+    {
+      "source": "/workspace/setup_tiny.py",
+      "bytes": 5194,
+      "sha256": "c82d4678d8be9bf7d649b7334bf90e26effc17dd423de8c46b7b9e140151deab"
+    },
+    {
+      "source": "/workspace/shakespeare-gpt/bigram.py",
+      "bytes": 4140,
+      "sha256": "2bf3bcd6e208a49b671ac7be553e35f2db5ea619f48fdf58386374617f113149"
+    },
+    {
+      "source": "/workspace/shakespeare-gpt/gpt.py",
+      "bytes": 8140,
+      "sha256": "3fb0b9134f2d38c63ad1cc1f6a653809cef5932e6186b2f01bb13e65981e5c0f"
+    },
+    {
+      "source": "/workspace/shakespeare-gpt/input.txt",
+      "bytes": 1115394,
+      "sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed"
+    },
+    {
+      "source": "/workspace/shakespeare-gpt/make_notebook.py",
+      "bytes": 2983,
+      "sha256": "5d13a17fa129269da45291a0b0486eace647a4c464bc833f081b61a60eb91f59"
+    },
+    {
+      "source": "/workspace/shakespeare-gpt/out/checkpoint.pt",
+      "bytes": 52673763,
+      "sha256": "ccba2f210eb2789dd10e1356796e43e1d089cbcd5f1ff9b1ae0df888119b25db"
+    },
+    {
+      "source": "/workspace/shakespeare-gpt/out/loss.json",
+      "bytes": 782,
+      "sha256": "0ffdf18945714e12196c9277dec0c603a7987281a9cc3ded39bef2064fe57a55"
+    },
+    {
+      "source": "/workspace/shakespeare-gpt/README.md",
+      "bytes": 1154,
+      "sha256": "427c41751495aa0cfff5fd6a13e2b9e803f3dbd3b194456088e40e7ca8a1395a"
+    },
+    {
+      "source": "/workspace/shakespeare-gpt/Shakespeare_GPT.ipynb",
+      "bytes": 17424,
+      "sha256": "4a4241750cc9aa05e26fb192337543096c780d9c4a343269094b2431b8695d73"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/analyze.py",
+      "bytes": 4687,
+      "sha256": "e2804a182e58dda14d40a6ecabeddb114682424a5d9066fba2c29e9dbb2fd302"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/interpretation.md",
+      "bytes": 15937,
+      "sha256": "d1815f17e1cd6a223433763b00e199230da993293141aafe5465506ca70558e2"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/name_masked/report.md",
+      "bytes": 5728,
+      "sha256": "4602d6f803f71564cf81f3cf4605345834b93779eae859bbc651c6f29b621aef"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/name_masked/similar_pairs.json",
+      "bytes": 35272,
+      "sha256": "6280c4e9c5974bdb7390d7261db0aa93d88e8b384581f4b3458d61f1bf4a0f70"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/name_masked/story_metrics.csv",
+      "bytes": 811548,
+      "sha256": "605aac50e9bcb64e59f203a98043620077d67ebc2279eafe4581a16b5c438f35"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/name_masked/summary.json",
+      "bytes": 3788,
+      "sha256": "8c5caa37618b44b141bbe8dd030684d39b3d97e291e2480696cd1a7731575906"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/name_masked/topics.json",
+      "bytes": 44405,
+      "sha256": "dd66725eefdcefbf7ffec699d15602df3b6f1bbefcdfe25a6bcbbae7094388d1"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/report.md",
+      "bytes": 5808,
+      "sha256": "d0d83690b52f51d4c798b67fae983cb2ff34c9176060d429f6e2606b28755311"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/run.log",
+      "bytes": 4750,
+      "sha256": "aa6d5b1526d5e3ec418bde2f8ea2a314256d27eefc0729c2492526c70d0f4c35"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/similar_pairs.json",
+      "bytes": 32843,
+      "sha256": "452b8ce70a6b61caa0fdf00e3bff12f30ffb3c502e834e29fdfa6a2a1365da96"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/story_metrics.csv",
+      "bytes": 811216,
+      "sha256": "d014d1468374cf06a6349c1bd1cdc7aaaa192a8792adb98c267f15781a30de03"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/summary.json",
+      "bytes": 3788,
+      "sha256": "958477816c4e488b2aa91504b868d6dd5317eb1d6d9a5836fc71c6c45cb57c18"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_analysis/topics.json",
+      "bytes": 44718,
+      "sha256": "55cc1a6efc00703bad6002f8f57ed5e2a40fb677b10c17f4e60ac5ec433c56f9"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_filtering/manifest.json",
+      "bytes": 564,
+      "sha256": "a1f0f87b6163801dcf76731b360b435207a8f826f0d0262b67f138c83c065325"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_filtering/prepare.py",
+      "bytes": 2217,
+      "sha256": "17c9aae1aa843ba34919533209ea1e7c4a7edbacbfd015cd18581d3513b3e21e"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_filtering/README.md",
+      "bytes": 657,
+      "sha256": "3f880b4a4eb0dbbc7ce90468c4066e63d9a9e6117a1faa209f8b866c8e5b5058"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_filtering/train.jsonl",
+      "bytes": 16334436,
+      "sha256": "d44a85ee532f96bada420a2f39cb084d0f0d8250cdc94322b94449ede3cb81fe"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/data_filtering/val.jsonl",
+      "bytes": 1809672,
+      "sha256": "853a9ad218b9a0b75ce7c2c8df0095b40fef7be4f8df74ba5b7094f5873532ba"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/input.txt",
+      "bytes": 17824201,
+      "sha256": "684657e655d597a273cba61457521c7dd1b2b4a827764b9172b22755da26f979"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/out_one_epoch/checkpoint.pt",
+      "bytes": 139272429,
+      "sha256": "0f31b39929031a50161ff21576783d12182e9e212a556102bf3d2ef2aba0c0a2"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/out_one_epoch/loss.json",
+      "bytes": 1350,
+      "sha256": "c4881df7811e27fbc2acff457f15a38cebd1026409e78ab860b2d266f50d8bb4"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/out_one_epoch/sample.txt",
+      "bytes": 1016,
+      "sha256": "4ea2dd07e0dbfa832c3f316bdf3791c941845e6644591f1f89398774e2cdfe47"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/out_one_epoch/summary.json",
+      "bytes": 252,
+      "sha256": "b3afbe5d9bc7ea6e0d68750f866dcc6be3af7930d3ec3cc65a0f7f54858f251e"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/TinyStories_DataAnalysis.ipynb",
+      "bytes": 38353,
+      "sha256": "a21d27301509ce971bb0907d4501fdd474e0ce62b1966bf9df2345e84c26a59f"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/TinyStories_GPT.ipynb",
+      "bytes": 13607,
+      "sha256": "ff612aa463270299b73415113483a2034c5bc424aac772f51fb05dccf1fbb8ba"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/TinyStories_OneEpoch.ipynb",
+      "bytes": 22330,
+      "sha256": "4d8d09507af31f4807918ce5474f08d190798f7ea72bbac9c6ddaab716b2677a"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/train.txt",
+      "bytes": 16046878,
+      "sha256": "be38fa0499ae26e33aeacec75673060fadc37b26dc496ba9cfff9541fc3bb683"
+    },
+    {
+      "source": "/workspace/tinystories-gpt/val.txt",
+      "bytes": 1777322,
+      "sha256": "da3a50da0a51455db91e5d7c4325034b62b61d026f98fe6fe829603bbd9d3e81"
+    }
+  ]
+}

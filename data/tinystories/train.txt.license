@@ -1,0 +1,5 @@
+SPDX-License-Identifier: CDLA-Sharing-1.0
+Data providers: Ronen Eldan and Yuanzhi Li
+Source: https://huggingface.co/datasets/roneneldan/TinyStories
+MODIFIED DATA: normalized, filtered, exact-deduplicated, selected subset and seeded rearrangement; see README.md and manifest.json.
+License text: LICENSE.txt; https://cdla.dev/sharing-1-0/

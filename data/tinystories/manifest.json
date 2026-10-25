@@ -1,0 +1,16 @@
+{
+  "source": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/main/TinyStories-train.txt",
+  "selection": "first 20000 unique eligible stories, then seeded shuffle",
+  "seed": 1337,
+  "total": 20000,
+  "train": 18000,
+  "val": 2000,
+  "filters": "NFKC; smart punctuation to ASCII; collapse whitespace; 300-10000 chars; printable ASCII; exact deduplication",
+  "rejected": {
+    "length": 14,
+    "non_ascii": 7
+  },
+  "input_characters": 17824201,
+  "vocab_size": 80,
+  "sha256": "684657e655d597a273cba61457521c7dd1b2b4a827764b9172b22755da26f979"
+}

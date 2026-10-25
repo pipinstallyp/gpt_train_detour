@@ -1,0 +1,300 @@
+{
+  "stories": 20000,
+  "train": 18000,
+  "validation": 2000,
+  "unique_word_types": 10798,
+  "characters": {
+    "min": 301.0,
+    "p10": 578.0,
+    "median": 780.0,
+    "p90": 1368.0,
+    "p99": 2422.0099999999984,
+    "max": 4524.0
+  },
+  "words": {
+    "min": 59.0,
+    "p10": 115.0,
+    "median": 154.0,
+    "p90": 278.0,
+    "p99": 492.0099999999984,
+    "max": 882.0
+  },
+  "fraction_longer_than_context": 1.0,
+  "exact_cross_split_overlap": 0,
+  "validation_nearest_train_cosine": {
+    "median": 0.4935637059503526,
+    "p95": 0.7069591860872103,
+    "above_090": 0
+  },
+  "top_words": [
+    [
+      "the",
+      189569
+    ],
+    [
+      "and",
+      171268
+    ],
+    [
+      "to",
+      119150
+    ],
+    [
+      "a",
+      108974
+    ],
+    [
+      "was",
+      87570
+    ],
+    [
+      "he",
+      74164
+    ],
+    [
+      "she",
+      73248
+    ],
+    [
+      "it",
+      66799
+    ],
+    [
+      "they",
+      64115
+    ],
+    [
+      "her",
+      47506
+    ],
+    [
+      "said",
+      33752
+    ],
+    [
+      "you",
+      31661
+    ],
+    [
+      "lily",
+      31138
+    ],
+    [
+      "in",
+      30391
+    ],
+    [
+      "his",
+      30273
+    ],
+    [
+      "with",
+      30141
+    ],
+    [
+      "that",
+      27745
+    ],
+    [
+      "day",
+      25640
+    ],
+    [
+      "so",
+      25091
+    ],
+    [
+      "of",
+      24724
+    ],
+    [
+      "but",
+      24028
+    ],
+    [
+      "had",
+      22292
+    ],
+    [
+      "mom",
+      22244
+    ],
+    [
+      "on",
+      22173
+    ],
+    [
+      "s",
+      21525
+    ],
+    [
+      "i",
+      20354
+    ],
+    [
+      "one",
+      19509
+    ],
+    [
+      "for",
+      18704
+    ],
+    [
+      "there",
+      17910
+    ],
+    [
+      "very",
+      17600
+    ],
+    [
+      "little",
+      17318
+    ],
+    [
+      "time",
+      17095
+    ],
+    [
+      "happy",
+      16695
+    ],
+    [
+      "is",
+      16587
+    ],
+    [
+      "big",
+      15998
+    ],
+    [
+      "saw",
+      15703
+    ],
+    [
+      "not",
+      15671
+    ],
+    [
+      "t",
+      14724
+    ],
+    [
+      "play",
+      14239
+    ],
+    [
+      "once",
+      13882
+    ]
+  ],
+  "repeated_4grams": [
+    [
+      "once upon a time",
+      12058
+    ],
+    [
+      "upon a time there",
+      11411
+    ],
+    [
+      "a time there was",
+      10703
+    ],
+    [
+      "time there was a",
+      10422
+    ],
+    [
+      "there was a little",
+      5898
+    ],
+    [
+      "was a little girl",
+      3924
+    ],
+    [
+      "a little girl named",
+      3576
+    ],
+    [
+      "little girl named lily",
+      2687
+    ],
+    [
+      "girl named lily she",
+      2137
+    ],
+    [
+      "from that day on",
+      2125
+    ],
+    [
+      "named lily she loved",
+      1552
+    ],
+    [
+      "once there was a",
+      1370
+    ],
+    [
+      "was a little boy",
+      1330
+    ],
+    [
+      "lily she loved to",
+      1317
+    ],
+    [
+      "a little boy named",
+      1294
+    ],
+    [
+      "was so happy and",
+      940
+    ],
+    [
+      "went to the park",
+      907
+    ],
+    [
+      "she loved to play",
+      905
+    ],
+    [
+      "to play in the",
+      903
+    ],
+    [
+      "loved to play with",
+      890
+    ],
+    [
+      "do you want to",
+      830
+    ],
+    [
+      "boy named timmy timmy",
+      813
+    ],
+    [
+      "to play with her",
+      782
+    ],
+    [
+      "little boy named timmy",
+      729
+    ],
+    [
+      "they like to play",
+      717
+    ]
+  ],
+  "caveats": [
+    "Sequential source subset, not a uniform full-corpus sample.",
+    "ASCII/length filtering changes coverage.",
+    "Topic count 12 is exploratory, not validated truth.",
+    "Each story assigned its strongest topic for counts; stories can have several themes.",
+    "Lexical similarity can reflect common templates, not duplication."
+  ]
+}

@@ -1,0 +1,7 @@
+# Historical training used torch 2.8.0+cu128; install a suitable CUDA wheel for your GPU.
+torch==2.8.0
+jupyterlab>=4,<5
+matplotlib>=3.9,<4
+numpy>=2,<3
+scikit-learn>=1.5,<2
+wandb==0.31.0
