@@ -1,0 +1,25 @@
+{
+  "project": "peepaclan/gpt_train_detour",
+  "checks": [
+    {
+      "run": "shakespeare-baseline",
+      "history_rows": 11,
+      "checkpoint_manifest_matches": true,
+      "dataset_lineage_present": true
+    },
+    {
+      "run": "tinystories-one-epoch",
+      "history_rows": 11,
+      "checkpoint_manifest_matches": true,
+      "dataset_lineage_present": true
+    },
+    {
+      "dataset": "shakespeare",
+      "uploaded_file_manifests_match": 3
+    },
+    {
+      "dataset": "tinystories",
+      "uploaded_file_manifests_match": 13
+    }
+  ]
+}

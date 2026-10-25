@@ -60,11 +60,22 @@ def main():
                 raise
             return False
         if previous.state == 'finished':
+            best_is_saved = False
+            if name in configs:
+                history = read_json(f'results/{name}/loss.json')
+                best_is_saved = min(history, key=lambda row: row['val'])['step'] == configs[name]['updates']
+                if previous.summary.get('best_checkpoint_available') != best_is_saved:
+                    previous.summary['best_checkpoint_available'] = best_is_saved
+                    previous.summary.update()
             # W&B reserves v0/v1/... for native artifact versions, so release
             # labels must have their own prefix. Repair old publication aliases.
             for artifact in previous.logged_artifacts():
-                if release_alias not in artifact.aliases:
-                    artifact.aliases.append(release_alias)
+                expected_aliases = [release_alias]
+                if artifact.type == 'model':
+                    expected_aliases += ['final'] + (['best'] if best_is_saved else [])
+                missing = [alias for alias in expected_aliases if alias not in artifact.aliases]
+                if missing:
+                    artifact.aliases.extend(missing)
                     artifact.save()
             publication['runs'].append({'name': name, 'id': previous.id, 'url': previous.url})
             return True
@@ -113,12 +124,13 @@ def main():
                 run.log(values)
             best = min(history, key=lambda row: row['val'])
             last = history[-1]
+            best_is_saved = best['step'] == config['updates']
             run.summary.update({'best_validation_loss': best['val'], 'best_validation_logged_step': best['step'],
                                 'final_logged_validation_loss': last['val'], 'final_logged_train_loss': last['train'],
                                 'final_logged_generalization_gap': last['val'] - last['train'],
                                 'final_logged_character_perplexity': math.exp(last['val']),
                                 'checkpoint_sha256': digest(checkpoint), 'checkpoint_selection': 'final',
-                                'best_checkpoint_available': False, 'source_history_rows': len(history)})
+                                'best_checkpoint_available': best_is_saved, 'source_history_rows': len(history)})
             summary_path = ROOT / f'results/{name}/summary.json'
             if config['dataset'] == 'tinystories' and summary_path.exists():
                 summary = json.loads(summary_path.read_text())
@@ -128,7 +140,7 @@ def main():
                                     'completed_epochs': summary['epoch']})
             model = wandb.Artifact(name + '-checkpoint', type='model', metadata={'selection': 'final', 'sha256': digest(checkpoint), **config})
             model.add_file(str(checkpoint), name='checkpoint.pt')
-            run.log_artifact(model, aliases=[release_alias, 'final']).wait()
+            run.log_artifact(model, aliases=[release_alias, 'final'] + (['best'] if best_is_saved else [])).wait()
             result = wandb.Artifact(name + '-results', type='evaluation')
             result.add_dir(str(ROOT / 'results' / name))
             run.log_artifact(result, aliases=[release_alias]).wait()

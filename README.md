@@ -56,6 +56,7 @@ The release alias is `release-v1`; W&B's first native artifact version is `v0`. 
 ```sh
 # Supply WANDB_API_KEY through the environment or a local --env-file.
 python scripts/publish_wandb.py --entity peepaclan --project gpt_train_detour --release v1
+python scripts/verify_publication.py
 ```
 
 The local default env-file is `../.credentials/.env` when this repo is inside `lasg`. No credentials are included in this repository. Completed publication IDs are deterministic; repeating the same release skips finished imports. Use a new release name for a genuinely new experiment, after preserving its config and outputs.

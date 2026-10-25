@@ -1,0 +1,23 @@
+{
+  "entity": "peepaclan",
+  "project": "gpt_train_detour",
+  "release": "v1",
+  "code_commit": "a0bead3ac77c00141b893ae2ea13efbabc6d615d",
+  "runs": [
+    {
+      "name": "datasets",
+      "id": "3388d448a737",
+      "url": "https://forge.coreweave.com/wandb/peepaclan/gpt_train_detour/runs/3388d448a737"
+    },
+    {
+      "name": "shakespeare-baseline",
+      "id": "8161167a01f3",
+      "url": "https://forge.coreweave.com/wandb/peepaclan/gpt_train_detour/runs/8161167a01f3"
+    },
+    {
+      "name": "tinystories-one-epoch",
+      "id": "e2950b7bd570",
+      "url": "https://forge.coreweave.com/wandb/peepaclan/gpt_train_detour/runs/e2950b7bd570"
+    }
+  ]
+}
