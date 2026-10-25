@@ -1,0 +1,142 @@
+[
+  {
+    "metrics": {
+      "story_id": 305,
+      "factor": 1,
+      "characters": 719,
+      "targets": 718,
+      "starts_once_upon_a_time": 0,
+      "dialogue_quote_marker": 1,
+      "explicit_lesson_marker": 0,
+      "loss_reset256": 1.5754603223880352,
+      "loss_more_context_stride64": 1.58607415435706
+    },
+    "text": "Once there was a nosy puppet called Pipsqueak. One day Pipsqueak was playing with its eraser when it accidentally dropped it into a deep hole. Not wanting to waste any time Pipsqueak jumped right in to go and get it. Pipsqueak started to regret it almost immediately - the hole was much deeper than it had expected! Pipsqueak called out, \"Help! Help me!\" Fortunately a strong and friendly bird heard the cry and came to its rescue. The bird flew down into the hole, grabbed Pipsqueak with its beak and flew it back to safety. Pipsqueak thanked the bird deeply and was relieved to have its eraser back in its hands. From then on, Pipsqueak remembered to stay away from deep holes, so as not to regret its decision again!"
+  },
+  {
+    "metrics": {
+      "story_id": 49,
+      "factor": 4,
+      "characters": 798,
+      "targets": 797,
+      "starts_once_upon_a_time": 0,
+      "dialogue_quote_marker": 0,
+      "explicit_lesson_marker": 0,
+      "loss_reset256": 1.5971195886245786,
+      "loss_more_context_stride64": 1.5794916763209939
+    },
+    "text": "In the sunny meadow, there was a baby lamb. Its soft, fluffy wool was a snug texture - just perfect for snuggling. The baby lamb was very alert, because it could hear its mother's voice calling out. The lamb responded with a gentle 'baaaa'. Its mother said 'come here!' The lamb happily obeyed and ran quickly over to her. The mother said 'Hello, little one. I need you to be very alert. Be careful where you go and don't get into any trouble.' The baby lamb nodded and spoke 'Yes, Mother'. The mother then said 'Now, remember to stay alert and always listen to my voice when I call for you'. The baby lamb nodded again and said 'I will Mother.' The mother smiled and gave the baby lamb a loving pat. 'Good lamb. Always listen and stay alert!', she said. The baby lamb softly replied 'Yes, Mother.'"
+  },
+  {
+    "metrics": {
+      "story_id": 1756,
+      "factor": 4,
+      "characters": 724,
+      "targets": 723,
+      "starts_once_upon_a_time": 1,
+      "dialogue_quote_marker": 1,
+      "explicit_lesson_marker": 1,
+      "loss_reset256": 1.4403522327892677,
+      "loss_more_context_stride64": 1.44110881705172
+    },
+    "text": "Once upon a time, there were two friends: Petey and Libby. Libby was always very fit, she loved to run and play and stay active. Petey on the other hand was very lazy, he loved lying around and eating all sorts of foods. One day Libby and Petey were having lunch together. Libby had a big bowl of delicious, healthy vegetables and Petey had a large plate of pasta. Libby said to Petey, \"That looks really yummy, but if you eat too much pasta you won't grow fit like me!\" Petey thought about this. He knew Libby was right. So the next day, and every day after, he ate a healthy balanced diet and got fit with Libby by doing lots of exercise. The moral of the story is: Eating a healthy, balanced diet, will help you grow fit!"
+  },
+  {
+    "metrics": {
+      "story_id": 664,
+      "factor": 9,
+      "characters": 711,
+      "targets": 710,
+      "starts_once_upon_a_time": 0,
+      "dialogue_quote_marker": 0,
+      "explicit_lesson_marker": 0,
+      "loss_reset256": 1.4251446361273108,
+      "loss_more_context_stride64": 1.431501227365413
+    },
+    "text": "Wilma had her favourite trophy. It sparkled and made her feel special. Wilma always kept it close by, wherever she went. One day, Wilma tripped and the trophy fell to the ground. It made a loud, scary sound when it hit the ground. Wilma looked down and saw the trophy was all broken. Wilma felt a big sad in her belly. Her eyes welled up and soon enough tears came streaming down her cheeks. She missed her trophy so much. But then, something special happened. Wilma's daddy put the broken trophy back together with super glue. Wilma was so excited! She hugged her dad tight and ran off to show everyone her fixed trophy. This time Wilma was sure to keep it safe and sound. She was never going to miss it again."
+  },
+  {
+    "metrics": {
+      "story_id": 1504,
+      "factor": 4,
+      "characters": 720,
+      "targets": 719,
+      "starts_once_upon_a_time": 0,
+      "dialogue_quote_marker": 1,
+      "explicit_lesson_marker": 0,
+      "loss_reset256": 1.4163450790214274,
+      "loss_more_context_stride64": 1.4295043560659437
+    },
+    "text": "John was at school. He had been in the same class since he was three years old. His teacher was Mrs. Wilson. Today, she was leaning against the wall in the classroom. She was a little fat. John walked up to Mrs. Wilson. He looked up at her with a smile. \"Mrs. Wilson,\" John said, \"why are you standing near the wall?\" Mrs. Wilson laughed. She leaned down and looked John in the eyes. \"Well, John, it's because I'm a bit fat! Standing near the wall helps me to stay balanced.\" John thought about that for a moment. Then he smiled and said, \"Yeah, I think I understand now. Thank you Mrs. Wilson!\" Mrs. Wilson smiled back. \"You're welcome, John. It's nice to see you learning.\" John smiled again and went back to his work."
+  },
+  {
+    "metrics": {
+      "story_id": 1836,
+      "factor": 9,
+      "characters": 935,
+      "targets": 934,
+      "starts_once_upon_a_time": 1,
+      "dialogue_quote_marker": 1,
+      "explicit_lesson_marker": 0,
+      "loss_reset256": 1.448035099266428,
+      "loss_more_context_stride64": 1.4151658378780783
+    },
+    "text": "Once upon a time, there was a nosy little rabbit called Flo. Flo loved learning new things and was always asking questions. One day, Flo asked her mum what a calendar was. Flo's mum smiled and said, \"A calendar is a book with numbers and dates on it. We use it to keep track of time and things we need to remember.\" Flo was curious, so she asked her mum to show her. Flo's mum took out an old calendar from the drawer and let Flo look at it. Flo asked her mum why the calendar had funny drawings, and Flo's mum explained that each month had a different name and little symbol. She also told Flo that she needed to be careful when holding the calendar, as it was very important. Flo looked at the calendar, marvelling at all the different names. Finally, she came to the conclusion that a calendar was nosy. It was full of names and symbols and it was always asking questions. Flo smiled at how accurate her new-found understanding was."
+  },
+  {
+    "metrics": {
+      "story_id": 479,
+      "factor": 4,
+      "characters": 873,
+      "targets": 872,
+      "starts_once_upon_a_time": 1,
+      "dialogue_quote_marker": 1,
+      "explicit_lesson_marker": 1,
+      "loss_reset256": 1.4073162428829649,
+      "loss_more_context_stride64": 1.4026551027910426
+    },
+    "text": "Once upon a time, there lived a kind-hearted little girl named Abigail. Abigail was thoughtful and kind to everyone she met. One day, Abigail saw a thief trying to steal a money box. Abigail quickly thought of a kind way to stop the thief. She stepped in front of the thief and said, \"I can show you a way to get money without stealing!\" The thief was suspicious, but he was curious too. Abigail offered to teach him some useful skills so he could earn money honestly. The thief decided to take Abigail's offer, and the two of them spent many hours together. At the end of the week, the thief had learned enough skills to work and make money. The thief thanked Abigail for her kindness and for helping him to succeed. Abigail smiled, proud of what she had done. From then on, Abigail was always there to help anyone in need. Her thoughtfulness always helped others succeed."
+  },
+  {
+    "metrics": {
+      "story_id": 1400,
+      "factor": 5,
+      "characters": 1522,
+      "targets": 1521,
+      "starts_once_upon_a_time": 0,
+      "dialogue_quote_marker": 1,
+      "explicit_lesson_marker": 0,
+      "loss_reset256": 1.4017469417414017,
+      "loss_more_context_stride64": 1.3842668853097648
+    },
+    "text": "Mira loves to sing. She sings in the morning, she sings in the afternoon, she sings at night. She sings to her toys, she sings to her mom, she sings to her dad. She sings happy songs, she sings sad songs, she sings silly songs. One day, Mira goes to the market with her mom. She sees many things there. She sees fruits, she sees flowers, she sees bread. She also sees vegetables. She sees carrots, she sees potatoes, she sees tomatoes. She likes vegetables. She likes to eat them and she likes to sing about them. She picks up a tomato and sings, \"Tomato, tomato, you are red and round. Tomato, tomato, you make a juicy sound.\" She picks up a carrot and sings, \"Carrot, carrot, you are orange and long. Carrot, carrot, you make me strong.\" She picks up a potato and sings, \"Potato, potato, you are brown and rough. Potato, potato, you are good enough.\" But then, she sees a vegetable she does not know. It is green and thin and has many leaves. It looks fragile. She asks her mom, \"Mom, what is this vegetable?\" Her mom says, \"That is a celery, Mira. It is crunchy and fresh. Do you want to try it?\" Mira nods. She takes the celery and sings, \"Celery, celery, you are green and thin. Celery, celery, you are new to me. Celery, celery, I wonder how you taste. Celery, celery, I will not waste.\" She bites the celery and smiles. She likes it. She sings, \"Celery, celery, you are yummy and fun. Celery, celery, you are my new friend. Celery, celery, I will sing to you again. Celery, celery, you are the best vegetable ever!\""
+  },
+  {
+    "metrics": {
+      "story_id": 812,
+      "factor": 4,
+      "characters": 907,
+      "targets": 906,
+      "starts_once_upon_a_time": 1,
+      "dialogue_quote_marker": 1,
+      "explicit_lesson_marker": 0,
+      "loss_reset256": 1.408804752442484,
+      "loss_more_context_stride64": 1.3822516173979567
+    },
+    "text": "Once upon a time, there was a pale gem which nobody knew the power of. One day a teacher appeared in the village and told the people, \"I know the power of the pale gem! I will teach you how to use it.\" Everyone was excited and gathered around the teacher. The teacher said, \"Now, I will teach you how to make the pale gem magical. First you must find a special vessel and fill it with water. Then place the pale gem in the vessel and watch as it glows.\" Everyone was amazed! The teacher continued, \"While holding the vessel with the pale gem in it, you must say a very special spell. Say the words 'Pale Gem, I call on you to bring us luck and fortune!' and the gem will become magical and bring us luck and fortune.\" Everyone was thrilled and thanked the teacher. The village was now filled with more luck and fortune than ever before, all thanks to the teacher who taught them all how to use the pale gem."
+  },
+  {
+    "metrics": {
+      "story_id": 441,
+      "factor": 4,
+      "characters": 822,
+      "targets": 821,
+      "starts_once_upon_a_time": 1,
+      "dialogue_quote_marker": 1,
+      "explicit_lesson_marker": 0,
+      "loss_reset256": 1.3785959817605244,
+      "loss_more_context_stride64": 1.3819745722409433
+    },
+    "text": "Once upon a time there was a gifted little girl named Tonya. She loved to play hockey. Every day, Tonya would take to the ice with her hockey stick in hand. One day, Tonya met a special new friend. His name was Max and he was very talented at adding numbers together. Tonya asked Max to teach her how to add. Max said, \"Sure, it's really easy. Let's practice!\" and he held up two fingers. \"Two plus two is?\" Tonya thought for a moment and then her face lit up. \"Four!\" she shouted happily. Max was very proud of her. The two of them went on for hours adding numbers together. When the sun went down, Max said goodbye and the two friends went their separate ways. Tonya was now an expert at adding, and she kept practicing whenever she played hockey. With her new math skills, Tonya was even better at the game than before!"
+  }
+]

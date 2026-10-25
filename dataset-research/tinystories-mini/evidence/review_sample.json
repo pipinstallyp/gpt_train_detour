@@ -1,0 +1,197 @@
+{
+  "method": "16 uniformly sampled train and 16 uniformly sampled val stories; seed 20261025; one assistant close-reading pass, not human-validated annotations",
+  "stories": [
+    {
+      "split": "train",
+      "story_id": 1683,
+      "factor": 4,
+      "text": "Once there was a shy girl. She wanted to improve her world so she decided to get a map. The map showed her where she could go and how she could help. The shy girl improved the world by picking up garbage everywhere she went. Whenever anyone saw her, they would give her a smile and a wave. The shy girl also planted flowers and trees. Everywhere she went, she improved the world one little bit at a time. Finally, the shy girl finished her work. Everywhere she went was much brighter and more beautiful. She smiled sadly, knowing that her work was done. But then the girl realized something. She could always keep improving the world around her! So, she took out her map, planning out the next place to go and improve."
+    },
+    {
+      "split": "train",
+      "story_id": 2361,
+      "factor": 2,
+      "text": "Once upon a time, there was a little girl named Lily. One day, she went to the store with her mommy. They walked around and found a big cart to put their groceries in. Lily helped put the food in the cart and pushed it around the store. Suddenly, Lily saw a little boy who looked hurt. He was crying and holding his arm. Lily's mommy went to help him and asked if he needed a band-aid. The little boy accepted the band-aid and stopped crying. Lily was happy that she helped someone feel better. After they finished shopping, they went to pay for their things. Lily's mommy gave her some money, and she put it in the cart. They went home with their groceries and Lily felt proud that she helped someone and helped her mommy with the cart. The end."
+    },
+    {
+      "split": "train",
+      "story_id": 2494,
+      "factor": 9,
+      "text": "Lily and Tom were very happy. It was Christmas Eve and they wanted to decorate the tree. They had many shiny things to put on the tree: balls, stars, lights and candy canes. They liked candy canes a lot. They were sweet and red and white. They climbed on a chair to reach the top of the tree. They wanted to put a star there. But the chair was wobbly and they lost their balance. They fell down with a loud thud. The star and some candy canes flew in the air and landed on the floor. Lily and Tom were scared. They thought they broke the tree and the star and the candy canes. They thought their mom and dad would be angry. They started to cry. But their mom and dad heard the noise and came to see what happened. They saw Lily and Tom on the floor and the mess on the tree. They were not angry. They were worried. They hugged Lily and Tom and asked them if they were hurt. Lily and Tom said they were sorry. They said they wanted to decorate the tree and make it pretty. They said they loved candy canes. Their mom and dad smiled. They said they were not mad. They said they loved them and they were proud of them. They said they could decorate the tree together and share the candy canes. They said they were not scared anymore. They were happy."
+    },
+    {
+      "split": "train",
+      "story_id": 4426,
+      "factor": 8,
+      "text": "Teddy was anxious. He was three years old and was going to his first day of preschool. His mom encouraged him to be brave. She reminded him that it would be fine. She took him to school and said, \"Go have a good day.\" Teddy was scared but he took a deep breath and went inside. At preschool, he met a new friend. Her name was Hope. She smiled at him and said, \"Hi Teddy!\" Teddy smiled back. He felt better. Hope pointed to something across the room. She said, \"Look, Teddy. There's a big eye on the wall!\" Teddy looked over and saw the big eye. He felt really brave now. Teddy and Hope had a fine time playing together. Hope encouraged Teddy to try new things. He had so much fun. At the end of the day, Teddy was excited to go to preschool again. He thanked Hope for being his friend and encouraged her to keep being brave."
+    },
+    {
+      "split": "train",
+      "story_id": 4727,
+      "factor": 4,
+      "text": "Once upon a time there was a boy. He had two legs and loved to play outside. One day he was walking near a river. The river was very filthy and the water was very brown. The boy had a good urge. He wanted to jump in! He held his breath, closed his eyes and jumped in. He felt the cool water against his feet and it was fun! The boy wanted to swim but he had a problem. His legs weren't strong enough to keep him up. He couldn't move around so he started to panic. Suddenly, he felt something big push him up. It was a big fish! The fish pushed him to the side of the river and then swam away. The boy felt so relieved. He was able to climb out of the river safely. From then on he was careful about jumping into dirty water."
+    },
+    {
+      "split": "train",
+      "story_id": 6417,
+      "factor": 0,
+      "text": "Once upon a time, there was a little girl named Lily. She loved to jump on her cushion. One day, she was jumping so fast that she fell off and bumped her head. Her mom came running and asked, \"Are you okay, Lily?\" Lily rubbed her head and said, \"Yes, I'm okay. Can I jump again?\" Her mom replied, \"No, not until you repeat after me. We need to be safe and take it slow.\" Lily nodded and repeated after her mom. From then on, she always took it slow and never fell off her cushion again."
+    },
+    {
+      "split": "train",
+      "story_id": 7368,
+      "factor": 2,
+      "text": "Once there was a little girl named Grace. She was three years old and very excited. Her mommy was teaching her a game that involved separate exercises. Grace tried to do the exercises but she didn't understand them and kept making mistakes. She started to get frustrated and cried out to her mommy, \"I don't understand, mommy.\" Mommy smiled and said, \"That's okay, Grace. We can take the exercises one step at a time. Let's take it from the beginning.\" Grace nodded and tried again. This time the exercises separated into two parts, and Grace decided to try them both. She was excited and pleased when she completed them correctly. She smiled with accomplishment and hugged her mommy. \"See, you can do it if you just take it one step at a time!\" her mommy said as she hugged her back. The end."
+    },
+    {
+      "split": "train",
+      "story_id": 11108,
+      "factor": 2,
+      "text": "Once upon a time, there was a little girl named Lily. She loved to sail on her boat with her mommy and daddy. They had a big boat with lots of gear to help them sail. They had ropes and sails and even a big steering wheel. One day, Lily and her family went to the lake to sail. But when they got there, Lily realized she forgot her life jacket. She felt embarrassed because she knew it was important to wear one when sailing. Her mommy and daddy told her it was okay and they would just have to be extra careful. Lily had so much fun sailing with her family that day. She helped her daddy steer the boat and even got to hold the ropes. She was so happy she forgot all about feeling embarrassed. From then on, she always made sure to bring her life jacket when sailing."
+    },
+    {
+      "split": "train",
+      "story_id": 11733,
+      "factor": 4,
+      "text": "Once upon a time, there was a boy named Timmy. Timmy loved to sing into his microphone and make up songs. He was very creative and always came up with new tunes. One day, Timmy wanted to make a special song, so he asked his mom for some help. She gave him some flour, sugar, and eggs to mix together to make cookies. Timmy mixed them all up and then sang a song into his microphone while the cookies baked in the oven. When they were done, he shared them with his friends and they all sang and danced together. Timmy was very happy that he could be creative and make something yummy to share with his friends. The end."
+    },
+    {
+      "split": "train",
+      "story_id": 11912,
+      "factor": 4,
+      "text": "Once upon a time, there were two friends, Jack and Jill. They lived close to each other and liked to play together in their gardens. One day Jack had a great idea - he would invite Jill to play in his special tunnel. Jack shouted 'Come and play!', and Jill bounded over. Jack showed Jill the tunnel which was dark and full of secrets. Together they tiptoed through, searching for treasures and laughing at all the strange things they saw in the tunnel. It was so much fun! Everywhere they shone their torches there were new and playful things to find. The tunnel seemed to have no end and Jack and Jill ran and explored until they were both tired and out of breath. At last, they emerged from the tunnel, back in the sunlight. Jack and Jill had shared a very special time together and laughed and smiled, remembering the wonderful things they had seen in the tunnel."
+    },
+    {
+      "split": "train",
+      "story_id": 12423,
+      "factor": 11,
+      "text": "Once upon a time, there was a big, fat cat named Whiskers. Whiskers loved to eat and sleep all day. One day, Whiskers' owner, a little girl named Lily, said to him, \"Whiskers, you need to study how to catch mice. It will make you happy and healthy.\" Whiskers didn't want to study. He just wanted to eat and sleep. But Lily was persistent. She said, \"If you study, you will become a great mouse catcher and you will be able to catch all the mice you want to eat.\" Finally, Whiskers agreed to study. He practiced catching mice every day. He became very good at it. Lily was proud of him and gave him lots of treats. Whiskers was happy and healthy, and he realized that studying was not so bad after all."
+    },
+    {
+      "split": "train",
+      "story_id": 12756,
+      "factor": 5,
+      "text": "Tom and Lily are twins. They like to play and laugh together. But they do not like to eat broccoli. Broccoli is green and hard and bitter. Mom always puts broccoli on their plates at dinner. One day, Mom makes a big pot of soup. She says, \"This is a special soup. It has broccoli, but you cannot see it. It is very good for you. You will love it.\" Tom and Lily look at the soup. It is brown and deep. They cannot see any broccoli. They are curious. They take a spoon and taste the soup. \"Yuck!\" Tom says. \"This soup is bad. It tastes like broccoli. I do not want it.\" \"Me neither,\" Lily says. \"This soup is worse than broccoli. I do not want it either.\" Mom is sad. She says, \"Please, try some more. The soup is warm and yummy. It has other things too. It has carrots and potatoes and cheese. You like those things, right?\" Tom and Lily shake their heads. They do not want to eat the soup. They push their bowls away. They say, \"No, thank you. We do not like soup with broccoli. We want something else.\" Mom sighs. She says, \"Okay, fine. You do not have to eat the soup. But you have to eat something healthy. How about some salad?\" Tom and Lily look at the salad. It has lettuce and tomatoes and cucumbers. And it has broccoli too. They groan. They say, \"No, thank you. We do not like salad with broccoli either. We want something else.\" Mom is tired. She says, \"Well, what do you want then? You have to eat something. You cannot be hungry all night.\" Tom and Lily think. They look at each other. They have an idea. They say, \"We want pizza!\" Mom smiles. She says, \"Pizza? Pizza is not very healthy. It has a lot of cheese and sauce and bread. It does not have any broccoli.\" Tom and Lily nod. They say, \"Yes, pizza! Pizza is good. Pizza is yummy. Pizza does not have broccoli. We love pizza!\" Mom laughs. She says, \"Okay, okay. You win. We can have pizza tonight. But tomorrow, you have to eat some broccoli. Deal?\" Tom and Lily agree. They say, \"Deal. But only a little bit. And with lots of cheese.\" Mom hugs them. She says, \"You are silly. But I love you. Come on, let's start the oven. Pizza is coming soon.\""
+    },
+    {
+      "split": "train",
+      "story_id": 13402,
+      "factor": 6,
+      "text": "Once upon a time, there was a shy little girl named Lily. She liked to watch films with her mommy and daddy. One day, they went to the park to have a picnic. Lily saw a butterfly and tried to catch it, but it flew away. Later, they went to the playground. Lily saw a boy with a toy car and wanted to play too. But she was too shy to ask. As they were leaving the park, Lily saw the boy's toy car on the ground. She picked it up and gave it back to him. The boy smiled and said thank you. Then he pinched her cheek and said she was a nice girl. Lily felt happy and not so shy anymore. When they got home, they watched a film about a butterfly. Lily smiled and thought about the butterfly she saw earlier. She was glad she didn't catch it because it was free to fly wherever it wanted."
+    },
+    {
+      "split": "train",
+      "story_id": 13898,
+      "factor": 2,
+      "text": "Lily wanted to find her favorite toy, a soft bunny with long ears. She looked under her bed, in her closet, and behind the sofa, but she could not see it anywhere. She thought maybe it was in the big drawer where Mommy kept some old things. Lily pushed a chair to the drawer and climbed on it. She opened the drawer and saw many things inside: books, clothes, photos, and a shiny necklace. She reached for the necklace, but then she heard a voice. \"Lily, what are you doing?\" It was Grandma, who was visiting for the weekend. Grandma was elderly, but she was very kind and funny. She liked to tell stories and bake cookies with Lily. Lily turned around and saw Grandma standing in the doorway. She felt guilty and scared. She dropped the necklace and tried to get off the chair, but she slipped and fell. She bumped her head and started to cry. Grandma rushed to Lily and hugged her. She checked her head and said, \"Don't worry, sweetheart, it's just a little bump. You'll be fine. But why were you in the drawer? That's not a safe place to play.\" Lily sniffled and said, \"I'm sorry, Grandma. I was looking for my bunny. I can't find it anywhere. I thought maybe it was in the drawer.\" Grandma smiled and said, \"Oh, I see. Well, I have a surprise for you. I found your bunny in the guest room. I think you left it there when we read a story last night. Here, take it. It missed you very much.\" Lily took the bunny and hugged it. She felt happy and relieved. She said, \"Thank you, Grandma. I love you and I love my bunny. I'm sorry I was naughty. I won't climb on the drawer again.\" Grandma kissed Lily and said, \"I love you too, Lily. And I'm glad you're okay. But next time, if you can't find something, just ask me or Mommy. We'll help you. And remember, the drawer is not a toy. It has some things that are fragile and precious, like the necklace. It belonged to your great-grandmother. She gave it to me when I was a little girl, and I want to give it to you when you grow up. It's very special, and you have to be careful with it.\" Lily nodded and said, \"Okay, Grandma. I understand. The necklace is special, like you. Can I see it?\" Grandma nodded and said, \"Of course, Lily. Come, let's go to the drawer and I'll show you. But this time, we'll do it together, and we'll be gentle and respectful.\""
+    },
+    {
+      "split": "train",
+      "story_id": 14459,
+      "factor": 0,
+      "text": "Lily liked to read novels. Novels were books with many words and pictures. They told stories about different people and places. Lily had many novels in her room. She liked to read them before bed. One day, Lily found a novel she had never seen before. It was big and heavy. It had a red cover with a picture of a dragon. Lily liked dragons. She wanted to read the novel. She opened it and saw many words. Some words were unusual. She did not know what they meant. She asked her mom, \"Mom, what is this word?\" She pointed to a word on the page. It was \"sharp\". Mom looked at the word and said, \"Sharp means something that can cut or hurt. Like a knife or a needle. Or a dragon's teeth.\" Lily nodded. She understood. She said, \"Thank you, mom. Can I read this novel?\" Mom smiled and said, \"Yes, you can. But be careful. It might be scary. It is not for little kids.\" Lily said, \"I am not a little kid. I am brave. I can read this novel.\" Mom said, \"Okay. But if you get scared, you can always close the novel and read something else. Or you can come to me and I will hug you.\" Lily said, \"Okay, mom. I love you.\" Mom said, \"I love you too. Have fun reading.\" Lily hugged her mom and went back to her room. She opened the novel and started to read. She wanted to know more about the dragon and the people who lived with it. She hoped the novel would not be too scary. She hoped the dragon would not be too sharp."
+    },
+    {
+      "split": "train",
+      "story_id": 14538,
+      "factor": 9,
+      "text": "Timmy was very excited. His mum and dad had bought him a special bell for his bedroom. It was a big brass bell with a long, shiny handle. Whenever Timmy wanted to call his mum or dad, he just had to ring the bell. One day, his mum said, \"It's time for your exam!\" Timmy's eyes grew wide. He was a bit scared. He wasn't sure what an exam was. \"But why?\" he asked. His mum smiled. \"It's just for fun,\" she said. \"It's a silly game that we can play.\" Timmy looked at his mum and dad with big, hopeful eyes. \"It's okay,\" his dad said. \"You can ring the bell if you get stuck or need help. When you're finished, we'll all ring the bell together. Isn't that a good idea?\" Timmy nodded. He took a deep breath and started the exam. He was worried at first, but soon he was having fun. Whenever he got stuck, he'd ring the bell and get help from mum or dad. When he finished the exam, he and his parents rang the bell together. It was the best exam that Timmy had ever taken!"
+    },
+    {
+      "split": "val",
+      "story_id": 64,
+      "factor": 11,
+      "text": "Once upon a time, a chubby cat named Max had a job to deliver mail. Max was a very good cat. He had long hair that was soft and nice to touch. One day, Max had a letter to deliver to a little girl named Lily. Lily lived in a small house with her mom and dad. Max walked and walked until he got to Lily's house. Max gave the letter to Lily. She was very happy to get it. Lily said, \"Thank you, Max!\" Max was happy too. He liked to help people. Max went back to his house and took a long nap."
+    },
+    {
+      "split": "val",
+      "story_id": 89,
+      "factor": 4,
+      "text": "Tom and Lily were playing pirates in the garden. They had a big box that was their ship. They put a stick in the box for a mast and a sheet for a sail. They had hats and swords and a map. \"Ahoy, matey!\" Tom said. \"We are looking for treasure on a faraway island. Are you ready, Lily?\" \"Aye, aye, captain!\" Lily said. \"But I am hungry. Can we have a snack first?\" Tom looked at the map. He saw a red X. \"No, Lily, we have to find the treasure first. It is right here, under the big tree. Come on, let's go!\" They jumped out of the box and ran to the tree. They dug a hole with their hands and found a tin box. They opened it and saw shiny coins and jewels. \"Wow, we are rich!\" Tom said. \"We can buy anything we want!\" \"Look, Tom, there is a chocolate bar in the box too!\" Lily said. \"Can we share it?\" \"Of course, Lily, you are my best mate!\" Tom said. He broke the chocolate bar in half and gave one piece to Lily. They ate the chocolate and smiled. Suddenly, they heard a loud noise. It was their mom. She was calling them from the house. \"Tom, Lily, come inside! It is getting cold and dark. You have to wash up and get ready for dinner!\" Tom and Lily looked at each other. They did not want to leave their ship and their treasure. \"Can we play a little more, mom?\" Tom asked. \"No, Tom, you have to come inside now. It is going to freeze tonight. You don't want to catch a cold, do you?\" Mom said. Tom and Lily sighed. They put the tin box back in the hole and covered it with dirt. They took their hats and swords and ran to the house. \"Bye, bye, ship!\" Lily said. \"We will come back tomorrow and play more pirates!\" \"Bye, bye, ship!\" Tom said. \"You are the best ship ever!\""
+    },
+    {
+      "split": "val",
+      "story_id": 125,
+      "factor": 9,
+      "text": "Once upon a time, there were two best friends called Tom and Jim. Every morning they would rush to the park together and have lots of fun. Every day they would play catch with a ball, or look at the sky and pick out shapes in the clouds. But today something was different. Tom's dad had taken him to the art gallery the day before and he had seen the most incredible picture. He asked Jim if they could go back to the art gallery the next morning, forgetting that his dad had only brought him there once. Jim was confused, but he said okay anyway. The next morning they both rushed to the art gallery, so excited to see Tom's incredible picture. But when they got there, the picture was gone. All that was left were two frames that were empty. Tom was very sad, but Jim smiled and said, \"I'm sure we will find it again one day\". Tom smiled too and the two of them rushed off to the park to play. They knew that wherever it was, the incredible picture was waiting for them."
+    },
+    {
+      "split": "val",
+      "story_id": 169,
+      "factor": 4,
+      "text": "Once there was a boy called Tom who wanted to send a surprise to his friend. He put a drawing he had made in an envelope. He went to the post office to post the envelope. When he arrived, he explained to the lady at the post office what he wanted to do. The lady smiled and said, \"I can certainly help with that. What is your friend's address?\" Tom gave his friend's address and the lady put the envelope into a big box with lots of other letters and parcels. Later that day, Tom's friend received the envelope. When he opened it, he saw Tom's drawing inside. He was so happy to get such a lovely surprise. He told Tom that the surprise was \"terrible\", which meant it was very, very good. Tom was so glad his friend liked his surprise and knew how important it was to make people happy with mail."
+    },
+    {
+      "split": "val",
+      "story_id": 205,
+      "factor": 4,
+      "text": "Once upon a time, there was a little girl named Lily. One day, Lily went to visit her grandma. Her grandma had a big pot on the stove and was stirring it with a spoon. Lily asked her grandma what she was making. Her grandma said she was making soup with crystals in it. Lily didn't know what crystals were, so her grandma showed her some shiny rocks that looked like diamonds. Lily thought they were pretty. After a while, Lily's grandma started to feel tired. She asked Lily to stay alert and keep stirring the soup. Lily was happy to help her grandma. She stirred the soup carefully, making sure it didn't spill. She looked at the crystals in the soup and thought they looked like stars. She was proud of herself for being a good helper. Finally, the soup was ready. Lily's grandma said it was the best soup she ever tasted. She gave Lily a big hug and thanked her for being such a good helper. Lily felt happy and proud. She knew that stirring the soup and being alert was important. From that day on, she loved to help her grandma in the kitchen."
+    },
+    {
+      "split": "val",
+      "story_id": 991,
+      "factor": 9,
+      "text": "Sam and Mia liked to play golf with their dad. He gave them each a small stick and a ball. They went to a big field with holes in the ground. Dad showed them how to hit the ball with the stick and make it go into the hole. Sam was good at golf. He hit the ball hard and far. He made it go into the hole in a few tries. He was happy and proud. He said, \"Look, dad, I am great at golf!\" Mia was not so good at golf. She hit the ball softly and near. She missed the hole many times. She was sad and angry. She said, \"I hate golf, it is too hard!\" Sam saw Mia was upset. He wanted to make her feel better. He said, \"Don't worry, Mia, you can do it. You just need to practice more. Here, let me help you.\" He took Mia's stick and ball and showed her how to hold them. He said, \"You need to swing the stick like this, and hit the ball like this. Then it will go far and straight.\" Mia watched Sam and tried to copy him. She swung the stick and hit the ball. But she hit it too hard and in the wrong direction. The ball flew up in the air and hit dad in the head. Dad fell down and said, \"Ow, ow, ow!\" Sam and Mia ran to dad and said, \"Sorry, dad, are you okay?\" Dad rubbed his head and said, \"I'm okay, don't worry. It was an accident. But you need to be careful when you play golf. You need to look where you hit the ball and not kick it too hard. Golf is a fun game, but you need to follow the rules and be respectful of others.\" Sam and Mia nodded and said, \"We understand, dad. We are sorry we hurt you. We will be more careful next time. We love you, dad.\" Dad smiled and said, \"I love you too, kids. Now, let's go home and have some ice cream. You both did great today.\""
+    },
+    {
+      "split": "val",
+      "story_id": 1188,
+      "factor": 0,
+      "text": "Once upon a time, there was a little girl named Lily. One day, she went to the market with her mom. They were looking for some potatoes to make dinner. Lily noticed a great big potato on the shelf, and she asked her mom to buy it. Her mom said yes, and they took it home. When they got home, Lily's mom started cooking the potato. Lily was so excited to eat it because it looked so great. But when they cut it open, they noticed that it was rotten inside. They couldn't eat it, and they had to throw it away. Lily was sad because she really wanted to eat the potato. But her mom told her that sometimes things that look great on the outside can be bad on the inside. The moral of the story is to always be careful and not judge things by their appearance."
+    },
+    {
+      "split": "val",
+      "story_id": 1193,
+      "factor": 4,
+      "text": "Once upon a time there was a clumsy staff. Its name was Clumsy. Tom and Jill had never seen a staff like Clumsy before. They fed Clumsy some nice treats and wanted to play with it. Jill wanted to hold Clumsy, so Tom gave it to her. But Clumsy was so clumsy that it slipped out of Jill's hands and fell on the ground. Tom and Jill were sad when the clumsy staff was broken. So the two friends decided to make a new staff for Clumsy. They took some sticks and tied them together. Tom and Jill painted it beautiful colors and called it \"New Clumsy\". Then they gave it back to the clumsy staff. From that day forward, Clumsy was never clumsy anymore. Tom and Jill were happy and enjoyed playing with New Clumsy!"
+    },
+    {
+      "split": "val",
+      "story_id": 1218,
+      "factor": 4,
+      "text": "Once upon a time, there was a mechanic named Dave. He loved his job and enjoyed fixing things for people. One day, Dave got a very special job - he had to fix an orange truck. When Dave arrived at the garage, he couldn't believe his eyes. The truck was so orange! Dave was excited to get started on the job. But as he began to work, Dave realized it was a hard job. He worked and worked, but still the truck wouldn't work. Dave became discouraged, and was starting to give up. He thought to himself, \"I don't think I can fix it!\" Just then, Dave heard the voice of his friend, who said, \"Don't give up, Dave! If you try hard enough, you can do anything!\" With new determination and courage, Dave worked harder. In the end, he was able to fix the truck. He proved to himself that if you don't give up, and if you keep trying, you can achieve anything."
+    },
+    {
+      "split": "val",
+      "story_id": 1275,
+      "factor": 4,
+      "text": "John was tired, so he decided to take a nap. He went to his bedroom and laid on the bed.John looked around his room and noticed his big, old wardrobe. He opened it up and saw that there were lots of toys available. He was so excited that he couldn't help but smile and his eyes sparkled! John took out some dolls and toys from the wardrobe and played with them. He enjoyed himself so much that he soon fell asleep. When he woke up, he put the toys and dolls back into the wardrobe and got ready for the day ahead. From then on, John took naps every day in his bedroom. Whenever he felt tired, he knew he could always take a nap in his bed and play with the toys available in the wardrobe."
+    },
+    {
+      "split": "val",
+      "story_id": 1297,
+      "factor": 4,
+      "text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys, but she always left them on the floor when she was done. One day, her mom told her that she needed to start cleaning up after herself. Lily didn't want to clean up, but she knew it was the right thing to do. So, she started to lift her toys and put them away. It was hard work, but she felt proud of herself when she was done. Later that day, Lily's family gathered around the fireplace to tell stories and drink hot cocoa. But, they couldn't start the fire because there was no wood available. Lily remembered that she had some sticks outside that she could use. She went outside, gathered the sticks, and brought them back to the fireplace. Everyone was so happy that Lily had helped out. They all learned that it's important to clean up after yourself and to help others when you can."
+    },
+    {
+      "split": "val",
+      "story_id": 1422,
+      "factor": 11,
+      "text": "Once upon a time there was an ancient track. Nobody ever used it, because it was hidden by trees and bushes. One day, a big black cat came to the track. He looked around, walked a few steps, then stopped. He seemed to like the track very much! He went back to his home and told all his friends to come and visit the track. He said it was the best place ever! Soon, all the animals from all over the forest started to visit the track. They were so excited to play together in this place that had been forgotten for so long. The animals decided to do something special. They wanted to make sure the track stayed their secret forever. So, they decided to lock it. They snuck out one night and put a big lock on the track. Now no one else could find it but the animals. They had their own secret ancient track!"
+    },
+    {
+      "split": "val",
+      "story_id": 1695,
+      "factor": 0,
+      "text": "Once upon a time, there was a little boy named Tim. Tim loved cookies. One day, he thought of a brilliant idea. He wanted to sell cookies to his friends. Tim asked his mom to help him make cookies. They made many yummy cookies. Tim put the cookies in a big box. He was ready to sell them. Tim went to his friends' houses. He said, \"I have cookies to sell!\" His friends were happy. They bought cookies from Tim. Tim was very proud of his brilliant idea. And they all enjoyed the yummy cookies together."
+    },
+    {
+      "split": "val",
+      "story_id": 1884,
+      "factor": 4,
+      "text": "Once upon a time, there was a little girl named Lily. She loved to play outside and explore the world around her. One day, she went for a walk in the woods and noticed how quiet it was. The silence seemed strange and mysterious to her. As she walked further, she saw a small pond. She saw some fish swimming in the water and they seemed to be having fun. But then, Lily noticed something else. There was a mysterious creature hiding in the bushes. She couldn't see it clearly, but it seemed to be watching her. Lily felt a little scared, but she decided to be brave and investigate. She slowly walked towards the bushes and peeked inside. To her surprise, she saw a cute little bunny hiding there. It wasn't mysterious at all! Lily felt relieved and happy to have made a new friend. From that day on, she visited the bunny every time she went for a walk in the woods."
+    },
+    {
+      "split": "val",
+      "story_id": 1904,
+      "factor": 11,
+      "text": "Once upon a time, there was a little girl named Lily. She lived in a small house with her mom and her cat, Daisy. Every day, Lily and Daisy would go for a walk down a path near their house. They loved to see the flowers, trees, and birds. One sunny day, Lily and Daisy met a new friend on the path. It was a tiny ant. The ant said, \"Hello, I am Andy the Ant. Can you please help me? I need some water for my family.\" Lily wanted to be useful, so she said, \"Yes, I can help you, Andy.\" Lily found a small cup and poured some water from a nearby stream. She carried the cup back to Andy and his family. The ants were very happy and thanked Lily for her help. From that day on, Lily, Daisy, and Andy the Ant became best friends and had many fun adventures together on the path."
+    },
+    {
+      "split": "val",
+      "story_id": 1955,
+      "factor": 4,
+      "text": "The sun was shining and the birds were singing. Sam saw a stick lying on the ground. He decided to pick it up. But when he went to grab it, he realised that it wasn't an ordinary stick. It was furry! Sam was surprised. He tried to pick it up again, but the stick started to move! Sam was amazed. It was a fuzzy little animal. He could see it was a squirrel. The squirrel ran away quickly and Sam couldn't catch him. Sam was very disappointed. He wanted to play with the furry squirrel. Suddenly he had an idea. He went and got some nuts from his house. Then he put the nuts near the tree where the squirrel had gone. He waited patiently. Finally the squirrel came back. Sam put some of the nuts in his hand and waited. The squirrel came up to Sam and started to eat the nuts right out of his hand, much to Sam's delight. Sam and the squirrel were now friends. Every afternoon they played together, running and chasing each other around the park. Sam was happy to have a new furry friend."
+    }
+  ]
+}

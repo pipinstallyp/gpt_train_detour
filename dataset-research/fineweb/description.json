@@ -1,0 +1,134 @@
+{
+  "dataset_id": "fineweb_and_fineweb_edu_original_research",
+  "reviewed_on": "2026-10-25",
+  "scope": "Original 2024 research, paper v2; living release/model cards are supplementary documentation",
+  "independent_corpus_sample_size": 0,
+  "descriptors": {
+    "purpose": {
+      "description": "Parent corpus: web pretraining. Edu subset: educational-value selection.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
+      ],
+      "uncertainty": "Educational selection is not the same objective as narrative consistency."
+    },
+    "source_and_unit": {
+      "description": "Web documents from Common Crawl; the original research describes extraction, filtering and deduplication.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://arxiv.org/html/2406.17557v2"
+      ],
+      "uncertainty": "This review does not inspect all later revisions or reconstruct individual documents."
+    },
+    "topics_and_knowledge": {
+      "description": "The reported Edu mix favors education/teaching and history/culture/politics, while reducing business/finance/law, entertainment and travel-related clusters relative to the parent corpus.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://arxiv.org/html/2406.17557v2#S4.SS1"
+      ],
+      "uncertainty": "No task/topic prevalence estimates were independently measured here."
+    },
+    "reasoning_operations": {
+      "description": "Knowledge/reasoning benchmark results are available; coverage of each Nous operation is unmeasured.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://huggingfacefw-blogpost-fineweb-v1.static.hf.space/index.html"
+      ],
+      "uncertainty": "Aggregate benchmark improvement cannot certify a specific operation in the corpus."
+    },
+    "supervision_and_solution_structure": {
+      "description": "Document text supplies a pretraining signal. Per-record reasoning demonstrations, exercises and verified solutions have not been annotated here.",
+      "evidence_level": "inference",
+      "evidence": [
+        "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
+      ],
+      "uncertainty": "A document about mathematics need not require a mathematical inference."
+    },
+    "language_and_communication": {
+      "description": "English web text; linguistic registers and communication styles need a sampled audit.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
+      ],
+      "uncertainty": "Educational score does not give a syntax/readability distribution."
+    },
+    "quality": {
+      "description": "Edu uses a school-focused 0-5 rubric. Reported threshold-3 binary F1 is 0.82 against synthetic teacher labels.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://huggingface.co/HuggingFaceFW/fineweb-edu-classifier"
+      ],
+      "uncertainty": "Not independent human quality agreement. The card reports weaker fine-grained class prediction and possible academic-style bias."
+    },
+    "difficulty_and_prerequisites": {
+      "description": "Difficulty for our target model is unknown.",
+      "evidence_level": "unknown",
+      "evidence": [],
+      "uncertainty": "Requires probes and prerequisites calibrated to a specified model."
+    },
+    "dependency_and_context": {
+      "description": "The relevant fact-to-answer distances and effects of truncation are unmeasured here.",
+      "evidence_level": "unknown",
+      "evidence": [],
+      "uncertainty": "Document length alone does not measure reasoning dependency length."
+    },
+    "diversity_and_redundancy": {
+      "description": "The parent pipeline includes fuzzy deduplication, with the choice evaluated experimentally.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://arxiv.org/html/2406.17557v2"
+      ],
+      "uncertainty": "Remaining semantic/template diversity is not independently measured here."
+    },
+    "balance_and_exposure": {
+      "description": "The original research describes 15T parent and 1.3T Edu tokens; educational filtering changes the retained mix.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu",
+        "https://huggingfacefw-blogpost-fineweb-v1.static.hf.space/index.html"
+      ],
+      "uncertainty": "These are historical release-scale figures, not current-corpus or per-task measurements."
+    },
+    "annotation_trust": {
+      "description": "The scorer learns from Llama-generated annotations; its card documents evaluation and limitations.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://huggingface.co/HuggingFaceFW/fineweb-edu-classifier"
+      ],
+      "uncertainty": "Transfer to another corpus/objective and agreement with humans remain separate questions."
+    },
+    "leakage_and_generalization": {
+      "description": "No independent contamination or family-level leakage audit was run here.",
+      "evidence_level": "unknown",
+      "evidence": [],
+      "uncertainty": "Published benchmark results do not imply every possible downstream split is uncontaminated."
+    },
+    "model_compatibility": {
+      "description": "Compatibility with our 80-character alphabet and short context has not been established.",
+      "evidence_level": "inference",
+      "evidence": [
+        "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu",
+        "../tinystories-mini/description.json"
+      ],
+      "uncertainty": "Encoding, context and preprocessing must be declared before combining the corpora."
+    },
+    "empirical_utility": {
+      "description": "The general ablation setup matches 1.71B architectures and token budgets, using two seeds/subsets; larger comparisons use 350B tokens.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://arxiv.org/html/2406.17557v2#S3.SS1"
+      ],
+      "uncertainty": "Not replicated here and not a demonstrated gain for our character model."
+    },
+    "access_and_reproducibility": {
+      "description": "Public dataset/classifier documentation and processing/evaluation resources are linked; compilation license is ODC-By.",
+      "evidence_level": "author_reported",
+      "evidence": [
+        "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
+      ],
+      "uncertainty": "Pin the actual selected dataset revision and preserve its terms before a new experiment."
+    }
+  },
+  "task_prevalence": null,
+  "mixture_recommendation": null
+}

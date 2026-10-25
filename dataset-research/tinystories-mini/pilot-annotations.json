@@ -1,0 +1,272 @@
+{
+  "scope": "Eight selected examples from the existing uniform 32-story pilot; diagnostic selection, not prevalence estimation",
+  "label_status": "Provisional assistant judgments; candidate task links are not verified task coverage",
+  "annotations": [
+    {
+      "id": "mini-train-4426",
+      "split": "train",
+      "story_id": 4426,
+      "text_sha256": "6761ee4fd2a93e52fa29185eb637ba497ca3579a2650c2383f6d1ac1eb2284a6",
+      "topic_tags": [
+        "school",
+        "friendship",
+        "emotions"
+      ],
+      "study_families": [
+        "social_mental_state",
+        "temporal"
+      ],
+      "reasoning_signal_level": "implicit",
+      "candidate_ort_tasks": [
+        "inferring-emotional-states",
+        "sequencing-events"
+      ],
+      "ort_task_coverage_verified": false,
+      "quality_observation": {
+        "axis": "topic_validity",
+        "value": "clear_issue",
+        "note": "Teddy is a human child; the original bear/woodland lexical assignment is not a validated topic label."
+      },
+      "evidence": {
+        "start": 19,
+        "end": 86,
+        "text": "He was three years old and was going to his first day of preschool."
+      },
+      "reviewer_type": "assistant",
+      "evidence_level": "pilot_review",
+      "independent_review": false
+    },
+    {
+      "id": "mini-train-11733",
+      "split": "train",
+      "story_id": 11733,
+      "text_sha256": "abb43074015ce6afa703312dd22ff84b18b2f2126b76eb69b7f368b309691b0a",
+      "topic_tags": [
+        "music",
+        "baking",
+        "family"
+      ],
+      "study_families": [
+        "planning_decisions",
+        "causal_systems"
+      ],
+      "reasoning_signal_level": "implicit",
+      "candidate_ort_tasks": [
+        "identifying-cause-and-effect-relationships"
+      ],
+      "ort_task_coverage_verified": false,
+      "quality_observation": {
+        "axis": "causal_sufficiency",
+        "value": "mixed",
+        "note": "The supplied action is weakly connected to the requested song-making help."
+      },
+      "evidence": {
+        "start": 162,
+        "end": 316,
+        "text": "One day, Timmy wanted to make a special song, so he asked his mom for some help. She gave him some flour, sugar, and eggs to mix together to make cookies."
+      },
+      "reviewer_type": "assistant",
+      "evidence_level": "pilot_review",
+      "independent_review": false
+    },
+    {
+      "id": "mini-train-12756",
+      "split": "train",
+      "story_id": 12756,
+      "text_sha256": "85c5db4c7de4ea468419c43c5b17fc182a53ce13bd57ed6d69c2dbcbf1ee3971",
+      "topic_tags": [
+        "food",
+        "family",
+        "preferences"
+      ],
+      "study_families": [
+        "social_mental_state",
+        "planning_decisions"
+      ],
+      "reasoning_signal_level": "implicit",
+      "candidate_ort_tasks": [
+        "prioritizing-conflicting-goals"
+      ],
+      "ort_task_coverage_verified": false,
+      "quality_observation": {
+        "axis": "semantic_correctness",
+        "value": "unknown",
+        "note": "Preference/refusal signals are present; this is not a validated explicit conflicting-goals task."
+      },
+      "evidence": {
+        "start": 856,
+        "end": 917,
+        "text": "They do not want to eat the soup. They push their bowls away."
+      },
+      "reviewer_type": "assistant",
+      "evidence_level": "pilot_review",
+      "independent_review": false
+    },
+    {
+      "id": "mini-train-13898",
+      "split": "train",
+      "story_id": 13898,
+      "text_sha256": "2d79b679d5952245c6cfea5d271114a52ee7a2c790750f87132759acf3cd7333",
+      "topic_tags": [
+        "family",
+        "toys",
+        "object_locations"
+      ],
+      "study_families": [
+        "spatial",
+        "planning_decisions",
+        "temporal"
+      ],
+      "reasoning_signal_level": "implicit",
+      "candidate_ort_tasks": [
+        "describing-spatial-relationships",
+        "sequencing-events"
+      ],
+      "ort_task_coverage_verified": false,
+      "quality_observation": {
+        "axis": "entity_state_consistency",
+        "value": "unknown",
+        "note": "A location update is present. It does not by itself establish a controlled false-belief problem."
+      },
+      "evidence": {
+        "start": 1256,
+        "end": 1293,
+        "text": "I found your bunny in the guest room."
+      },
+      "reviewer_type": "assistant",
+      "evidence_level": "pilot_review",
+      "independent_review": false
+    },
+    {
+      "id": "mini-val-169",
+      "split": "val",
+      "story_id": 169,
+      "text_sha256": "feff65585971917ff6e2728c3a7b467ad6d5ea0aa08f40ea2508df01b334ec7d",
+      "topic_tags": [
+        "communication",
+        "mail",
+        "friendship"
+      ],
+      "study_families": [
+        "linguistic_pragmatic"
+      ],
+      "reasoning_signal_level": "demonstrated",
+      "candidate_ort_tasks": [
+        "interpreting-ambiguous-statements"
+      ],
+      "ort_task_coverage_verified": false,
+      "quality_observation": {
+        "axis": "semantic_correctness",
+        "value": "clear_issue",
+        "note": "An ordinary negative word is explicitly assigned a positive meaning without an irony explanation."
+      },
+      "evidence": {
+        "start": 624,
+        "end": 688,
+        "text": "the surprise was \"terrible\", which meant it was very, very good."
+      },
+      "reviewer_type": "assistant",
+      "evidence_level": "pilot_review",
+      "independent_review": false
+    },
+    {
+      "id": "mini-val-991",
+      "split": "val",
+      "story_id": 991,
+      "text_sha256": "4992a8fd5f45331e24877c7744b977e32916d001b98d6d02dd1acf6e9913f44b",
+      "topic_tags": [
+        "sports",
+        "family",
+        "learning"
+      ],
+      "study_families": [
+        "causal_systems",
+        "social_mental_state"
+      ],
+      "reasoning_signal_level": "implicit",
+      "candidate_ort_tasks": [
+        "identifying-cause-and-effect-relationships"
+      ],
+      "ort_task_coverage_verified": false,
+      "quality_observation": {
+        "axis": "semantic_correctness",
+        "value": "mixed",
+        "note": "The action verb changes to kicking within a golf scene previously using a stick."
+      },
+      "evidence": {
+        "start": 1321,
+        "end": 1342,
+        "text": "not kick it too hard."
+      },
+      "reviewer_type": "assistant",
+      "evidence_level": "pilot_review",
+      "independent_review": false
+    },
+    {
+      "id": "mini-val-1218",
+      "split": "val",
+      "story_id": 1218,
+      "text_sha256": "c7bfe7ac2bcc345697fad0794e0f62a955af20ed8bb1b0336aece52e66f3dc42",
+      "topic_tags": [
+        "work",
+        "vehicles",
+        "perseverance"
+      ],
+      "study_families": [
+        "planning_decisions",
+        "causal_systems"
+      ],
+      "reasoning_signal_level": "implicit",
+      "candidate_ort_tasks": [
+        "generating-creative-solutions"
+      ],
+      "ort_task_coverage_verified": false,
+      "quality_observation": {
+        "axis": "causal_sufficiency",
+        "value": "unknown",
+        "note": "The story supplies an outcome after encouragement but no inspectable repair mechanism. Do not infer mechanical problem-solving coverage."
+      },
+      "evidence": {
+        "start": 711,
+        "end": 752,
+        "text": "In the end, he was able to fix the truck."
+      },
+      "reviewer_type": "assistant",
+      "evidence_level": "pilot_review",
+      "independent_review": false
+    },
+    {
+      "id": "mini-val-64",
+      "split": "val",
+      "story_id": 64,
+      "text_sha256": "a4a20225deb23b04b55d42dbb85dd961dd3e347fef156022602cf25ffbd3ea9b",
+      "topic_tags": [
+        "animals",
+        "work",
+        "communication"
+      ],
+      "study_families": [
+        "planning_decisions",
+        "temporal"
+      ],
+      "reasoning_signal_level": "implicit",
+      "candidate_ort_tasks": [
+        "sequencing-events"
+      ],
+      "ort_task_coverage_verified": false,
+      "quality_observation": {
+        "axis": "semantic_correctness",
+        "value": "unknown",
+        "note": "Anthropomorphic fiction is not itself a semantic defect; delivery and gratitude are narrative signals."
+      },
+      "evidence": {
+        "start": 18,
+        "end": 67,
+        "text": "a chubby cat named Max had a job to deliver mail."
+      },
+      "reviewer_type": "assistant",
+      "evidence_level": "pilot_review",
+      "independent_review": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "record_id": "<split and immutable row/hash>",
+  "source": "<source path/revision>",
+  "topics": [],
+  "communication_styles": [],
+  "reasoning_operations": [
+    {
+      "ort_task_id": "<optional upstream task slug>",
+      "operation": "<what must be inferred or tracked>",
+      "signal_level": "mentioned|implicit|demonstrated|elicited|validated",
+      "evidence_span": "<exact source span>",
+      "necessary_for_answer": "unknown",
+      "verification_method": null
+    }
+  ],
+  "quality": {
+    "linguistic_well_formedness": "unknown",
+    "semantic_correctness": "unknown",
+    "entity_state_consistency": "unknown",
+    "causal_sufficiency": "unknown",
+    "factual_grounding": "not_applicable",
+    "instruction_answer_alignment": "not_applicable",
+    "repetition_and_format": "unknown"
+  },
+  "quality_evidence": [],
+  "difficulty": {"target_model": null, "prerequisites": [], "steps": null},
+  "context": {"required_dependency_distance": null, "unit": null},
+  "annotation": {
+    "reviewer_type": "<human|assistant|classifier>",
+    "evidence_level": "pilot_review",
+    "confidence": "<low|medium|high>",
+    "independent_review": false,
+    "notes": "Template only; no labels or prevalence implied."
+  }
+}

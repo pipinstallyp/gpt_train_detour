@@ -1,0 +1,143 @@
+{
+  "checkpoint_sha256": "0f31b39929031a50161ff21576783d12182e9e212a556102bf3d2ef2aba0c0a2",
+  "device": "cuda",
+  "full_packed_validation": {
+    "targets": 1777321,
+    "loss": 1.02961700620963
+  },
+  "all_story_internal_targets": {
+    "stories": 2000,
+    "targets": 1771323,
+    "loss_reset256": 1.0234558008398287,
+    "loss_more_context_stride64": 1.0127331742265684
+  },
+  "slices": {
+    "factor_0": {
+      "stories": 259,
+      "targets": 245084,
+      "loss_reset256": 0.9997988329490685,
+      "loss_more_context_stride64": 0.9880072162091791
+    },
+    "factor_1": {
+      "stories": 95,
+      "targets": 75008,
+      "loss_reset256": 1.0085617355516008,
+      "loss_more_context_stride64": 0.9994206472972261
+    },
+    "factor_2": {
+      "stories": 137,
+      "targets": 103749,
+      "loss_reset256": 0.9662099886455771,
+      "loss_more_context_stride64": 0.9553136354996271
+    },
+    "factor_3": {
+      "stories": 65,
+      "targets": 59808,
+      "loss_reset256": 0.9879151016554495,
+      "loss_more_context_stride64": 0.976715338634653
+    },
+    "factor_4": {
+      "stories": 854,
+      "targets": 697701,
+      "loss_reset256": 1.0425248494383286,
+      "loss_more_context_stride64": 1.0333002764838706
+    },
+    "factor_5": {
+      "stories": 100,
+      "targets": 149327,
+      "loss_reset256": 1.047442253900144,
+      "loss_more_context_stride64": 1.0308123060650554
+    },
+    "factor_6": {
+      "stories": 100,
+      "targets": 86333,
+      "loss_reset256": 0.9728781466960007,
+      "loss_more_context_stride64": 0.962746184064887
+    },
+    "factor_7": {
+      "stories": 80,
+      "targets": 69611,
+      "loss_reset256": 1.0515494818585442,
+      "loss_more_context_stride64": 1.0408695251851159
+    },
+    "factor_8": {
+      "stories": 68,
+      "targets": 58594,
+      "loss_reset256": 1.0259490614926632,
+      "loss_more_context_stride64": 1.0152583644340831
+    },
+    "factor_9": {
+      "stories": 125,
+      "targets": 126044,
+      "loss_reset256": 1.0554894220460724,
+      "loss_more_context_stride64": 1.0444641094337372
+    },
+    "factor_10": {
+      "stories": 50,
+      "targets": 48186,
+      "loss_reset256": 0.9722093272805326,
+      "loss_more_context_stride64": 0.9605373850080927
+    },
+    "factor_11": {
+      "stories": 67,
+      "targets": 51878,
+      "loss_reset256": 1.0001343739575503,
+      "loss_more_context_stride64": 0.9904702770275233
+    },
+    "starts_once_upon_a_time_0": {
+      "stories": 770,
+      "targets": 843274,
+      "loss_reset256": 1.053490809427723,
+      "loss_more_context_stride64": 1.04147155680792
+    },
+    "starts_once_upon_a_time_1": {
+      "stories": 1230,
+      "targets": 928049,
+      "loss_reset256": 0.9961644166220256,
+      "loss_more_context_stride64": 0.986619972409739
+    },
+    "dialogue_quote_marker_0": {
+      "stories": 797,
+      "targets": 595600,
+      "loss_reset256": 1.0139905796472992,
+      "loss_more_context_stride64": 1.0059273888637195
+    },
+    "dialogue_quote_marker_1": {
+      "stories": 1203,
+      "targets": 1175723,
+      "loss_reset256": 1.0282507106461953,
+      "loss_more_context_stride64": 1.016180861957533
+    },
+    "explicit_lesson_marker_0": {
+      "stories": 1697,
+      "targets": 1447720,
+      "loss_reset256": 1.0262269460574502,
+      "loss_more_context_stride64": 1.0157836263671876
+    },
+    "explicit_lesson_marker_1": {
+      "stories": 303,
+      "targets": 323603,
+      "loss_reset256": 1.0110583806847153,
+      "loss_more_context_stride64": 0.9990862037936084
+    },
+    "length_short": {
+      "stories": 252,
+      "targets": 133266,
+      "loss_reset256": 0.978536895093664,
+      "loss_more_context_stride64": 0.9717671552561251
+    },
+    "length_medium": {
+      "stories": 1339,
+      "targets": 1033744,
+      "loss_reset256": 1.0213712845556648,
+      "loss_more_context_stride64": 1.0121725950824547
+    },
+    "length_long": {
+      "stories": 409,
+      "targets": 604313,
+      "loss_reset256": 1.03692732816892,
+      "loss_more_context_stride64": 1.0227261295508256
+    }
+  },
+  "protocol": "Float32 eval mode, no weight changes. Packed protocol scores every val.txt next-character target once. Story protocols reset at each story, omit its first character and separators, and score each remaining target once. stride256 uses non-overlapping blocks; stride64 overlaps inputs so later targets usually see 193-256 preceding characters. Slice labels are lexical factors or explicit string markers, not semantic quality labels. Differences between slices are observational, not causal."
+}

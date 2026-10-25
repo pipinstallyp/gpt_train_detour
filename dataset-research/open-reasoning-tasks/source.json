@@ -1,0 +1,19 @@
+{
+  "repository": "NousResearch/Open-Reasoning-Tasks",
+  "commit": "35df7000b8f636178e303add868415b30f92cad0",
+  "retrieved_on": "2026-10-25",
+  "archive_sha256": "d8de09d51d5255c890ea38035abc0b5674f81d92446ca053b0d698a264b370b4",
+  "license": "Apache-2.0",
+  "copied_source_files": [
+    {
+      "upstream_path": "task-template.md",
+      "local_path": "task-template.upstream.md",
+      "sha256": "34644ca5e7e6a19877687a79c34445a7f85067432847bd7dc4d61fced2367c57"
+    },
+    {
+      "upstream_path": "LICENSE",
+      "local_path": "LICENSE.upstream",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ]
+}

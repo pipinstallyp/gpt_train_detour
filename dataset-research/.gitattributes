@@ -1,0 +1,3 @@
+tinystories-mini/evidence/** -text -whitespace
+open-reasoning-tasks/*.upstream* -text -whitespace
+*.ipynb text eol=lf

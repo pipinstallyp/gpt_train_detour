@@ -1,0 +1,154 @@
+{
+  "dataset_id": "tinystories_mini_20000",
+  "reviewed_on": "2026-10-25",
+  "scope": "Exact local subset and saved one-epoch checkpoint",
+  "corpus_sha256": "684657e655d597a273cba61457521c7dd1b2b4a827764b9172b22755da26f979",
+  "checkpoint_sha256": "0f31b39929031a50161ff21576783d12182e9e212a556102bf3d2ef2aba0c0a2",
+  "measurements": {
+    "stories": 20000,
+    "train_stories": 18000,
+    "validation_stories": 2000,
+    "full_packed_validation_targets": 1777321,
+    "full_packed_validation_loss": 1.02961700620963,
+    "longest_20pct_character_share": 0.3401065612949795
+  },
+  "descriptors": {
+    "purpose": {
+      "description": "A baseline for studying character-level language learning and narrative generation.",
+      "evidence_level": "inference",
+      "evidence": [
+        "../../notebooks/TinyStories.ipynb"
+      ],
+      "uncertainty": "Desired capabilities need separate held-out tests."
+    },
+    "source_and_unit": {
+      "description": "20,000 filtered unique stories, selected sequentially then shuffled; 18,000/2,000 story split.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "../../data/tinystories/manifest.json"
+      ],
+      "uncertainty": "Not a uniform full-corpus sample; generator/model/prompt-family mixture is not retained."
+    },
+    "topics_and_knowledge": {
+      "description": "Reviewed examples include family, play, animals, school, food, communication and work.",
+      "evidence_level": "pilot_review",
+      "evidence": [
+        "evidence/review_sample.json",
+        "pilot-annotations.json"
+      ],
+      "uncertainty": "Multi-label topic prevalence and rare-topic coverage remain unmeasured."
+    },
+    "reasoning_operations": {
+      "description": "Pilot narratives contain goals, actions, consequences, event sequences, preferences and object/location updates.",
+      "evidence_level": "pilot_review",
+      "evidence": [
+        "pilot-annotations.json"
+      ],
+      "uncertainty": "These are mostly implicit signals, not validated coverage of explicit Nous tasks or learned ability."
+    },
+    "supervision_and_solution_structure": {
+      "description": "Plain stories are trained by next-character prediction; no independently verified reasoning targets or rationales are provided.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "../../notebooks/TinyStories.ipynb"
+      ],
+      "uncertainty": "Useful narrative relations may be implicit; self-contained prose is not a solution-verification method."
+    },
+    "language_and_communication": {
+      "description": "Normalized printable ASCII with an observed 80-character vocabulary; narrative and dialogue styles appear in the pilot.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "../../data/tinystories/manifest.json",
+        "evidence/review_sample.json"
+      ],
+      "uncertainty": "The existing lexical factors do not constitute a validated syntactic/style taxonomy."
+    },
+    "quality": {
+      "description": "The pilot records word-meaning, causal-bridge and entity/action issues, alongside valid anthropomorphic fiction.",
+      "evidence_level": "pilot_review",
+      "evidence": [
+        "pilot-annotations.json",
+        "evidence/report.txt"
+      ],
+      "uncertainty": "No corpus-wide defect rate or independent rater agreement is available."
+    },
+    "difficulty_and_prerequisites": {
+      "description": "Full per-story checkpoint loss is measured for 2,000 held-out stories.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "evidence/validation_per_story.csv"
+      ],
+      "uncertainty": "Loss reflects predictability under this model/protocol; it is not a semantic quality or general difficulty score."
+    },
+    "dependency_and_context": {
+      "description": "All retained stories exceed the 256-character context; the median training story spans about three such windows.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "evidence/exposure.json",
+        "evidence/report.txt"
+      ],
+      "uncertainty": "Dependency distances are not annotated; changing evaluation windows does not establish the effect of longer-context training."
+    },
+    "diversity_and_redundancy": {
+      "description": "Exact cross-split overlap was zero. Existing lexical similarity checks and repeated phrases are available.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "../../support/results/tinystories-data-analysis/name_masked/summary.json"
+      ],
+      "uncertainty": "Semantic duplicate families and generator-template families remain unmeasured."
+    },
+    "balance_and_exposure": {
+      "description": "The longest 20% of training stories contribute 34.01% of story characters; record and character mixes differ.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "evidence/exposure.json"
+      ],
+      "uncertainty": "Characters exclude story separators; exposure does not directly measure gradient influence."
+    },
+    "annotation_trust": {
+      "description": "The fixed 32-story review and new pilot annotations are one assistant pass.",
+      "evidence_level": "pilot_review",
+      "evidence": [
+        "evidence/review_sample.json",
+        "pilot-annotations.json"
+      ],
+      "uncertainty": "No independent review, calibrated rubric or population-level semantic labels yet."
+    },
+    "leakage_and_generalization": {
+      "description": "Held-out stories were split from the selected upstream training file.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "../../data/tinystories/manifest.json"
+      ],
+      "uncertainty": "This is not the upstream official validation split; paraphrase leakage is unresolved."
+    },
+    "model_compatibility": {
+      "description": "The recorded model uses an 80-character alphabet, 256-character blocks, and packed story boundaries without a special EOS token.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "../../support/configs/baselines.json"
+      ],
+      "uncertainty": "Different tokenization, boundaries or context would be separate training interventions."
+    },
+    "empirical_utility": {
+      "description": "A one-epoch baseline exists; the new full packed validation loss is 1.029617.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "evidence/evaluation.json"
+      ],
+      "uncertainty": "No equal-budget mix intervention or repeated training-seed study has established which slices improve learning."
+    },
+    "access_and_reproducibility": {
+      "description": "Exact data, source hashes, checkpoint lineage, audit code and outputs are available; story text retains CDLA-Sharing-1.0.",
+      "evidence_level": "measured_local",
+      "evidence": [
+        "../../data/tinystories/manifest.json",
+        "DATA_LICENSE.txt",
+        "evidence/audit.py"
+      ],
+      "uncertainty": "Reproduction of the audit code expects the documented original Runpod paths and environment."
+    }
+  },
+  "task_prevalence": null,
+  "mixture_recommendation": null
+}

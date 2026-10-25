@@ -1,0 +1,2512 @@
+{
+  "source_commit": "35df7000b8f636178e303add868415b30f92cad0",
+  "grouping_is_ours": true,
+  "tasks": [
+    {
+      "id": "analogical-problem-solving",
+      "name": "Analogical Problem Solving",
+      "study_family": "analogy",
+      "upstream_markdown": "tasks/analogical-problem-solving.md",
+      "upstream_json": "tasks-json/analogical-problem-solving.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/analogical-problem-solving.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Problem Solving",
+        "Analogical Reasoning",
+        "Creative Thinking",
+        "Interdisciplinary Application",
+        "Systems Thinking",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "analogy-creation",
+      "name": "Analogy Creation",
+      "study_family": "analogy",
+      "upstream_markdown": "tasks/analogy-creation.md",
+      "upstream_json": "tasks-json/analogy-creation.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/analogy-creation.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Creative Thinking",
+        "Abstract Reasoning",
+        "Conceptual Mapping",
+        "Communication",
+        "Explanatory Skills",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "analyzing-cultural-differences",
+      "name": "Analyzing Cultural Differences",
+      "study_family": "ethical_cultural",
+      "upstream_markdown": "tasks/analyzing-cultural-differences.md",
+      "upstream_json": "tasks-json/analyzing-cultural-differences.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/analyzing-cultural-differences.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Cultural Analysis",
+        "Comparative Studies",
+        "Social Norms",
+        "Cross-Cultural Communication",
+        "Global Awareness",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "analyzing-decision-making-processes",
+      "name": "Analyzing Decision-Making Processes",
+      "study_family": "planning_decisions",
+      "upstream_markdown": "tasks/analyzing-decision-making-processes.md",
+      "upstream_json": "tasks-json/analyzing-decision-making-processes.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/analyzing-decision-making-processes.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Decision Analysis",
+        "Problem Solving",
+        "Strategic Planning",
+        "Risk Assessment",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "analyzing-decision-trees",
+      "name": "Analyzing Decision Trees",
+      "study_family": "planning_decisions",
+      "upstream_markdown": "tasks/analyzing-decision-trees.md",
+      "upstream_json": "tasks-json/analyzing-decision-trees.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/analyzing-decision-trees.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Decision Making",
+        "Logical Reasoning",
+        "Tree Structures",
+        "Conditional Logic",
+        "Problem Diagnosis",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "analyzing-historical-counterfactuals",
+      "name": "Analyzing Historical Counterfactuals",
+      "study_family": "counterfactual_forecasting",
+      "upstream_markdown": "tasks/analyzing-historical-counterfactuals.md",
+      "upstream_json": "tasks-json/analyzing-historical-counterfactuals.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/analyzing-historical-counterfactuals.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Historical Analysis",
+        "Counterfactual Thinking",
+        "Cause and Effect",
+        "Critical Thinking",
+        "Scenario Planning",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "analyzing-rhetorical-strategies",
+      "name": "Analyzing Rhetorical Strategies",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/analyzing-rhetorical-strategies.md",
+      "upstream_json": "tasks-json/analyzing-rhetorical-strategies.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/analyzing-rhetorical-strategies.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Rhetoric",
+        "Persuasion",
+        "Communication Analysis",
+        "Critical Thinking",
+        "Language",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "assessing-risk-and-uncertainty",
+      "name": "Assessing Risk and Uncertainty",
+      "study_family": "planning_decisions",
+      "upstream_markdown": "tasks/assessing-risk-and-uncertainty.md",
+      "upstream_json": "tasks-json/assessing-risk-and-uncertainty.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/assessing-risk-and-uncertainty.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Risk Assessment",
+        "Decision Making",
+        "Probability",
+        "Scenario Analysis",
+        "Critical Thinking",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "bias-detection",
+      "name": "Bias Detection",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/bias-detection.md",
+      "upstream_json": "tasks-json/bias-detection.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/bias-detection.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Bias Identification",
+        "Data Interpretation",
+        "Logical Reasoning",
+        "Research Methodology"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "bias-mitigation",
+      "name": "Bias Mitigation",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/bias-mitigation.md",
+      "upstream_json": "tasks-json/bias-mitigation.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/bias-mitigation.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Bias Correction",
+        "Logical Reasoning",
+        "Data Interpretation",
+        "Objective Analysis"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "calculating-probabilities",
+      "name": "Calculating Probabilities",
+      "study_family": "quantitative",
+      "upstream_markdown": "tasks/calculating-probabilities.md",
+      "upstream_json": "tasks-json/calculating-probabilities.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/calculating-probabilities.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Mathematics",
+        "Probability Theory",
+        "Statistical Reasoning",
+        "Problem Solving",
+        "Quantitative Analysis"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "categorizing-information-into-hierarchies",
+      "name": "Categorizing Information into Hierarchies",
+      "study_family": "induction_classification",
+      "upstream_markdown": "tasks/categorizing-information-into-hierarchies.md",
+      "upstream_json": "tasks-json/categorizing-information-into-hierarchies.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/categorizing-information-into-hierarchies.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Classification",
+        "Hierarchical Thinking",
+        "Conceptual Organization",
+        "Pattern Recognition",
+        "Logical Structuring",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "causal-chain-analysis",
+      "name": "Causal Chain Analysis",
+      "study_family": "causal_systems",
+      "upstream_markdown": "tasks/causal-chain-analysis.md",
+      "upstream_json": "tasks-json/causal-chain-analysis.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/causal-chain-analysis.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Cause and Effect",
+        "Systems Thinking",
+        "Environmental Science",
+        "Economics",
+        "Complex Systems Analysis",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "completing-analogies",
+      "name": "Completing Analogies",
+      "study_family": "analogy",
+      "upstream_markdown": "tasks/completing-analogies.md",
+      "upstream_json": "tasks-json/completing-analogies.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/completing-analogies.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Language",
+        "Reasoning",
+        "Analogies",
+        "Vocabulary",
+        "Relationships"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "constructing-valid-arguments",
+      "name": "Constructing Valid Arguments",
+      "study_family": "deduction_logic",
+      "upstream_markdown": "tasks/constructing-valid-arguments.md",
+      "upstream_json": "tasks-json/constructing-valid-arguments.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/constructing-valid-arguments.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Logic",
+        "Critical Thinking",
+        "Argumentation",
+        "Reasoning",
+        "Premise-Conclusion Relationships",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "counterfactual-analysis",
+      "name": "Counterfactual Analysis",
+      "study_family": "counterfactual_forecasting",
+      "upstream_markdown": "tasks/counterfactual-analysis.md",
+      "upstream_json": "tasks-json/counterfactual-analysis.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/counterfactual-analysis.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Historical Analysis",
+        "Cause and Effect",
+        "Hypothetical Scenarios",
+        "Complex Systems",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "critical-factor-identification-in-theory-of-mind",
+      "name": "Critical Factor Identification in Theory of Mind",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/critical-factor-identification-in-theory-of-mind.md",
+      "upstream_json": "tasks-json/critical-factor-identification-in-theory-of-mind.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/critical-factor-identification-in-theory-of-mind.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Theory of Mind",
+        "Behavioral Analysis",
+        "Critical Thinking",
+        "Comparative Psychology",
+        "Social Cognition"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "critiquing-argument-structures",
+      "name": "Critiquing Argument Structures",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/critiquing-argument-structures.md",
+      "upstream_json": "tasks-json/critiquing-argument-structures.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/critiquing-argument-structures.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Logical Analysis",
+        "Argumentation",
+        "Fallacy Identification",
+        "Reasoning Skills",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "currys-paradox",
+      "name": "Currys Paradox",
+      "study_family": "deduction_logic",
+      "upstream_markdown": "tasks/currys-paradox.md",
+      "upstream_json": null,
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/currys-paradox.md",
+      "upstream_modality": null,
+      "upstream_tags": [],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "deciphering-ambiguous-instructions",
+      "name": "Deciphering Ambiguous Instructions",
+      "study_family": "linguistic_pragmatic",
+      "upstream_markdown": "tasks/deciphering-ambiguous-instructions.md",
+      "upstream_json": "tasks-json/deciphering-ambiguous-instructions.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/deciphering-ambiguous-instructions.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Language Interpretation",
+        "Critical Thinking",
+        "Clarification",
+        "Problem Solving",
+        "Instruction Analysis",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "deconstructing-complex-systems",
+      "name": "Deconstructing Complex Systems",
+      "study_family": "causal_systems",
+      "upstream_markdown": "tasks/deconstructing-complex-systems.md",
+      "upstream_json": "tasks-json/deconstructing-complex-systems.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/deconstructing-complex-systems.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Systems Analysis",
+        "Cause and Effect",
+        "Component Interaction",
+        "Process Understanding",
+        "Analytical Thinking",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "deconstructing-metaphors",
+      "name": "Deconstructing Metaphors",
+      "study_family": "linguistic_pragmatic",
+      "upstream_markdown": "tasks/deconstructing-metaphors.md",
+      "upstream_json": "tasks-json/deconstructing-metaphors.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/deconstructing-metaphors.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Figurative Language",
+        "Literary Analysis",
+        "Symbolic Interpretation",
+        "Critical Thinking",
+        "Communication Skills",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "deducing-motives-from-actions",
+      "name": "Deducing Motives from Actions",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/deducing-motives-from-actions.md",
+      "upstream_json": "tasks-json/deducing-motives-from-actions.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/deducing-motives-from-actions.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Psychological Analysis",
+        "Behavioral Interpretation",
+        "Critical Thinking",
+        "Motivation Theory",
+        "Context Consideration",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "deducing-rules-from-examples",
+      "name": "Deducing Rules from Examples",
+      "study_family": "induction_classification",
+      "upstream_markdown": "tasks/deducing-rules-from-examples.md",
+      "upstream_json": "tasks-json/deducing-rules-from-examples.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/deducing-rules-from-examples.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Pattern Recognition",
+        "Logical Reasoning",
+        "Inductive Reasoning",
+        "Linguistic Analysis",
+        "Mathematical Thinking",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "deductive-logic-puzzles",
+      "name": "Deductive Logic Puzzles",
+      "study_family": "deduction_logic",
+      "upstream_markdown": "tasks/deductive-logic-puzzles.md",
+      "upstream_json": "tasks-json/deductive-logic-puzzles.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/deductive-logic-puzzles.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Logic",
+        "Deductive Reasoning",
+        "Problem Solving",
+        "Critical Thinking",
+        "Inference"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "describing-spatial-relationships",
+      "name": "Describing Spatial Relationships",
+      "study_family": "spatial",
+      "upstream_markdown": "tasks/describing-spatial-relationships.md",
+      "upstream_json": "tasks-json/describing-spatial-relationships.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/describing-spatial-relationships.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Spatial Reasoning",
+        "Descriptive Skills",
+        "Object Orientation",
+        "Visual-Spatial Awareness",
+        "Communication"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "detecting-sarcasm-and-irony",
+      "name": "Detecting Sarcasm and Irony",
+      "study_family": "linguistic_pragmatic",
+      "upstream_markdown": "tasks/detecting-sarcasm-and-irony.md",
+      "upstream_json": "tasks-json/detecting-sarcasm-and-irony.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/detecting-sarcasm-and-irony.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Language Comprehension",
+        "Context Analysis",
+        "Figurative Language",
+        "Social Intelligence",
+        "Linguistic Nuance",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "determining-alternative-outcomes",
+      "name": "Determining Alternative Outcomes",
+      "study_family": "counterfactual_forecasting",
+      "upstream_markdown": "tasks/determining-alternative-outcomes.md",
+      "upstream_json": "tasks-json/determining-alternative-outcomes.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/determining-alternative-outcomes.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Historical Analysis",
+        "Counterfactual Thinking",
+        "Cause and Effect",
+        "Critical Thinking",
+        "Scenario Planning"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "distinguishing-correlation-from-causation",
+      "name": "Distinguishing Correlation from Causation",
+      "study_family": "causal_systems",
+      "upstream_markdown": "tasks/distinguishing-correlation-from-causation.md",
+      "upstream_json": "tasks-json/distinguishing-correlation-from-causation.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/distinguishing-correlation-from-causation.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Statistics",
+        "Data Analysis",
+        "Logical Fallacies",
+        "Causal Reasoning"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "distinguishing-fact-from-opinion",
+      "name": "Distinguishing Fact from Opinion",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/distinguishing-fact-from-opinion.md",
+      "upstream_json": "tasks-json/distinguishing-fact-from-opinion.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/distinguishing-fact-from-opinion.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Information Literacy",
+        "Objectivity",
+        "Media Analysis",
+        "Reasoning",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "equation-derivation",
+      "name": "Equation Derivation",
+      "study_family": "quantitative",
+      "upstream_markdown": "tasks/equation-derivation.md",
+      "upstream_json": "tasks-json/equation-derivation.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/equation-derivation.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Mathematics",
+        "Algebra",
+        "Word Problems",
+        "Equation Formulation",
+        "Problem Solving"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "estimating-duration",
+      "name": "Estimating Duration",
+      "study_family": "temporal",
+      "upstream_markdown": "tasks/estimating-duration.md",
+      "upstream_json": "tasks-json/estimating-duration.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/estimating-duration.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Time Estimation",
+        "Temporal Reasoning",
+        "Process Understanding",
+        "Comparative Analysis",
+        "General Knowledge"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "ethical-dilemma-resolution",
+      "name": "Ethical Dilemma Resolution",
+      "study_family": "ethical_cultural",
+      "upstream_markdown": "tasks/ethical-dilemma-resolution.md",
+      "upstream_json": "tasks-json/ethical-dilemma-resolution.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/ethical-dilemma-resolution.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Ethics",
+        "Critical Thinking",
+        "Decision Making",
+        "Cultural Sensitivity",
+        "Environmental Ethics",
+        "Moral Philosophy",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "evaluating-analogies-for-accuracy",
+      "name": "Evaluating Analogies for Accuracy",
+      "study_family": "analogy",
+      "upstream_markdown": "tasks/evaluating-analogies-for-accuracy.md",
+      "upstream_json": "tasks-json/evaluating-analogies-for-accuracy.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/evaluating-analogies-for-accuracy.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Analogy Analysis",
+        "Conceptual Relationships",
+        "Logical Reasoning",
+        "Metaphor Evaluation",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "evaluating-competing-theories",
+      "name": "Evaluating Competing Theories",
+      "study_family": "abduction_hypotheses",
+      "upstream_markdown": "tasks/evaluating-competing-theories.md",
+      "upstream_json": "tasks-json/evaluating-competing-theories.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/evaluating-competing-theories.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Evidence Evaluation",
+        "Comparative Analysis",
+        "Scientific Reasoning",
+        "Theory Assessment",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "evaluating-policy-implications",
+      "name": "Evaluating Policy Implications",
+      "study_family": "counterfactual_forecasting",
+      "upstream_markdown": "tasks/evaluating-policy-implications.md",
+      "upstream_json": "tasks-json/evaluating-policy-implications.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/evaluating-policy-implications.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Policy Analysis",
+        "Systems Thinking",
+        "Predictive Reasoning",
+        "Stakeholder Analysis",
+        "Unintended Consequences",
+        "Socioeconomic Impact Assessment",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "evaluating-source-credibility",
+      "name": "Evaluating Source Credibility",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/evaluating-source-credibility.md",
+      "upstream_json": "tasks-json/evaluating-source-credibility.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/evaluating-source-credibility.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Information Literacy",
+        "Source Evaluation",
+        "Research Skills",
+        "Media Literacy",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "fermi-estimation",
+      "name": "Fermi Estimation",
+      "study_family": "quantitative",
+      "upstream_markdown": "tasks/fermi-estimation.md",
+      "upstream_json": "tasks-json/fermi-estimation.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/fermi-estimation.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Estimation",
+        "Problem Decomposition",
+        "Quantitative Reasoning",
+        "Order of Magnitude",
+        "Logical Thinking",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "first-order-false-belief",
+      "name": "First-Order False Belief",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/first-order-false-belief.md",
+      "upstream_json": "tasks-json/first-order-false-belief.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/first-order-false-belief.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Theory of Mind",
+        "False Beliefs",
+        "Cognitive Psychology",
+        "Reasoning",
+        "Social Cognition"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "first-order-ignorance",
+      "name": "First-Order Ignorance",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/first-order-ignorance.md",
+      "upstream_json": "tasks-json/first-order-ignorance.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/first-order-ignorance.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Theory of Mind",
+        "Ignorance",
+        "Cognitive Psychology",
+        "Decision Making",
+        "Social Cognition"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "forecasting-technological-impacts",
+      "name": "Forecasting Technological Impacts",
+      "study_family": "counterfactual_forecasting",
+      "upstream_markdown": "tasks/forecasting-technological-impacts.md",
+      "upstream_json": "tasks-json/forecasting-technological-impacts.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/forecasting-technological-impacts.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Futurism",
+        "Technology Assessment",
+        "Scenario Planning",
+        "Trend Analysis",
+        "Societal Impact",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "generating-creative-solutions",
+      "name": "Generating Creative Solutions",
+      "study_family": "creative_narrative",
+      "upstream_markdown": "tasks/generating-creative-solutions.md",
+      "upstream_json": "tasks-json/generating-creative-solutions.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/generating-creative-solutions.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Innovation",
+        "Problem-solving",
+        "Lateral Thinking",
+        "Idea Generation",
+        "Unconventional Approaches",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "higher-order-false-belief",
+      "name": "Higher Order False Belief",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/higher-order-false-belief.md",
+      "upstream_json": "tasks-json/higher-order-false-belief.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/higher-order-false-belief.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Theory of Mind",
+        "Complex Reasoning",
+        "Social Cognition",
+        "False Beliefs",
+        "Interpersonal Dynamics"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "hypothesis-formation",
+      "name": "Hypothesis Formation",
+      "study_family": "abduction_hypotheses",
+      "upstream_markdown": "tasks/hypothesis-formation.md",
+      "upstream_json": "tasks-json/hypothesis-formation.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/hypothesis-formation.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Scientific Method",
+        "Critical Thinking",
+        "Problem Solving",
+        "Analytical Skills",
+        "Ecological Reasoning",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "identifying-anachronisms",
+      "name": "Identifying Anachronisms",
+      "study_family": "temporal",
+      "upstream_markdown": "tasks/identifying-anachronisms.md",
+      "upstream_json": "tasks-json/identifying-anachronisms.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/identifying-anachronisms.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Historical Knowledge",
+        "Temporal Reasoning",
+        "Anachronism Detection",
+        "Critical Thinking",
+        "Context Analysis"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "identifying-cause-and-effect-relationships",
+      "name": "Identifying Cause and Effect Relationships",
+      "study_family": "causal_systems",
+      "upstream_markdown": "tasks/identifying-cause-and-effect-relationships.md",
+      "upstream_json": "tasks-json/identifying-cause-and-effect-relationships.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/identifying-cause-and-effect-relationships.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Analysis",
+        "Causal Relationships",
+        "Logic",
+        "Reasoning"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "identifying-cognitive-biases",
+      "name": "Identifying Cognitive Biases",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/identifying-cognitive-biases.md",
+      "upstream_json": "tasks-json/identifying-cognitive-biases.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/identifying-cognitive-biases.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Cognitive Psychology",
+        "Critical Thinking",
+        "Decision Making",
+        "Behavioral Economics",
+        "Psychological Biases",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "identifying-hallucination-prone-questions",
+      "name": "Identifying Hallucination-Prone Questions",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/identifying-hallucination-prone-questions.md",
+      "upstream_json": "tasks-json/identifying-hallucination-prone-questions.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/identifying-hallucination-prone-questions.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Hallucination Prevention",
+        "Question Analysis",
+        "Knowledge Boundaries",
+        "Information Reliability",
+        "Self-awareness"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "identifying-implicit-biases-in-language",
+      "name": "Identifying Implicit Biases in Language",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/identifying-implicit-biases-in-language.md",
+      "upstream_json": "tasks-json/identifying-implicit-biases-in-language.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/identifying-implicit-biases-in-language.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Language Analysis",
+        "Bias Detection",
+        "Critical Thinking",
+        "Social Awareness",
+        "Equality and Inclusion",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "identifying-logical-fallacies",
+      "name": "Identifying Logical Fallacies",
+      "study_family": "deduction_logic",
+      "upstream_markdown": "tasks/identifying-logical-fallacies.md",
+      "upstream_json": "tasks-json/identifying-logical-fallacies.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/identifying-logical-fallacies.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Logic",
+        "Critical Thinking",
+        "Argumentation",
+        "Fallacies",
+        "Reasoning"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "identifying-logical-inconsistencies",
+      "name": "Identifying Logical Inconsistencies",
+      "study_family": "deduction_logic",
+      "upstream_markdown": "tasks/identifying-logical-inconsistencies.md",
+      "upstream_json": "tasks-json/identifying-logical-inconsistencies.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/identifying-logical-inconsistencies.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Logic",
+        "Critical Thinking",
+        "Contradiction Detection",
+        "Argument Analysis",
+        "Reasoning",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "identifying-relationships",
+      "name": "Identifying Relationships",
+      "study_family": "induction_classification",
+      "upstream_markdown": "tasks/identifying-relationships.md",
+      "upstream_json": "tasks-json/identifying-relationships.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/identifying-relationships.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Language",
+        "Conceptual Relationships",
+        "Critical Thinking",
+        "Vocabulary",
+        "Analysis"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "identifying-unstated-assumptions",
+      "name": "Identifying Unstated Assumptions",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/identifying-unstated-assumptions.md",
+      "upstream_json": "tasks-json/identifying-unstated-assumptions.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/identifying-unstated-assumptions.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Logical Analysis",
+        "Argument Evaluation",
+        "Implicit Reasoning",
+        "Decision-Making",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "inference-drawing-from-incomplete-data",
+      "name": "Inference Drawing from Incomplete Data",
+      "study_family": "abduction_hypotheses",
+      "upstream_markdown": "tasks/inference-drawing-from-incomplete-data.md",
+      "upstream_json": "tasks-json/inference-drawing-from-incomplete-data.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/inference-drawing-from-incomplete-data.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Logical Reasoning",
+        "Data Analysis",
+        "Hypothesis Formation",
+        "Scientific Inference",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "inferring-emotional-states",
+      "name": "Inferring Emotional States",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/inferring-emotional-states.md",
+      "upstream_json": "tasks-json/inferring-emotional-states.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/inferring-emotional-states.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Emotional Intelligence",
+        "Behavioral Analysis",
+        "Social Cognition",
+        "Psychological Interpretation",
+        "Non-verbal Communication",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "inferring-motivations-from-actions",
+      "name": "Inferring Motivations from Actions",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/inferring-motivations-from-actions.md",
+      "upstream_json": "tasks-json/inferring-motivations-from-actions.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/inferring-motivations-from-actions.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Psychology",
+        "Behavioral Analysis",
+        "Social Dynamics",
+        "Critical Thinking",
+        "Empathy",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "interpreting-ambiguous-statements",
+      "name": "Interpreting Ambiguous Statements",
+      "study_family": "linguistic_pragmatic",
+      "upstream_markdown": "tasks/interpreting-ambiguous-statements.md",
+      "upstream_json": "tasks-json/interpreting-ambiguous-statements.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/interpreting-ambiguous-statements.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Language Analysis",
+        "Semantic Interpretation",
+        "Context Consideration",
+        "Linguistic Ambiguity",
+        "Critical Thinking",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "interpreting-and-creating-timelines",
+      "name": "Interpreting and Creating Timelines",
+      "study_family": "temporal",
+      "upstream_markdown": "tasks/interpreting-and-creating-timelines.md",
+      "upstream_json": "tasks-json/interpreting-and-creating-timelines.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/interpreting-and-creating-timelines.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Timeline Creation",
+        "Historical Analysis",
+        "Data Visualization",
+        "Temporal Reasoning",
+        "Business Development"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "interpreting-body-language-cues",
+      "name": "Interpreting Body Language Cues",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/interpreting-body-language-cues.md",
+      "upstream_json": "tasks-json/interpreting-body-language-cues.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/interpreting-body-language-cues.md",
+      "upstream_modality": "Text only (descriptions of body language)",
+      "upstream_tags": [
+        "Non-verbal Communication",
+        "Social Intelligence",
+        "Cultural Context",
+        "Emotional Intelligence",
+        "Behavioral Analysis",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "interpreting-legal-language-and-precedents",
+      "name": "Interpreting Legal Language and Precedents",
+      "study_family": "legal_normative",
+      "upstream_markdown": "tasks/interpreting-legal-language-and-precedents.md",
+      "upstream_json": "tasks-json/interpreting-legal-language-and-precedents.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/interpreting-legal-language-and-precedents.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Legal Interpretation",
+        "Constitutional Law",
+        "Case Law Analysis",
+        "Legal Precedents",
+        "Criminal Procedure",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "interpreting-nonverbal-communication",
+      "name": "Interpreting Nonverbal Communication",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/interpreting-nonverbal-communication.md",
+      "upstream_json": "tasks-json/interpreting-nonverbal-communication.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/interpreting-nonverbal-communication.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Social Intelligence",
+        "Body Language",
+        "Communication Skills",
+        "Emotional Intelligence",
+        "Behavioral Analysis",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "interpreting-statistical-data",
+      "name": "Interpreting Statistical Data",
+      "study_family": "quantitative",
+      "upstream_markdown": "tasks/interpreting-statistical-data.md",
+      "upstream_json": "tasks-json/interpreting-statistical-data.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/interpreting-statistical-data.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Statistics",
+        "Data Analysis",
+        "Trend Identification",
+        "Critical Thinking",
+        "Quantitative Reasoning"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "lateral-thinking-puzzles",
+      "name": "Lateral Thinking Puzzles",
+      "study_family": "creative_narrative",
+      "upstream_markdown": "tasks/lateral-thinking-puzzles.md",
+      "upstream_json": "tasks-json/lateral-thinking-puzzles.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/lateral-thinking-puzzles.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Creative Thinking",
+        "Problem Solving",
+        "Lateral Thinking",
+        "Word Play",
+        "Unconventional Scenarios"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "mathematical-word-problems",
+      "name": "Mathematical Word Problems",
+      "study_family": "quantitative",
+      "upstream_markdown": "tasks/mathematical-word-problems.md",
+      "upstream_json": "tasks-json/mathematical-word-problems.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/mathematical-word-problems.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Mathematics",
+        "Problem Solving",
+        "Arithmetic",
+        "Word Problems",
+        "Applied Mathematics"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "mental-rotation-tasks",
+      "name": "Mental Rotation Tasks",
+      "study_family": "spatial",
+      "upstream_markdown": "tasks/mental-rotation-tasks.md",
+      "upstream_json": "tasks-json/mental-rotation-tasks.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/mental-rotation-tasks.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Spatial Reasoning",
+        "Mental Imagery",
+        "Geometric Transformation",
+        "Visual-Spatial Skills",
+        "Cognitive Processing"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "moral-reasoning-in-everyday-situations",
+      "name": "Moral Reasoning in Everyday Situations",
+      "study_family": "ethical_cultural",
+      "upstream_markdown": "tasks/moral-reasoning-in-everyday-situations.md",
+      "upstream_json": "tasks-json/moral-reasoning-in-everyday-situations.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/moral-reasoning-in-everyday-situations.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Ethical Reasoning",
+        "Moral Dilemmas",
+        "Decision Making",
+        "Interpersonal Relationships",
+        "Conflict Resolution",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "multiturn-latex-generation",
+      "name": "Multiturn Latex Generation",
+      "study_family": "algorithmic_output_control",
+      "upstream_markdown": "tasks/multiturn-latex-generation.md",
+      "upstream_json": null,
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/multiturn-latex-generation.md",
+      "upstream_modality": null,
+      "upstream_tags": [],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "narrative-gap-filling",
+      "name": "Narrative Gap Filling",
+      "study_family": "creative_narrative",
+      "upstream_markdown": "tasks/narrative-gap-filling.md",
+      "upstream_json": "tasks-json/narrative-gap-filling.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/narrative-gap-filling.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Creative Writing",
+        "Logical Reasoning",
+        "Storytelling",
+        "Context Understanding",
+        "Inference",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "parsing-complex-sentences",
+      "name": "Parsing Complex Sentences",
+      "study_family": "linguistic_pragmatic",
+      "upstream_markdown": "tasks/parsing-complex-sentences.md",
+      "upstream_json": "tasks-json/parsing-complex-sentences.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/parsing-complex-sentences.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Grammar Analysis",
+        "Syntax",
+        "Linguistic Complexity",
+        "Sentence Structure",
+        "Clause Identification",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "pattern-recognition-in-spatial-arrangements",
+      "name": "Pattern Recognition in Spatial Arrangements",
+      "study_family": "spatial",
+      "upstream_markdown": "tasks/pattern-recognition-in-spatial-arrangements.md",
+      "upstream_json": "tasks-json/pattern-recognition-in-spatial-arrangements.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/pattern-recognition-in-spatial-arrangements.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Pattern Recognition",
+        "Spatial Reasoning",
+        "Sequence Completion",
+        "Logical Thinking",
+        "Visual-Spatial Skills"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "perspective-taking-in-social-scenarios",
+      "name": "Perspective-Taking in Social Scenarios",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/perspective-taking-in-social-scenarios.md",
+      "upstream_json": "tasks-json/perspective-taking-in-social-scenarios.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/perspective-taking-in-social-scenarios.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Empathy",
+        "Social Intelligence",
+        "Conflict Resolution",
+        "Emotional Intelligence",
+        "Multiple Perspectives",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "predicting-market-trends",
+      "name": "Predicting Market Trends",
+      "study_family": "counterfactual_forecasting",
+      "upstream_markdown": "tasks/predicting-market-trends.md",
+      "upstream_json": "tasks-json/predicting-market-trends.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/predicting-market-trends.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Economic Analysis",
+        "Market Forecasting",
+        "Trend Prediction",
+        "Data Synthesis",
+        "Strategic Planning",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "predicting-outcomes-based-on-scenarios",
+      "name": "Predicting Outcomes Based on Scenarios",
+      "study_family": "counterfactual_forecasting",
+      "upstream_markdown": "tasks/predicting-outcomes-based-on-scenarios.md",
+      "upstream_json": "tasks-json/predicting-outcomes-based-on-scenarios.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/predicting-outcomes-based-on-scenarios.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Scenario Analysis",
+        "Prediction",
+        "Logical Reasoning",
+        "Problem Solving"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "prioritizing-conflicting-goals",
+      "name": "Prioritizing Conflicting Goals",
+      "study_family": "planning_decisions",
+      "upstream_markdown": "tasks/prioritizing-conflicting-goals.md",
+      "upstream_json": "tasks-json/prioritizing-conflicting-goals.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/prioritizing-conflicting-goals.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Decision Making",
+        "Strategic Planning",
+        "Resource Allocation",
+        "Goal Setting",
+        "Trade-off Analysis",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "proof-verification",
+      "name": "Proof Verification",
+      "study_family": "deduction_logic",
+      "upstream_markdown": "tasks/proof-verification.md",
+      "upstream_json": "tasks-json/proof-verification.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/proof-verification.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Mathematics",
+        "Logic",
+        "Proof Verification",
+        "Number Theory",
+        "Reasoning"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "recognizing-emotional-subtext",
+      "name": "Recognizing Emotional Subtext",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/recognizing-emotional-subtext.md",
+      "upstream_json": "tasks-json/recognizing-emotional-subtext.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/recognizing-emotional-subtext.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Emotional Intelligence",
+        "Communication Analysis",
+        "Subtext Interpretation",
+        "Social Cognition",
+        "Language Nuance",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "recognizing-patterns-in-behavior",
+      "name": "Recognizing Patterns in Behavior",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/recognizing-patterns-in-behavior.md",
+      "upstream_json": "tasks-json/recognizing-patterns-in-behavior.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/recognizing-patterns-in-behavior.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Behavioral Analysis",
+        "Pattern Recognition",
+        "Data Interpretation",
+        "Predictive Reasoning",
+        "Consumer Behavior",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "recognizing-patterns-in-sequences",
+      "name": "Recognizing Patterns in Sequences",
+      "study_family": "induction_classification",
+      "upstream_markdown": "tasks/recognizing-patterns-in-sequences.md",
+      "upstream_json": "tasks-json/recognizing-patterns-in-sequences.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/recognizing-patterns-in-sequences.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Pattern Recognition",
+        "Sequence Analysis",
+        "Logical Reasoning",
+        "Mathematical Thinking",
+        "Problem Solving",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "reconciling-conflicting-information",
+      "name": "Reconciling Conflicting Information",
+      "study_family": "epistemic_critical",
+      "upstream_markdown": "tasks/reconciling-conflicting-information.md",
+      "upstream_json": "tasks-json/reconciling-conflicting-information.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/reconciling-conflicting-information.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Information Analysis",
+        "Problem Solving",
+        "Decision Making",
+        "Evidence Evaluation",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "reverse-engineering-processes",
+      "name": "Reverse Engineering Processes",
+      "study_family": "causal_systems",
+      "upstream_markdown": "tasks/reverse-engineering-processes.md",
+      "upstream_json": "tasks-json/reverse-engineering-processes.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/reverse-engineering-processes.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Analytical Thinking",
+        "Process Analysis",
+        "Logical Reasoning",
+        "Systems Thinking",
+        "Problem Solving",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "risk-assessment-in-decision-making",
+      "name": "Risk Assessment in Decision-Making",
+      "study_family": "planning_decisions",
+      "upstream_markdown": "tasks/risk-assessment-in-decision-making.md",
+      "upstream_json": "tasks-json/risk-assessment-in-decision-making.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/risk-assessment-in-decision-making.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Decision Making",
+        "Risk Analysis",
+        "Critical Thinking",
+        "Scenario Planning",
+        "Cost-Benefit Analysis",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "second-order-false-belief",
+      "name": "Second-Order False Belief",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/second-order-false-belief.md",
+      "upstream_json": "tasks-json/second-order-false-belief.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/second-order-false-belief.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Theory of Mind",
+        "False Beliefs",
+        "Higher-Order Reasoning",
+        "Social Cognition",
+        "Cognitive Psychology"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "sequencing-events",
+      "name": "Sequencing Events",
+      "study_family": "temporal",
+      "upstream_markdown": "tasks/sequencing-events.md",
+      "upstream_json": "tasks-json/sequencing-events.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/sequencing-events.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Temporal Reasoning",
+        "Logical Sequencing",
+        "Historical Knowledge",
+        "Process Understanding",
+        "Chronological Ordering"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "solving-riddles-and-word-puzzles",
+      "name": "Solving Riddles and Word Puzzles",
+      "study_family": "linguistic_pragmatic",
+      "upstream_markdown": "tasks/solving-riddles-and-word-puzzles.md",
+      "upstream_json": "tasks-json/solving-riddles-and-word-puzzles.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/solving-riddles-and-word-puzzles.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Problem Solving",
+        "Lateral Thinking",
+        "Language Skills",
+        "Deductive Reasoning",
+        "Creative Thinking",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "solving-word-problems-with-multiple-variables",
+      "name": "Solving Word Problems with Multiple Variables",
+      "study_family": "quantitative",
+      "upstream_markdown": "tasks/solving-word-problems-with-multiple-variables.md",
+      "upstream_json": "tasks-json/solving-word-problems-with-multiple-variables.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/solving-word-problems-with-multiple-variables.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Mathematics",
+        "Algebra",
+        "Word Problems",
+        "System of Equations",
+        "Problem Solving",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "spatial-problem-solving",
+      "name": "Spatial Problem-Solving",
+      "study_family": "spatial",
+      "upstream_markdown": "tasks/spatial-problem-solving.md",
+      "upstream_json": "tasks-json/spatial-problem-solving.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/spatial-problem-solving.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Problem Solving",
+        "Spatial Reasoning",
+        "Practical Application",
+        "Geometric Thinking",
+        "Logical Deduction"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "stack-based-reasoning",
+      "name": "Stack Based Reasoning",
+      "study_family": "algorithmic_output_control",
+      "upstream_markdown": "tasks/stack-based-reasoning.md",
+      "upstream_json": null,
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/stack-based-reasoning.md",
+      "upstream_modality": null,
+      "upstream_tags": [],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "syllogism-reasoning",
+      "name": "Syllogism Reasoning",
+      "study_family": "deduction_logic",
+      "upstream_markdown": "tasks/syllogism-reasoning.md",
+      "upstream_json": "tasks-json/syllogism-reasoning.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/syllogism-reasoning.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Logic",
+        "Deductive Reasoning",
+        "Syllogisms",
+        "Critical Thinking"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "towers-of-hanoi",
+      "name": "Towers Of Hanoi",
+      "study_family": "algorithmic_output_control",
+      "upstream_markdown": "tasks/towers-of-hanoi.md",
+      "upstream_json": null,
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/towers-of-hanoi.md",
+      "upstream_modality": null,
+      "upstream_tags": [],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "trait-attribution-in-behavioral-scenarios",
+      "name": "Trait Attribution in Behavioral Scenarios",
+      "study_family": "social_mental_state",
+      "upstream_markdown": "tasks/trait-attribution-in-behavioral-scenarios.md",
+      "upstream_json": "tasks-json/trait-attribution-in-behavioral-scenarios.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/trait-attribution-in-behavioral-scenarios.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Psychology",
+        "Personality Assessment",
+        "Behavioral Analysis",
+        "Social Cognition",
+        "Character Inference",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "trend-analysis-and-forecasting",
+      "name": "Trend Analysis and Forecasting",
+      "study_family": "counterfactual_forecasting",
+      "upstream_markdown": "tasks/trend-analysis-and-forecasting.md",
+      "upstream_json": "tasks-json/trend-analysis-and-forecasting.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/trend-analysis-and-forecasting.md",
+      "upstream_modality": "Text and potentially numerical data",
+      "upstream_tags": [
+        "Data Analysis",
+        "Pattern Recognition",
+        "Forecasting",
+        "Critical Thinking",
+        "Quantitative Reasoning",
+        "Contextual Analysis",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "truth-table-completions",
+      "name": "Truth Table Completion",
+      "study_family": "deduction_logic",
+      "upstream_markdown": "tasks/truth-table-completions.md",
+      "upstream_json": "tasks-json/truth-table-completions.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/truth-table-completions.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Logic",
+        "Boolean Algebra",
+        "Truth Tables",
+        "Logical Operators",
+        "Propositional Logic",
+        "--"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "understanding-time-based-relationships",
+      "name": "Understanding Time-Based Relationships",
+      "study_family": "temporal",
+      "upstream_markdown": "tasks/understanding-time-based-relationships.md",
+      "upstream_json": "tasks-json/understanding-time-based-relationships.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/understanding-time-based-relationships.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Causal Reasoning",
+        "Temporal Analysis",
+        "Event Sequencing",
+        "Cause and Effect",
+        "Systems Thinking"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "understanding-time-zones-and-global-time-differences",
+      "name": "Understanding Time Zones and Global Time Differences",
+      "study_family": "temporal",
+      "upstream_markdown": "tasks/understanding-time-zones-and-global-time-differences.md",
+      "upstream_json": "tasks-json/understanding-time-zones-and-global-time-differences.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/understanding-time-zones-and-global-time-differences.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Time Zone Conversion",
+        "Global Time",
+        "International Date Line",
+        "Travel Time Calculation",
+        "Temporal Reasoning"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    },
+    {
+      "id": "unraveling-paradoxes",
+      "name": "Unraveling Paradoxes",
+      "study_family": "deduction_logic",
+      "upstream_markdown": "tasks/unraveling-paradoxes.md",
+      "upstream_json": "tasks-json/unraveling-paradoxes.json",
+      "url": "https://github.com/NousResearch/Open-Reasoning-Tasks/blob/35df7000b8f636178e303add868415b30f92cad0/tasks/unraveling-paradoxes.md",
+      "upstream_modality": "Text only",
+      "upstream_tags": [
+        "Critical Thinking",
+        "Logic",
+        "Philosophy",
+        "Conceptual Analysis",
+        "Problem Solving",
+        "Synthetic"
+      ],
+      "fineweb_edu": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      },
+      "tinystories_mini": {
+        "explicit_task_coverage": "not_measured",
+        "prevalence": null,
+        "learned_ability": "not_tested_here"
+      }
+    }
+  ]
+}

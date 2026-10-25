@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "dimensions": [
+    "purpose",
+    "source_and_unit",
+    "topics_and_knowledge",
+    "reasoning_operations",
+    "supervision_and_solution_structure",
+    "language_and_communication",
+    "quality",
+    "difficulty_and_prerequisites",
+    "dependency_and_context",
+    "diversity_and_redundancy",
+    "balance_and_exposure",
+    "annotation_trust",
+    "leakage_and_generalization",
+    "model_compatibility",
+    "empirical_utility",
+    "access_and_reproducibility"
+  ],
+  "required_fields_per_dimension": [
+    "description",
+    "evidence_level",
+    "evidence",
+    "uncertainty"
+  ],
+  "evidence_levels": [
+    "measured_local",
+    "pilot_review",
+    "author_reported",
+    "inference",
+    "unknown"
+  ],
+  "coverage_rule": "Unknown prevalence is null, never inferred as zero; topic presence and model ability are separate."
+}

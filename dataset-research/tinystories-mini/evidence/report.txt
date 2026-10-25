@@ -1,0 +1,93 @@
+TinyStories data mix: deeper diagnostic audit
+Date: 2026-10-25
+
+Purpose
+
+Describe what the current training stream exposes the model to, test the saved one-epoch checkpoint on the entire held-out corpus, and identify semantic questions that the existing lexical topic analysis cannot answer. This is a diagnostic audit, not evidence that a particular filter improves training.
+
+What was actually measured
+
+The source is still the first 20,000 eligible unique stories from TinyStories-train.txt, followed by a seeded shuffle and 18,000/2,000 story split. The corpus SHA-256 is 684657e655d597a273cba61457521c7dd1b2b4a827764b9172b22755da26f979. The evaluated checkpoint is the saved one-epoch model, SHA-256 0f31b39929031a50161ff21576783d12182e9e212a556102bf3d2ef2aba0c0a2. No weights or original datasets were changed.
+
+1. The mix is different when counted by exposure
+
+The longest 20% of training stories contribute 34.01% of story characters. A story-count pie chart is therefore not a training-exposure pie chart. The current present-tense/dialogue lexical factor represents 5.83% of training stories but 9.57% of their characters. The broad friendship/play factor represents 40.26% of training stories but 36.36% of characters. These are the original NMF assignments, not validated semantic categories. Characters exclude story separators for this calculation; this is exposure, not a measurement of gradient influence.
+
+The median training story spans 3.047 context lengths. All retained stories exceed 256 characters. There are 62,684 packed training chunks; 17,999 chunks contain the start position of a later story (28.71%). This statistic counts starts, including starts aligned to a chunk boundary; it is not an exact count of mixed-story chunks.
+
+One pass over character targets is not one pass over each story with its full narrative available. The model can learn short-range language and repeated plot fragments, but an individual prediction cannot directly condition on an opening more than 256 characters behind it. This does not prove whole-story coherence is impossible; it limits which dependencies the model can directly use.
+
+2. Full validation, not random windows alone
+
+The original notebook evaluated 20 random batches per split. I evaluated every next-character target in val.txt exactly once using non-overlapping 256-character blocks: 1,777,321 targets, mean loss 1.029617. This is consistent with the saved random-window result of 1.031228. It makes the aggregate more reproducible, but remains a next-character prediction measure, not a narrative-quality score.
+
+I also evaluated all 2,000 stories separately, resetting at each story and omitting its first character and the inter-story separators. Both story protocols score the same 1,771,323 targets:
+
+- Non-overlapping 256-character blocks: 1.023456.
+- Overlapping windows with a 64-character scoring stride: 1.012733.
+
+The latter protocol supplies more preceding context to most scored characters (usually 193-256 characters once enough history exists). It also changes position within each input window. The difference measures evaluation-protocol sensitivity, not the causal effect of retraining with a different context length. The packed and story protocols score different target sets and must not be presented as directly interchangeable.
+
+Within the same story-reset protocol, these observational slices differ:
+
+- Short stories (<600 characters): 252 stories, loss 0.978537.
+- Medium stories (600-999 characters): 1,339 stories, loss 1.021371.
+- Long stories (>=1,000 characters): 409 stories, loss 1.036927.
+- Stories starting with 'once upon a time': 1,230 stories, loss 0.996164.
+- Other openings: 770 stories, loss 1.053491.
+
+These are target-weighted losses. They do not establish that long stories or different openings are bad training examples: length, style, names, vocabulary, and content all confound these comparisons. The per-story CSV retains both evaluation protocols and the original factor labels for investigation.
+
+3. What close reading reveals
+
+I read a fixed uniform sample of 16 training and 16 validation stories, seed 20261025. This was one assistant review, not independent human annotation or a validated semantic classifier. The sample supports diagnostic examples; it is too small and insufficiently validated for confident corpus-wide defect rates.
+
+The stories can contain useful learning signals: goal-directed action, emotional transitions, requests and refusals, helping, rescue, object tracking, social negotiation, and cause/consequence. These abilities cut across topics. A cat story can teach delivery and gratitude; a family story can teach preferences and negotiation. Topic labels alone cannot measure these skills.
+
+Examples worth inspecting by zero-based JSONL row:
+
+- train:4426: Teddy is a human preschool child, but the lexical model assigns the bear/woodland factor. The name still influences the purported topic. This is a concrete reason not to treat factor counts as semantic prevalence.
+- train:11733: Timmy wants help making a song; his mother gives him cookie ingredients. The text joins a song-making goal and a baking action without explaining why that action addresses the requested help. This is a weak causal bridge, even though the individual sentences are fluent.
+- train:14459: A dragon story explains the word 'sharp', then ends by hoping the dragon will not be 'too sharp'. It illustrates awkward insertion/extension of a target word rather than a clean conceptual explanation.
+- val:169: A friend calls a pleasant surprise 'terrible', and the narrator explicitly says this means very, very good. Without an irony explanation, this teaches an incorrect ordinary word meaning.
+- val:991: A golf scene is described using a stick, then its advice says not to kick the ball too hard. This is a local action/verb inconsistency.
+- val:1193: A 'staff' is fed treats, breaks, receives a replacement staff, and changes its clumsiness. The referent and object roles become difficult to maintain across the resolution.
+- val:1218: An orange truck is repaired after encouragement to persevere, without describing the actual repair. This may be a valid motivational tale, but it does not supply evidence of teaching mechanical reasoning. Moral language should not be confused with an explained causal mechanism.
+- val:64: A cat delivering mail is intentional anthropomorphic fiction, not automatically a factual defect. A quality rubric must distinguish legitimate fantasy from contradictory entities or incorrect word definitions.
+
+This is why 'simple', 'pleasant', 'moral', 'educational', 'coherent', and 'useful to the model' cannot be collapsed into one score. A high-loss story is not necessarily a defective story either: the high-loss list contains coherent stories with unusual names and phrasing. val:169, which has the wrong word definition, has lower character loss than some more coherent, unusual-name examples.
+
+4. What this audit does not establish
+
+- No semantic-embedding duplicate search or paraphrase-family review has been completed. The existing TF-IDF result is not semantic deduplication.
+- The 12 factors have not been validated with multi-label semantic annotations, inter-rater agreement, or topic stability across seeds and cluster counts.
+- The filtered subset has not been compared with a uniform sample across the upstream corpus. Shuffling the first eligible stories does not remove source-order selection bias. Generator/model/prompt-family mixture is unavailable in the current stripped text/JSONL records.
+- Per-slice loss is observational. It does not identify which slice caused better learning or which examples should be removed.
+- No equal-budget data filtering or reweighting training experiment has been run in this audit, and there is only one original training seed.
+- The full validation pass is exact for these files and protocols, not a claim of exhaustive narrative evaluation or universal generalization.
+
+5. The next experiment should test a claim
+
+First define the target abilities: sentence-level correctness, coherent goals and consequences, entity/state consistency, and maintaining information across a story. Build a multi-label annotation rubric that scores these separately from theme, style, difficulty, and fantasy. Give each label an evidence span and an uncertain/not-applicable option.
+
+Calibrate the rubric on 200-300 stories with independent review of a subset and explicit disagreement analysis. Select both a uniform sample and oversamples of rare/high-loss cases; keep sampling weights and purposes separate. Do not mistake an assistant/LLM score for human ground truth.
+
+Then compare the original mix, a semantically repaired/filtered mix, and a diversity-preserving reweighting. Fix tokenizer, architecture, context, optimizer and character-target budget; repeat across at least three seeds. Evaluate on the same untouched story set, with per-skill metrics and fixed prompts/sampling settings. Separately ablate context/packing, since changing those simultaneously with the data would obscure the source of any gain.
+
+Only the matched training comparison can support a claim that the revised mix improves this model. The descriptive audit helps formulate and inspect that claim.
+
+Files
+
+- audit.py: reproducible exposure and checkpoint evaluation code.
+- exposure.json: story-count versus character-exposure mix.
+- evaluation.json: protocols, target counts, aggregate and slice losses.
+- validation_per_story.csv: loss for every held-out story under both story protocols.
+- review_sample.json: the exact deterministic 32-story close-reading sample.
+- high_loss_examples.json: diagnostic examples; not a quality ranking.
+- run.log: execution trace.
+
+Reading for comparison
+
+FineWeb report, including educational filtering, topic/domain fit and bias analyses: https://arxiv.org/html/2406.17557v2
+FineWeb-Edu classifier and its held-out classification report: https://huggingface.co/HuggingFaceFW/fineweb-edu-classifier
+Original TinyStories generation/evaluation design: https://arxiv.org/html/2305.07759v2
