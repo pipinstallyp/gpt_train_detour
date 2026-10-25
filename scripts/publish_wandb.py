@@ -43,6 +43,7 @@ def main():
 
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     configs = read_json('configs/baselines.json')
+    release_alias = 'release-' + args.release
     api = wandb.Api(timeout=30)
     settings = wandb.Settings(x_disable_stats=True, x_disable_machine_info=True, disable_git=True, console='off')
     publication = {'entity': args.entity, 'project': args.project, 'release': args.release, 'code_commit': commit, 'runs': []}
@@ -59,12 +60,20 @@ def main():
                 raise
             return False
         if previous.state == 'finished':
+            # W&B reserves v0/v1/... for native artifact versions, so release
+            # labels must have their own prefix. Repair old publication aliases.
+            for artifact in previous.logged_artifacts():
+                if release_alias not in artifact.aliases:
+                    artifact.aliases.append(release_alias)
+                    artifact.save()
             publication['runs'].append({'name': name, 'id': previous.id, 'url': previous.url})
             return True
+        if not previous.summary.get('source_history_rows') and not list(previous.logged_artifacts()) and not any(key.startswith('loss/') for key in previous.summary):
+            return False  # Empty failed setup can be resumed without duplicating history.
         raise RuntimeError(f'Prior publication {previous.url} is {previous.state}; inspect it before retrying.')
 
     def initialize(name, job_type, config):
-        return wandb.init(entity=args.entity, project=args.project, id=run_id(name), name=f'{args.release}-{name}',
+        return wandb.init(entity=args.entity, project=args.project, id=run_id(name), resume='allow', name=f'{args.release}-{name}',
                           job_type=job_type, group=args.release, tags=[args.release, 'historical-import', 'runpod'],
                           config={**config, 'release': args.release, 'source_code_commit': commit,
                                   'code_url': f'https://github.com/pipinstallyp/gpt_train_detour/tree/{commit}',
@@ -77,10 +86,10 @@ def main():
             for dataset, artifact_name in [('shakespeare', 'shakespeare-char'), ('tinystories', 'tinystories-20k-char')]:
                 artifact = wandb.Artifact(artifact_name, type='dataset', metadata=read_json(f'data/{dataset}/manifest.json'))
                 artifact.add_dir(str(ROOT / 'data' / dataset))
-                run.log_artifact(artifact, aliases=[args.release]).wait()
+                run.log_artifact(artifact, aliases=[release_alias]).wait()
             analysis = wandb.Artifact('tinystories-data-analysis', type='analysis', metadata={'exploratory': True})
             analysis.add_dir(str(ROOT / 'results/tinystories-data-analysis'))
-            run.log_artifact(analysis, aliases=[args.release]).wait()
+            run.log_artifact(analysis, aliases=[release_alias]).wait()
             publication['runs'].append({'name': 'datasets', 'id': run.id, 'url': run.url})
     for name, config in configs.items():
         if completed(name):
@@ -91,7 +100,7 @@ def main():
             raise FileNotFoundError(f'{checkpoint}: download the v1 GitHub release assets first.')
         with initialize(name, 'historical-training', config) as run:
             dataset_name = 'shakespeare-char' if config['dataset'] == 'shakespeare' else 'tinystories-20k-char'
-            run.use_artifact(f'{args.entity}/{args.project}/{dataset_name}:{args.release}', type='dataset')
+            run.use_artifact(f'{args.entity}/{args.project}/{dataset_name}:{release_alias}', type='dataset')
             run.define_metric('train/updates')
             run.define_metric('loss/*', step_metric='train/updates')
             run.define_metric('validation/character_perplexity', step_metric='train/updates')
@@ -119,10 +128,10 @@ def main():
                                     'completed_epochs': summary['epoch']})
             model = wandb.Artifact(name + '-checkpoint', type='model', metadata={'selection': 'final', 'sha256': digest(checkpoint), **config})
             model.add_file(str(checkpoint), name='checkpoint.pt')
-            run.log_artifact(model, aliases=[args.release, 'final']).wait()
+            run.log_artifact(model, aliases=[release_alias, 'final']).wait()
             result = wandb.Artifact(name + '-results', type='evaluation')
             result.add_dir(str(ROOT / 'results' / name))
-            run.log_artifact(result, aliases=[args.release]).wait()
+            run.log_artifact(result, aliases=[release_alias]).wait()
             sample = ROOT / f'results/{name}/sample.txt'
             if sample.exists():
                 table = wandb.Table(columns=['prompt', 'completion', 'source'])

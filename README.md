@@ -51,6 +51,8 @@ Run the notebook data/model definitions and the optional reload cell instead of 
 
 Project: [peepaclan/gpt_train_detour](https://wandb.ai/peepaclan/gpt_train_detour). The publication includes two historical training runs plus one dataset-publication run, versioned dataset artifacts, final model checkpoints, loss histories, analysis, and the saved TinyStories generation.
 
+The release alias is `release-v1`; W&B's first native artifact version is `v0`. These are separate version schemes.
+
 ```sh
 # Supply WANDB_API_KEY through the environment or a local --env-file.
 python scripts/publish_wandb.py --entity peepaclan --project gpt_train_detour --release v1
