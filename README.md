@@ -1,11 +1,15 @@
 # GPT training detour
 
-Two small GPT experiments, starting from [Andrej Karpathy's lecture](https://github.com/karpathy/ng-video-lecture). Open a notebook to follow the data, model, training loop, and saved results.
+A learning log for understanding how GPT training recipes affect learning and generated text, starting from [Andrej Karpathy's lecture](https://github.com/karpathy/ng-video-lecture). The notebooks follow the data, model, training loop, and results; future experiments will change one part of the recipe at a time and compare what happens.
+
+## Start here
+
+**Begin with Shakespeare to understand the baseline, then explore TinyStories to follow a full pass through a different dataset.** v1 preserves these two original runs as the starting point for later experiments.
 
 | Start here | What's inside |
 | --- | --- |
-| **[Shakespeare.ipynb](Shakespeare.ipynb)** | A character GPT trained on Shakespeare for 5,000 updates. See the learning curve and where it begins to overfit. |
-| **[TinyStories.ipynb](TinyStories.ipynb)** | The same model family trained for one packed epoch on 20,000 filtered stories. Includes a generated story. |
+| **[1. Shakespeare](notebooks/Shakespeare.ipynb)** | A character GPT trained on Shakespeare for 5,000 updates. Follow the model and training loop, then see where validation loss begins to worsen. |
+| **[2. TinyStories](notebooks/TinyStories.ipynb)** | The same model family trained for one packed epoch on 20,000 filtered stories. Inspect the data split, learning curve, and generated story. |
 
 Both notebooks contain the original saved outputs. **[View the runs in W&B](https://wandb.ai/peepaclan/gpt_train_detour)** or **[download the v1 checkpoints](https://github.com/pipinstallyp/gpt_train_detour/releases/tag/v1)**.
 
@@ -20,13 +24,12 @@ python -m jupyterlab
 
 Launch from the repository root and open either notebook above. Run the data/model definitions and the optional reload cell to use a downloaded checkpoint, or run the training cell to train from scratch.
 
-## A small front door
+## Repository layout
 
 ```text
-Shakespeare.ipynb   Shakespeare experiment
-TinyStories.ipynb   TinyStories experiment
-data/              Datasets, exact splits, and source/license notes
-support/           Results, analysis, scripts, configs, and provenance
+notebooks/   The two main experiments — start with the links above
+data/        Datasets, exact splits, and source/license notes
+support/     Results, analysis, scripts, configs, and provenance
 ```
 
 [Supporting material](support/README.md) covers checkpoint setup, dataset analysis, verification, and W&B publishing. The additional TinyStories analysis notebook and unexecuted 5,000-step recipe live there too.

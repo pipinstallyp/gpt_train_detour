@@ -1,6 +1,6 @@
 # Supporting material
 
-The two main experiments are [Shakespeare](../Shakespeare.ipynb) and [TinyStories](../TinyStories.ipynb). This directory holds the material behind them.
+The two main experiments are [Shakespeare](../notebooks/Shakespeare.ipynb) and [TinyStories](../notebooks/TinyStories.ipynb). This directory holds the material behind them.
 
 | Material | Location |
 | --- | --- |
