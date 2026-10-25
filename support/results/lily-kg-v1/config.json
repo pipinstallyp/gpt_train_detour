@@ -1,0 +1,23 @@
+{
+  "epochs": 10,
+  "batch_size": 64,
+  "block_size": 256,
+  "n_layer": 6,
+  "n_head": 6,
+  "n_embd": 384,
+  "dropout": 0.2,
+  "learning_rate": 0.0003,
+  "optimizer": "AdamW defaults",
+  "seed": 1337,
+  "vocab_size": 96,
+  "parameters": 10812768,
+  "token_unit": "character",
+  "targets_per_epoch": 3799235,
+  "packing": "one complete scene per sequence, ignored right padding",
+  "objective": "next-character cross entropy over the entire record; not answer-only loss",
+  "curriculum": "fixed shuffled mixture; no curriculum or identity objective",
+  "repo_id": "chewiesays/lily-kg-mini-v1",
+  "revision": "dfbe3515218955f3b737e7cbb3a894be96ffddf1",
+  "url": "https://huggingface.co/datasets/chewiesays/lily-kg-mini-v1",
+  "manifest_sha256": "08b8e8b181660280b4f6274dbe0af1eb5ce1468a0d8b9dcdffb434640250a251"
+}

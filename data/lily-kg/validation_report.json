@@ -1,0 +1,9 @@
+{
+  "logic_corner_cases_passed": 9,
+  "records_checked": 27000,
+  "all_labels_match_symbolic_oracle": true,
+  "train_validation_composition_overlap": 0,
+  "counterbalanced_question_only_accuracy": 0.3333333333333333,
+  "all_records_fit_256_characters": true,
+  "paraphrase_policy": "Deliberate paired re-rendering of validation graphs; never trained."
+}

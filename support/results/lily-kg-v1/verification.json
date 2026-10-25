@@ -1,0 +1,35 @@
+{
+  "validation": {
+    "records": 1200,
+    "closed_label_accuracy": 0.7416666666666667,
+    "greedy_exact_accuracy": 0.7416666666666667
+  },
+  "test_composition": {
+    "records": 600,
+    "closed_label_accuracy": 0.6033333333333334,
+    "greedy_exact_accuracy": 0.6033333333333334
+  },
+  "test_paraphrase": {
+    "records": 1200,
+    "closed_label_accuracy": 0.375,
+    "greedy_exact_accuracy": 0.37
+  },
+  "validation_reasoning_tasks_only": {
+    "records": 600,
+    "greedy_exact_accuracy": 0.5983333333333334
+  },
+  "paraphrase_new_word_forms": [
+    "color",
+    "compared",
+    "does",
+    "for",
+    "have",
+    "of",
+    "out",
+    "sits",
+    "to",
+    "where",
+    "within"
+  ],
+  "paraphrase_interpretation": "Joint lexical and surface-form shift, not a pure syntax-only holdout."
+}

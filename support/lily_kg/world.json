@@ -1,0 +1,427 @@
+{
+  "name": "Lily World v1",
+  "entities": [
+    {
+      "id": "lily",
+      "type": "agent",
+      "label": "Lily"
+    },
+    {
+      "id": "milo",
+      "type": "agent",
+      "label": "Milo"
+    },
+    {
+      "id": "nora",
+      "type": "agent",
+      "label": "Nora"
+    },
+    {
+      "id": "theo",
+      "type": "agent",
+      "label": "Theo"
+    },
+    {
+      "id": "ball",
+      "type": "object",
+      "label": "ball"
+    },
+    {
+      "id": "apple",
+      "type": "object",
+      "label": "apple"
+    },
+    {
+      "id": "stone",
+      "type": "object",
+      "label": "stone"
+    },
+    {
+      "id": "cup",
+      "type": "object",
+      "label": "cup"
+    },
+    {
+      "id": "toy",
+      "type": "object",
+      "label": "toy"
+    },
+    {
+      "id": "leaf",
+      "type": "object",
+      "label": "leaf"
+    },
+    {
+      "id": "stick",
+      "type": "object",
+      "label": "stick"
+    },
+    {
+      "id": "pear",
+      "type": "object",
+      "label": "pear"
+    },
+    {
+      "id": "mat",
+      "type": "place",
+      "label": "mat"
+    },
+    {
+      "id": "table",
+      "type": "place",
+      "label": "table"
+    },
+    {
+      "id": "bench",
+      "type": "place",
+      "label": "bench"
+    },
+    {
+      "id": "shelf",
+      "type": "place",
+      "label": "shelf"
+    },
+    {
+      "id": "box",
+      "type": "place",
+      "label": "box"
+    },
+    {
+      "id": "log",
+      "type": "place",
+      "label": "log"
+    },
+    {
+      "id": "red",
+      "type": "color",
+      "label": "red"
+    },
+    {
+      "id": "blue",
+      "type": "color",
+      "label": "blue"
+    },
+    {
+      "id": "green",
+      "type": "color",
+      "label": "green"
+    },
+    {
+      "id": "gold",
+      "type": "color",
+      "label": "gold"
+    }
+  ],
+  "relation_types": {
+    "color": [
+      "object",
+      "color"
+    ],
+    "on": [
+      "object",
+      "place"
+    ],
+    "reach": [
+      "agent",
+      "place"
+    ],
+    "heavier": [
+      "object",
+      "object"
+    ]
+  },
+  "rules": [
+    {
+      "id": "single_color",
+      "rule": "An object has at most one color in a scene. A known different color disproves the queried color."
+    },
+    {
+      "id": "single_location",
+      "rule": "An object is on at most one place in a scene. A known different place disproves the queried place."
+    },
+    {
+      "id": "reach_composition",
+      "rule": "If an object is on a place and an agent can/cannot reach that place, the agent can/cannot reach that object in this toy world."
+    },
+    {
+      "id": "strict_weight_order",
+      "rule": "Heavier is transitive and asymmetric. A reverse positive path disproves a heavier query."
+    },
+    {
+      "id": "open_world",
+      "rule": "A query with neither positive nor negative support is Unknown. Absence alone is not No."
+    }
+  ],
+  "seed_scene": [
+    {
+      "head": "ball",
+      "relation": "color",
+      "tail": "red",
+      "positive": true
+    },
+    {
+      "head": "ball",
+      "relation": "on",
+      "tail": "mat",
+      "positive": true
+    },
+    {
+      "head": "apple",
+      "relation": "color",
+      "tail": "blue",
+      "positive": true
+    },
+    {
+      "head": "apple",
+      "relation": "on",
+      "tail": "table",
+      "positive": true
+    },
+    {
+      "head": "stone",
+      "relation": "color",
+      "tail": "green",
+      "positive": true
+    },
+    {
+      "head": "stone",
+      "relation": "on",
+      "tail": "bench",
+      "positive": true
+    },
+    {
+      "head": "cup",
+      "relation": "color",
+      "tail": "gold",
+      "positive": true
+    },
+    {
+      "head": "cup",
+      "relation": "on",
+      "tail": "shelf",
+      "positive": true
+    },
+    {
+      "head": "toy",
+      "relation": "color",
+      "tail": "red",
+      "positive": true
+    },
+    {
+      "head": "toy",
+      "relation": "on",
+      "tail": "box",
+      "positive": true
+    },
+    {
+      "head": "leaf",
+      "relation": "color",
+      "tail": "blue",
+      "positive": true
+    },
+    {
+      "head": "leaf",
+      "relation": "on",
+      "tail": "log",
+      "positive": true
+    },
+    {
+      "head": "stick",
+      "relation": "color",
+      "tail": "green",
+      "positive": true
+    },
+    {
+      "head": "stick",
+      "relation": "on",
+      "tail": "mat",
+      "positive": true
+    },
+    {
+      "head": "pear",
+      "relation": "color",
+      "tail": "gold",
+      "positive": true
+    },
+    {
+      "head": "pear",
+      "relation": "on",
+      "tail": "table",
+      "positive": true
+    },
+    {
+      "head": "lily",
+      "relation": "reach",
+      "tail": "mat",
+      "positive": true
+    },
+    {
+      "head": "lily",
+      "relation": "reach",
+      "tail": "table",
+      "positive": true
+    },
+    {
+      "head": "lily",
+      "relation": "reach",
+      "tail": "bench",
+      "positive": false
+    },
+    {
+      "head": "milo",
+      "relation": "reach",
+      "tail": "table",
+      "positive": true
+    },
+    {
+      "head": "milo",
+      "relation": "reach",
+      "tail": "bench",
+      "positive": true
+    },
+    {
+      "head": "milo",
+      "relation": "reach",
+      "tail": "shelf",
+      "positive": false
+    },
+    {
+      "head": "nora",
+      "relation": "reach",
+      "tail": "bench",
+      "positive": true
+    },
+    {
+      "head": "nora",
+      "relation": "reach",
+      "tail": "shelf",
+      "positive": true
+    },
+    {
+      "head": "nora",
+      "relation": "reach",
+      "tail": "box",
+      "positive": false
+    },
+    {
+      "head": "theo",
+      "relation": "reach",
+      "tail": "shelf",
+      "positive": true
+    },
+    {
+      "head": "theo",
+      "relation": "reach",
+      "tail": "box",
+      "positive": true
+    },
+    {
+      "head": "theo",
+      "relation": "reach",
+      "tail": "log",
+      "positive": false
+    },
+    {
+      "head": "ball",
+      "relation": "heavier",
+      "tail": "apple",
+      "positive": true
+    },
+    {
+      "head": "apple",
+      "relation": "heavier",
+      "tail": "stone",
+      "positive": true
+    },
+    {
+      "head": "stone",
+      "relation": "heavier",
+      "tail": "cup",
+      "positive": true
+    },
+    {
+      "head": "cup",
+      "relation": "heavier",
+      "tail": "toy",
+      "positive": true
+    },
+    {
+      "head": "toy",
+      "relation": "heavier",
+      "tail": "leaf",
+      "positive": true
+    },
+    {
+      "head": "leaf",
+      "relation": "heavier",
+      "tail": "stick",
+      "positive": true
+    },
+    {
+      "head": "stick",
+      "relation": "heavier",
+      "tail": "pear",
+      "positive": true
+    }
+  ],
+  "scene_semantics": "Independent scenes recombine these typed entities. The seed illustrates the schema; colors, positions, reachability and orders are counterbalanced across scenes. Facts in different records are not simultaneous global truths.",
+  "held_out_reach_queries": [
+    [
+      "lily",
+      "pear"
+    ],
+    [
+      "lily",
+      "stick"
+    ],
+    [
+      "milo",
+      "ball"
+    ],
+    [
+      "milo",
+      "leaf"
+    ],
+    [
+      "nora",
+      "cup"
+    ],
+    [
+      "nora",
+      "apple"
+    ],
+    [
+      "theo",
+      "stone"
+    ],
+    [
+      "theo",
+      "toy"
+    ]
+  ],
+  "held_out_weight_queries": [
+    [
+      "ball",
+      "pear"
+    ],
+    [
+      "apple",
+      "stick"
+    ],
+    [
+      "stone",
+      "leaf"
+    ],
+    [
+      "cup",
+      "toy"
+    ]
+  ],
+  "future_extensions": [
+    "animals and movement",
+    "barriers and occlusion",
+    "tool affordances",
+    "changing beliefs"
+  ],
+  "claims": "A controlled grounded language experiment, not a developmental or identity model."
+}

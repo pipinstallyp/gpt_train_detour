@@ -1,9 +1,11 @@
 # Supporting material
 
-The two main experiments are [Shakespeare](../notebooks/Shakespeare.ipynb) and [TinyStories](../notebooks/TinyStories.ipynb). This directory holds the material behind them.
+The main experiments are [Shakespeare](../notebooks/Shakespeare.ipynb), [TinyStories](../notebooks/TinyStories.ipynb), and [Lily's world](../notebooks/Lily_KG.ipynb). This directory holds the material behind them.
 
 | Material | Location |
 | --- | --- |
+| Lily world, dataset generator, rule checker, and training code | [lily_kg/](lily_kg/) |
+| Lily's ten-epoch results, predictions, and interpretation | [results/lily-kg-v1/](results/lily-kg-v1/) |
 | TinyStories dataset analysis notebook | [TinyStories_DataAnalysis.ipynb](notebooks/TinyStories_DataAnalysis.ipynb) |
 | Additional 5,000-step recipe, without a completed run | [TinyStories_5000Steps.ipynb](notebooks/TinyStories_5000Steps.ipynb) |
 | Original loss histories, generated sample, and dataset analysis | [results/](results/) |
@@ -38,7 +40,7 @@ Preparation regenerates the data files; the checked-in snapshot is the authorita
 
 ## W&B publication and verification
 
-The [W&B project](https://wandb.ai/peepaclan/gpt_train_detour) contains two historical training runs and one dataset-publication run. It includes input dataset lineage, final model artifacts, the original loss histories, analysis, and the saved TinyStories sample. Training-machine telemetry was not recorded; system statistics are disabled during historical imports.
+The [W&B project](https://wandb.ai/peepaclan/gpt_train_detour) contains two historical training runs, one dataset-publication run, and [Lily's actual ten-epoch training run](https://forge.coreweave.com/wandb/peepaclan/gpt_train_detour/runs/stg4wug8). It includes input dataset lineage, model artifacts, loss histories, analysis, and the saved TinyStories sample. Training-machine telemetry was not recorded for the historical imports; Lily was logged during training.
 
 ```sh
 python support/scripts/publish_wandb.py --entity peepaclan --project gpt_train_detour --release v1

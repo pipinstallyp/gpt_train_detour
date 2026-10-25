@@ -1,0 +1,10 @@
+generated/
+dataset/
+out/
+wandb/
+hf_source.json
+Lily_KG.ipynb
+run.log
+notebook_error.txt
+notebook_complete.txt
+.venv/

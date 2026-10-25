@@ -1,0 +1,200 @@
+[
+  {
+    "epoch": 0,
+    "updates": 0,
+    "targets_seen": 0,
+    "seconds": 1.4640862941741943,
+    "train_record_loss": null,
+    "validation_record_loss": 4.503597954404834,
+    "tiny_style_train_loss": 4.488524055480957,
+    "tiny_style_validation_loss": 4.488430428504944,
+    "validation_label_accuracy": 0.33166666666666667,
+    "validation_unknown_recall": 0.995,
+    "validation_per_task": {
+      "color": 0.3333333333333333,
+      "heavier": 0.32666666666666666,
+      "on": 0.3333333333333333,
+      "reachable": 0.3333333333333333
+    }
+  },
+  {
+    "epoch": 1,
+    "updates": 375,
+    "targets_seen": 3799235,
+    "seconds": 39.03347682952881,
+    "train_record_loss": 0.6261628191708981,
+    "validation_record_loss": 0.15376716614372155,
+    "tiny_style_train_loss": 3.089550185203552,
+    "tiny_style_validation_loss": 3.0892078161239622,
+    "validation_label_accuracy": 0.375,
+    "validation_unknown_recall": 0.135,
+    "validation_per_task": {
+      "color": 0.32,
+      "heavier": 0.37,
+      "on": 0.3333333333333333,
+      "reachable": 0.4766666666666667
+    }
+  },
+  {
+    "epoch": 2,
+    "updates": 750,
+    "targets_seen": 7598470,
+    "seconds": 77.5204610824585,
+    "train_record_loss": 0.15480668301602007,
+    "validation_record_loss": 0.14396790101979443,
+    "tiny_style_train_loss": 3.209302604198456,
+    "tiny_style_validation_loss": 3.2093961358070375,
+    "validation_label_accuracy": 0.37666666666666665,
+    "validation_unknown_recall": 0.42,
+    "validation_per_task": {
+      "color": 0.35,
+      "heavier": 0.3933333333333333,
+      "on": 0.33,
+      "reachable": 0.43333333333333335
+    }
+  },
+  {
+    "epoch": 3,
+    "updates": 1125,
+    "targets_seen": 11397705,
+    "seconds": 115.5781512260437,
+    "train_record_loss": 0.14520656146249722,
+    "validation_record_loss": 0.1393993074868026,
+    "tiny_style_train_loss": 3.2172034859657286,
+    "tiny_style_validation_loss": 3.2144477725028993,
+    "validation_label_accuracy": 0.38416666666666666,
+    "validation_unknown_recall": 0.665,
+    "validation_per_task": {
+      "color": 0.36,
+      "heavier": 0.38333333333333336,
+      "on": 0.36,
+      "reachable": 0.43333333333333335
+    }
+  },
+  {
+    "epoch": 4,
+    "updates": 1500,
+    "targets_seen": 15196940,
+    "seconds": 153.69316983222961,
+    "train_record_loss": 0.14118342794748068,
+    "validation_record_loss": 0.13658529897144295,
+    "tiny_style_train_loss": 3.2310821056365966,
+    "tiny_style_validation_loss": 3.232267475128174,
+    "validation_label_accuracy": 0.42083333333333334,
+    "validation_unknown_recall": 0.6675,
+    "validation_per_task": {
+      "color": 0.37,
+      "heavier": 0.43666666666666665,
+      "on": 0.38666666666666666,
+      "reachable": 0.49
+    }
+  },
+  {
+    "epoch": 5,
+    "updates": 1875,
+    "targets_seen": 18996175,
+    "seconds": 191.83948135375977,
+    "train_record_loss": 0.13855509797471238,
+    "validation_record_loss": 0.13643791275263453,
+    "tiny_style_train_loss": 3.2163187861442566,
+    "tiny_style_validation_loss": 3.2159282207489013,
+    "validation_label_accuracy": 0.44333333333333336,
+    "validation_unknown_recall": 0.865,
+    "validation_per_task": {
+      "color": 0.41,
+      "heavier": 0.44,
+      "on": 0.4266666666666667,
+      "reachable": 0.49666666666666665
+    }
+  },
+  {
+    "epoch": 6,
+    "updates": 2250,
+    "targets_seen": 22795410,
+    "seconds": 229.97759532928467,
+    "train_record_loss": 0.13636669659079756,
+    "validation_record_loss": 0.13346085563340881,
+    "tiny_style_train_loss": 3.2380382418632507,
+    "tiny_style_validation_loss": 3.238677680492401,
+    "validation_label_accuracy": 0.4791666666666667,
+    "validation_unknown_recall": 0.645,
+    "validation_per_task": {
+      "color": 0.46,
+      "heavier": 0.4533333333333333,
+      "on": 0.5066666666666667,
+      "reachable": 0.49666666666666665
+    }
+  },
+  {
+    "epoch": 7,
+    "updates": 2625,
+    "targets_seen": 26594645,
+    "seconds": 268.2330946922302,
+    "train_record_loss": 0.1353160238361166,
+    "validation_record_loss": 0.1321965667121184,
+    "tiny_style_train_loss": 3.079111671447754,
+    "tiny_style_validation_loss": 3.0785123825073244,
+    "validation_label_accuracy": 0.5183333333333333,
+    "validation_unknown_recall": 0.605,
+    "validation_per_task": {
+      "color": 0.54,
+      "heavier": 0.49666666666666665,
+      "on": 0.5433333333333333,
+      "reachable": 0.49333333333333335
+    }
+  },
+  {
+    "epoch": 8,
+    "updates": 3000,
+    "targets_seen": 30393880,
+    "seconds": 306.344092130661,
+    "train_record_loss": 0.13375834489632216,
+    "validation_record_loss": 0.13029037487236628,
+    "tiny_style_train_loss": 3.1111497402191164,
+    "tiny_style_validation_loss": 3.112785851955414,
+    "validation_label_accuracy": 0.5608333333333333,
+    "validation_unknown_recall": 0.7575,
+    "validation_per_task": {
+      "color": 0.63,
+      "heavier": 0.5033333333333333,
+      "on": 0.5833333333333334,
+      "reachable": 0.5266666666666666
+    }
+  },
+  {
+    "epoch": 9,
+    "updates": 3375,
+    "targets_seen": 34193115,
+    "seconds": 344.51124334335327,
+    "train_record_loss": 0.13186986012987206,
+    "validation_record_loss": 0.1287268782160406,
+    "tiny_style_train_loss": 2.8814801454544066,
+    "tiny_style_validation_loss": 2.884958016872406,
+    "validation_label_accuracy": 0.6108333333333333,
+    "validation_unknown_recall": 0.4775,
+    "validation_per_task": {
+      "color": 0.7933333333333333,
+      "heavier": 0.5733333333333334,
+      "on": 0.5666666666666667,
+      "reachable": 0.51
+    }
+  },
+  {
+    "epoch": 10,
+    "updates": 3750,
+    "targets_seen": 37992350,
+    "seconds": 382.67220520973206,
+    "train_record_loss": 0.13038419985697458,
+    "validation_record_loss": 0.12603968578141866,
+    "tiny_style_train_loss": 3.3648131847381593,
+    "tiny_style_validation_loss": 3.3717053174972533,
+    "validation_label_accuracy": 0.7416666666666667,
+    "validation_unknown_recall": 0.7925,
+    "validation_per_task": {
+      "color": 0.9333333333333333,
+      "heavier": 0.6566666666666666,
+      "on": 0.8366666666666667,
+      "reachable": 0.54
+    }
+  }
+]

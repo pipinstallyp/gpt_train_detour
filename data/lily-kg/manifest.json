@@ -1,0 +1,81 @@
+{
+  "version": "v1",
+  "seed": 1337,
+  "unit": "character tokens, including punctuation and whitespace",
+  "training_objective": "full-record next-character cross entropy; first character supplied as context",
+  "training_epochs": 10,
+  "splits": {
+    "train": {
+      "records": 24000,
+      "characters": 3823235,
+      "record_targets": 3799235,
+      "max_record_characters": 198,
+      "labels": {
+        "No": 8000,
+        "Yes": 8000,
+        "Unknown": 8000
+      },
+      "tasks": {
+        "heavier": 6000,
+        "reachable": 6000,
+        "color": 6000,
+        "on": 6000
+      },
+      "sha256": "5b26c531f4c74e05d57007ef3af4ff369e0d911f572853048c637d6bf97474a3"
+    },
+    "validation": {
+      "records": 1200,
+      "characters": 191105,
+      "record_targets": 189905,
+      "max_record_characters": 198,
+      "labels": {
+        "Unknown": 400,
+        "Yes": 400,
+        "No": 400
+      },
+      "tasks": {
+        "on": 300,
+        "reachable": 300,
+        "color": 300,
+        "heavier": 300
+      },
+      "sha256": "67106d9599882c9de535cb499d537ac66bdfdb85fad9211906b7c82111354c91"
+    },
+    "test_composition": {
+      "records": 600,
+      "characters": 104444,
+      "record_targets": 103844,
+      "max_record_characters": 198,
+      "labels": {
+        "Unknown": 200,
+        "Yes": 200,
+        "No": 200
+      },
+      "tasks": {
+        "heavier": 300,
+        "reachable": 300
+      },
+      "sha256": "151f837d255ea8c6c4e852f662603aeab7083d79f6ee08d7b3a5f69fca701ef5"
+    },
+    "test_paraphrase": {
+      "records": 1200,
+      "characters": 239555,
+      "record_targets": 238355,
+      "max_record_characters": 243,
+      "labels": {
+        "Unknown": 400,
+        "Yes": 400,
+        "No": 400
+      },
+      "tasks": {
+        "on": 300,
+        "reachable": 300,
+        "color": 300,
+        "heavier": 300
+      },
+      "sha256": "317bcb083f0439bb534414d6e2f75c1b701f2443db5a6cd388d2da5d5eb2a440"
+    }
+  },
+  "split_policy": "Contrast groups stay in one split. Train/validation/composition semantic cases are disjoint. Paraphrase deliberately re-renders the held-out validation graphs with unseen wording. Composition holds out query endpoint pairs, not new relation meanings.",
+  "world_sha256": "df1319efad5c82dd4ae3bef23e1ab774763770ab00093c2274a858bad027e677"
+}

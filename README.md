@@ -10,8 +10,9 @@ A learning log for understanding how GPT training recipes affect learning and ge
 | --- | --- |
 | **[1. Shakespeare](notebooks/Shakespeare.ipynb)** | A character GPT trained on Shakespeare for 5,000 updates. Follow the model and training loop, then see where validation loss begins to worsen. |
 | **[2. TinyStories](notebooks/TinyStories.ipynb)** | The same model family trained for one packed epoch on 20,000 filtered stories. Inspect the data split, learning curve, and generated story. |
+| **[3. Lily's world](notebooks/Lily_KG.ipynb)** | Define a tiny knowledge graph, generate and publish verified scenes, then train for ten epochs. Test answers on fresh scenes, reserved entity combinations, and new wording. |
 
-Both notebooks contain the original saved outputs. **[View the runs in W&B](https://wandb.ai/peepaclan/gpt_train_detour)** or **[download the v1 checkpoints](https://github.com/pipinstallyp/gpt_train_detour/releases/tag/v1)**.
+The notebooks contain saved outputs. **[View the runs in W&B](https://wandb.ai/peepaclan/gpt_train_detour)** or **[download the original v1 checkpoints](https://github.com/pipinstallyp/gpt_train_detour/releases/tag/v1)**. Lily's [dataset is on Hugging Face](https://huggingface.co/datasets/chewiesays/lily-kg-mini-v1); its [results and limitations](support/results/lily-kg-v1/README.md) explain what the first run learned.
 
 ## Run a notebook
 
@@ -22,12 +23,12 @@ python -m pip install -r requirements.txt
 python -m jupyterlab
 ```
 
-Launch from the repository root and open either notebook above. Run the data/model definitions and the optional reload cell to use a downloaded checkpoint, or run the training cell to train from scratch.
+Launch from the repository root to run Shakespeare or TinyStories. Run the data/model definitions and the optional reload cell to use a downloaded checkpoint, or run the training cell to train from scratch. Lily's executed notebook uses the existing Runpod workspace and its own kernel; see its [setup and generator guide](support/lily_kg/README.md).
 
 ## Repository layout
 
 ```text
-notebooks/   The two main experiments — start with the links above
+notebooks/   The main experiments — start with the links above
 data/        Datasets, exact splits, and source/license notes
 support/     Results, analysis, scripts, configs, and provenance
 ```

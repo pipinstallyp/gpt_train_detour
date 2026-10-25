@@ -1,0 +1,223 @@
+{
+  "completed_epochs": 10,
+  "updates": 3750,
+  "training_targets_seen": 37992350,
+  "best_epoch_by_validation_loss": 10,
+  "best_validation_record_loss": 0.12603968578141866,
+  "last": {
+    "validation": {
+      "records": 1200,
+      "label_accuracy": 0.7416666666666667,
+      "unknown_recall": 0.7925,
+      "unknown_precision": 0.8453333333333334,
+      "per_task": {
+        "color": 0.9333333333333333,
+        "heavier": 0.6566666666666666,
+        "on": 0.8366666666666667,
+        "reachable": 0.54
+      },
+      "confusion": {
+        "Yes": {
+          "Yes": 202,
+          "No": 146,
+          "Unknown": 52
+        },
+        "No": {
+          "Yes": 23,
+          "No": 371,
+          "Unknown": 6
+        },
+        "Unknown": {
+          "Yes": 65,
+          "No": 18,
+          "Unknown": 317
+        }
+      },
+      "greedy_exact_answer_accuracy": 0.7416666666666667
+    },
+    "test_composition": {
+      "records": 600,
+      "label_accuracy": 0.6033333333333334,
+      "unknown_recall": 0.57,
+      "unknown_precision": 0.8837209302325582,
+      "per_task": {
+        "heavier": 0.6666666666666666,
+        "reachable": 0.54
+      },
+      "confusion": {
+        "Yes": {
+          "Yes": 77,
+          "No": 112,
+          "Unknown": 11
+        },
+        "No": {
+          "Yes": 25,
+          "No": 171,
+          "Unknown": 4
+        },
+        "Unknown": {
+          "Yes": 72,
+          "No": 14,
+          "Unknown": 114
+        }
+      },
+      "greedy_exact_answer_accuracy": 0.6033333333333334
+    },
+    "test_paraphrase": {
+      "records": 1200,
+      "label_accuracy": 0.375,
+      "unknown_recall": 0.255,
+      "unknown_precision": 0.49038461538461536,
+      "per_task": {
+        "color": 0.3933333333333333,
+        "heavier": 0.33666666666666667,
+        "on": 0.42333333333333334,
+        "reachable": 0.3466666666666667
+      },
+      "confusion": {
+        "Yes": {
+          "Yes": 23,
+          "No": 325,
+          "Unknown": 52
+        },
+        "No": {
+          "Yes": 21,
+          "No": 325,
+          "Unknown": 54
+        },
+        "Unknown": {
+          "Yes": 14,
+          "No": 284,
+          "Unknown": 102
+        }
+      },
+      "greedy_exact_answer_accuracy": 0.37
+    }
+  },
+  "best_by_validation_loss": {
+    "validation": {
+      "records": 1200,
+      "label_accuracy": 0.7416666666666667,
+      "unknown_recall": 0.7925,
+      "unknown_precision": 0.8453333333333334,
+      "per_task": {
+        "color": 0.9333333333333333,
+        "heavier": 0.6566666666666666,
+        "on": 0.8366666666666667,
+        "reachable": 0.54
+      },
+      "confusion": {
+        "Yes": {
+          "Yes": 202,
+          "No": 146,
+          "Unknown": 52
+        },
+        "No": {
+          "Yes": 23,
+          "No": 371,
+          "Unknown": 6
+        },
+        "Unknown": {
+          "Yes": 65,
+          "No": 18,
+          "Unknown": 317
+        }
+      }
+    },
+    "test_composition": {
+      "records": 600,
+      "label_accuracy": 0.6033333333333334,
+      "unknown_recall": 0.57,
+      "unknown_precision": 0.8837209302325582,
+      "per_task": {
+        "heavier": 0.6666666666666666,
+        "reachable": 0.54
+      },
+      "confusion": {
+        "Yes": {
+          "Yes": 77,
+          "No": 112,
+          "Unknown": 11
+        },
+        "No": {
+          "Yes": 25,
+          "No": 171,
+          "Unknown": 4
+        },
+        "Unknown": {
+          "Yes": 72,
+          "No": 14,
+          "Unknown": 114
+        }
+      }
+    },
+    "test_paraphrase": {
+      "records": 1200,
+      "label_accuracy": 0.375,
+      "unknown_recall": 0.255,
+      "unknown_precision": 0.49038461538461536,
+      "per_task": {
+        "color": 0.3933333333333333,
+        "heavier": 0.33666666666666667,
+        "on": 0.42333333333333334,
+        "reachable": 0.3466666666666667
+      },
+      "confusion": {
+        "Yes": {
+          "Yes": 23,
+          "No": 325,
+          "Unknown": 52
+        },
+        "No": {
+          "Yes": 21,
+          "No": 325,
+          "Unknown": 54
+        },
+        "Unknown": {
+          "Yes": 14,
+          "No": 284,
+          "Unknown": 102
+        }
+      }
+    }
+  },
+  "seconds": 401.9633672237396,
+  "wandb_url": "https://forge.coreweave.com/wandb/peepaclan/gpt_train_detour/runs/stg4wug8",
+  "hf_dataset": {
+    "repo_id": "chewiesays/lily-kg-mini-v1",
+    "revision": "dfbe3515218955f3b737e7cbb3a894be96ffddf1",
+    "url": "https://huggingface.co/datasets/chewiesays/lily-kg-mini-v1",
+    "manifest_sha256": "08b8e8b181660280b4f6274dbe0af1eb5ce1468a0d8b9dcdffb434640250a251"
+  },
+  "config": {
+    "epochs": 10,
+    "batch_size": 64,
+    "block_size": 256,
+    "n_layer": 6,
+    "n_head": 6,
+    "n_embd": 384,
+    "dropout": 0.2,
+    "learning_rate": 0.0003,
+    "optimizer": "AdamW defaults",
+    "seed": 1337,
+    "vocab_size": 96,
+    "parameters": 10812768,
+    "token_unit": "character",
+    "targets_per_epoch": 3799235,
+    "packing": "one complete scene per sequence, ignored right padding",
+    "objective": "next-character cross entropy over the entire record; not answer-only loss",
+    "curriculum": "fixed shuffled mixture; no curriculum or identity objective",
+    "repo_id": "chewiesays/lily-kg-mini-v1",
+    "revision": "dfbe3515218955f3b737e7cbb3a894be96ffddf1",
+    "url": "https://huggingface.co/datasets/chewiesays/lily-kg-mini-v1",
+    "manifest_sha256": "08b8e8b181660280b4f6274dbe0af1eb5ce1468a0d8b9dcdffb434640250a251"
+  },
+  "caveats": [
+    "Single seed; no curriculum comparison.",
+    "Unknown is explicitly supervised, not spontaneous abstention.",
+    "Composition test holds out endpoint pairs, not unseen algorithms.",
+    "Paraphrase test intentionally shares held-out validation graphs.",
+    "Closed-label accuracy uses equal-length first-character verbalizers Y/N/U; greedy exact accuracy is separate.",
+    "Losses on Lily and TinyStories are not directly comparable across corpora."
+  ]
+}
