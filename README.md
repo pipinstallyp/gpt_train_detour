@@ -28,7 +28,7 @@ The unused `TinyStories_GPT.ipynb` is a 5,000-step recipe, **not a completed exp
 
 ## Run locally or on a GPU pod
 
-Use Python 3.10–3.13. Training was performed with PyTorch 2.8.0+cu128. Install the appropriate PyTorch wheel for the GPU environment, then install `requirements.txt` and start JupyterLab from the repository root:
+Use Python 3.11–3.13. Training was performed with PyTorch 2.8.0+cu128. Install the appropriate PyTorch wheel for the GPU environment, then install `requirements.txt` and start JupyterLab from the repository root:
 
 ```sh
 python -m pip install -r requirements.txt

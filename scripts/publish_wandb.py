@@ -68,7 +68,7 @@ def main():
                     artifact.save()
             publication['runs'].append({'name': name, 'id': previous.id, 'url': previous.url})
             return True
-        if not previous.summary.get('source_history_rows') and not list(previous.logged_artifacts()) and not any(key.startswith('loss/') for key in previous.summary):
+        if not previous.summary.get('source_history_rows') and not list(previous.logged_artifacts()) and not any(key.startswith('loss/') for key in previous.summary.keys()):
             return False  # Empty failed setup can be resumed without duplicating history.
         raise RuntimeError(f'Prior publication {previous.url} is {previous.state}; inspect it before retrying.')
 
