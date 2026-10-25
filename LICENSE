@@ -21,4 +21,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Datasets retain their separate source terms; see data/ and THIRD_PARTY_NOTICES.md.
+Datasets retain their separate source terms; see data/ and support/THIRD_PARTY_NOTICES.md.

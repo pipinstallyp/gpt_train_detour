@@ -1,6 +1,6 @@
 from pathlib import Path
 import urllib.request, json, random, hashlib, unicodedata, collections
-ROOT=Path(__file__).resolve().parents[1]/'data/tinystories'
+ROOT=Path(__file__).resolve().parents[2]/'data/tinystories'
 ROOT.mkdir(parents=True, exist_ok=True)
 OUT=ROOT
 URL='https://huggingface.co/datasets/roneneldan/TinyStories/resolve/main/TinyStories-train.txt'

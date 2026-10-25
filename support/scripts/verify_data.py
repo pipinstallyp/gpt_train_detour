@@ -3,7 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 checksums = json.loads((ROOT / 'data/checksums.json').read_text())
 for name, expected in checksums.items():
     with (ROOT / name).open('rb') as stream:

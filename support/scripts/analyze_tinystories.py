@@ -7,8 +7,8 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer,ENGLISH_STOP_WORDS
 from sklearn.decomposition import NMF
 from sklearn.neighbors import NearestNeighbors
-root=Path(__file__).resolve().parents[1]
-out=root/'results/tinystories-data-analysis'; out.mkdir(parents=True,exist_ok=True)
+root=Path(__file__).resolve().parents[2]
+out=root/'support/results/tinystories-data-analysis'; out.mkdir(parents=True,exist_ok=True)
 train=[json.loads(l)['text'] for l in (root/'data/tinystories/train.jsonl').read_text().splitlines()]
 val=[json.loads(l)['text'] for l in (root/'data/tinystories/val.jsonl').read_text().splitlines()]
 texts=train+val

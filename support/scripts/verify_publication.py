@@ -19,14 +19,14 @@ def main():
     import wandb
 
     api = wandb.Api(timeout=30)
-    publication = json.loads((ROOT / 'results/wandb-publication.json').read_text())
+    publication = json.loads((ROOT / 'support/results/wandb-publication.json').read_text())
     project = publication['entity'] + '/' + publication['project']
     verified = []
     for record in publication['runs']:
         run = api.run(project + '/' + record['id'])
         assert run.state == 'finished', f'{run.name} is {run.state}'
         if record['name'] != 'datasets':
-            original = json.loads((ROOT / 'results' / record['name'] / 'loss.json').read_text())
+            original = json.loads((ROOT / 'support/results' / record['name'] / 'loss.json').read_text())
             imported = list(run.scan_history(keys=['train/updates', 'loss/train', 'loss/validation']))
             assert len(imported) == len(original), f'History length mismatch: {run.name}'
             for expected, actual in zip(original, imported):
@@ -34,7 +34,7 @@ def main():
                 assert abs(actual['loss/train'] - expected['train']) < 1e-7
                 assert abs(actual['loss/validation'] - expected['val']) < 1e-7
             model = next(a for a in run.logged_artifacts() if a.type == 'model')
-            checkpoint = ROOT / 'checkpoints' / record['name'] / 'checkpoint.pt'
+            checkpoint = ROOT / 'support/checkpoints' / record['name'] / 'checkpoint.pt'
             assert model.manifest.entries['checkpoint.pt'].digest == md5(checkpoint)
             assert any(a.type == 'dataset' for a in run.used_artifacts()), 'Missing dataset lineage'
             verified.append({'run': record['name'], 'history_rows': len(imported), 'checkpoint_manifest_matches': True, 'dataset_lineage_present': True})
@@ -47,7 +47,7 @@ def main():
             assert artifact.manifest.entries[relative].digest == md5(path), relative
         verified.append({'dataset': dataset, 'uploaded_file_manifests_match': len(files)})
     result = {'project': project, 'checks': verified}
-    (ROOT / 'results/wandb-verification.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+    (ROOT / 'support/results/wandb-verification.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(result, indent=2))
 
 

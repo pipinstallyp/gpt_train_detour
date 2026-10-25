@@ -7,7 +7,7 @@ import os
 import subprocess
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def load_env(path):
@@ -42,7 +42,7 @@ def main():
     import wandb
 
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
-    configs = read_json('configs/baselines.json')
+    configs = read_json('support/configs/baselines.json')
     release_alias = 'release-' + args.release
     api = wandb.Api(timeout=30)
     settings = wandb.Settings(x_disable_stats=True, x_disable_machine_info=True, disable_git=True, console='off')
@@ -62,7 +62,7 @@ def main():
         if previous.state == 'finished':
             best_is_saved = False
             if name in configs:
-                history = read_json(f'results/{name}/loss.json')
+                history = read_json(f'support/results/{name}/loss.json')
                 best_is_saved = min(history, key=lambda row: row['val'])['step'] == configs[name]['updates']
                 if previous.summary.get('best_checkpoint_available') != best_is_saved:
                     previous.summary['best_checkpoint_available'] = best_is_saved
@@ -89,7 +89,7 @@ def main():
                           config={**config, 'release': args.release, 'source_code_commit': commit,
                                   'code_url': f'https://github.com/pipinstallyp/gpt_train_detour/tree/{commit}',
                                   'historical_import': True, 'training_date': '2026-10-25',
-                                  'system_metrics_available': False}, settings=settings, save_code=False,
+                                  'system_metrics_available': False}, settings=settings, save_code=False, dir=str(ROOT/'support'),
                           notes='Imported from saved Runpod files. The import machine and upload time do not describe the training hardware or training runtime.')
 
     if not completed('datasets'):
@@ -99,14 +99,14 @@ def main():
                 artifact.add_dir(str(ROOT / 'data' / dataset))
                 run.log_artifact(artifact, aliases=[release_alias]).wait()
             analysis = wandb.Artifact('tinystories-data-analysis', type='analysis', metadata={'exploratory': True})
-            analysis.add_dir(str(ROOT / 'results/tinystories-data-analysis'))
+            analysis.add_dir(str(ROOT / 'support/results/tinystories-data-analysis'))
             run.log_artifact(analysis, aliases=[release_alias]).wait()
             publication['runs'].append({'name': 'datasets', 'id': run.id, 'url': run.url})
     for name, config in configs.items():
         if completed(name):
             continue
-        history = read_json(f'results/{name}/loss.json')
-        checkpoint = ROOT / f'checkpoints/{name}/checkpoint.pt'
+        history = read_json(f'support/results/{name}/loss.json')
+        checkpoint = ROOT / f'support/checkpoints/{name}/checkpoint.pt'
         if not checkpoint.exists():
             raise FileNotFoundError(f'{checkpoint}: download the v1 GitHub release assets first.')
         with initialize(name, 'historical-training', config) as run:
@@ -131,7 +131,7 @@ def main():
                                 'final_logged_character_perplexity': math.exp(last['val']),
                                 'checkpoint_sha256': digest(checkpoint), 'checkpoint_selection': 'final',
                                 'best_checkpoint_available': best_is_saved, 'source_history_rows': len(history)})
-            summary_path = ROOT / f'results/{name}/summary.json'
+            summary_path = ROOT / f'support/results/{name}/summary.json'
             if config['dataset'] == 'tinystories' and summary_path.exists():
                 summary = json.loads(summary_path.read_text())
                 run.summary.update({'training_seconds_including_eval_and_saves': summary['seconds'],
@@ -142,15 +142,15 @@ def main():
             model.add_file(str(checkpoint), name='checkpoint.pt')
             run.log_artifact(model, aliases=[release_alias, 'final'] + (['best'] if best_is_saved else [])).wait()
             result = wandb.Artifact(name + '-results', type='evaluation')
-            result.add_dir(str(ROOT / 'results' / name))
+            result.add_dir(str(ROOT / 'support/results' / name))
             run.log_artifact(result, aliases=[release_alias]).wait()
-            sample = ROOT / f'results/{name}/sample.txt'
+            sample = ROOT / f'support/results/{name}/sample.txt'
             if sample.exists():
                 table = wandb.Table(columns=['prompt', 'completion', 'source'])
                 table.add_data(config['sample_prompt'], sample.read_text(encoding='utf-8'), 'Original saved sample; sampling seed not separately recorded')
                 run.log({'generation/saved_sample': table})
             publication['runs'].append({'name': name, 'id': run.id, 'url': run.url})
-    target = ROOT / 'results/wandb-publication.json'
+    target = ROOT / 'support/results/wandb-publication.json'
     target.write_text(json.dumps(publication, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(publication, indent=2))
 

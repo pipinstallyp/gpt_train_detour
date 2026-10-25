@@ -1,5 +1,6 @@
 * text=auto eol=lf
 data/** -text -whitespace
-results/** -text -whitespace
-archive/** -text -whitespace
+support/results/** -text -whitespace
+support/results/**/*.csv text eol=lf
+support/archive/** -text -whitespace
 *.ipynb text eol=lf
